@@ -15,7 +15,7 @@ import {
 import { RevealPanel } from "@/components/ui/reveal-panel";
 
 export function PerformanceSection() {
-  const t = useTranslations("home.whyRedPower");
+  const t = useTranslations("home.advantages");
   const reduceMotion = useReducedMotion();
   const stats = t.raw("stats") as Array<{
     label: string;

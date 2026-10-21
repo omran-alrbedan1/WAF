@@ -52,7 +52,7 @@ export function WorksSection() {
           <p className="mt-4 text-sm leading-7 text-body sm:text-base">{t("intro")}</p>
         </RevealPanel>
 
-        <RevealPanel delay={0.15} className="mt-8">
+        <RevealPanel delay={150} className="mt-8">
           <div className="flex gap-2 overflow-x-auto pb-2 lg:flex-wrap lg:justify-center">
             {filters.map((filter, index) => (
               <button
@@ -72,7 +72,7 @@ export function WorksSection() {
 
         <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {shown.map((item, index) => (
-            <RevealPanel key={item.title} delay={index * 0.06}>
+            <RevealPanel key={item.title} delay={index * 60}>
               <article className="overflow-hidden rounded-xl border border-line bg-page-surface">
                 <div className="relative aspect-[4/3] overflow-hidden">
                   <Image
@@ -99,7 +99,7 @@ export function WorksSection() {
           ))}
         </div>
 
-        <RevealPanel delay={0.2} className="mt-10 flex flex-col items-center gap-3">
+        <RevealPanel delay={200} className="mt-10 flex flex-col items-center gap-3">
           <Link
             href={`/${locale}/services`}
             className="inline-flex min-h-12 items-center rounded-md border border-line px-8 py-3 text-sm font-bold text-heading transition-colors hover:border-brand"

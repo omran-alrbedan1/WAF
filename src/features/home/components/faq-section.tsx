@@ -33,7 +33,7 @@ export function FaqSection() {
           {items.map((item, index) => {
             const isOpen = open === index;
             return (
-              <RevealPanel key={item.question} delay={index * 0.04}>
+              <RevealPanel key={item.question} delay={index * 40}>
                 <div
                   className={`overflow-hidden rounded-xl border transition-colors duration-300 ${
                     isOpen
@@ -79,7 +79,7 @@ export function FaqSection() {
           })}
         </div>
 
-        <RevealPanel delay={0.3} className="mt-8 text-center">
+        <RevealPanel delay={300} className="mt-8 text-center">
           <a
             href={waLink()}
             target="_blank"

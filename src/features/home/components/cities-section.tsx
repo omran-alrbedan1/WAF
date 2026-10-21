@@ -137,7 +137,7 @@ export function CitiesSection() {
             </div>
           </RevealPanel>
 
-          <RevealPanel delay={0.1} className="flex flex-col gap-5 lg:col-span-5">
+          <RevealPanel delay={100} className="flex flex-col gap-5 lg:col-span-5">
             <div className="group relative flex flex-1 flex-col justify-end overflow-hidden rounded-[1.75rem] border border-white/10 bg-card-deep shadow-2xl">
               <div className="relative h-44 overflow-hidden sm:h-52">
                 <OptimizedImage
