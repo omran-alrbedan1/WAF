@@ -9,7 +9,6 @@ import { ServiceDetailCta } from "./service-detail-cta";
 import { ServiceDetailFeatureStories } from "./service-detail-feature-stories";
 import { ServiceDetailHero } from "./service-detail-hero";
 import { ServiceDetailProcess } from "./service-detail-process";
-import { ServiceDetailStatement } from "./service-detail-statement";
 
 type ServiceDetailPageProps = {
   entry: ServiceDetailEntry;
@@ -19,54 +18,36 @@ type ServiceDetailPageProps = {
   slug: ServiceSlug;
 };
 
-export function ServiceDetailPage({
-  entry,
-  heroImageSrc,
-  locale,
-  messages,
-  slug,
-}: ServiceDetailPageProps) {
+export function ServiceDetailPage({ entry, heroImageSrc, locale, messages, slug }: ServiceDetailPageProps) {
   const variant = getServiceVisualVariant(slug);
+  const secondaryHref = `/${locale}${messages.shared.secondaryCtaPath}`;
 
   return (
-    <div className=" text-heading">
+    <div className="text-heading">
       <ServiceDetailHero
         entry={entry}
+        eyebrow={messages.shared.eyebrow}
         heroImageSrc={heroImageSrc}
         locale={locale}
         primaryCtaLabel={messages.cta.primaryLabel}
-        secondaryCtaHref={`/${locale}${messages.shared.secondaryCtaPath}`}
+        secondaryCtaHref={secondaryHref}
         secondaryCtaLabel={messages.shared.secondaryCtaLabel}
         variant={variant}
       />
-      <ServiceDetailStatement
-        description={entry.process.description}
-        eyebrow={messages.shared.processEyebrow}
-        locale={locale}
-        supportingCopy={entry.hero.description}
-        title={entry.process.title}
-      />
       <ServiceDetailProcess
-        ctaLabel={messages.shared.processLinkLabel}
         description={entry.process.description}
         eyebrow={messages.shared.processEyebrow}
         items={entry.process.items}
-        locale={locale}
         title={entry.process.title}
       />
-      <ServiceDetailFeatureStories
-        ctaLabel={messages.shared.processLinkLabel}
-        items={entry.featureItems}
-        locale={locale}
-        variant={variant}
-      />
+      <ServiceDetailFeatureStories items={entry.featureItems} variant={variant} />
       <ServiceDetailCta
         entry={entry}
         eyebrow={messages.shared.eyebrow}
         imageSrc={heroImageSrc}
         locale={locale}
         primaryLabel={messages.cta.primaryLabel}
-        secondaryHref={`/${locale}${messages.shared.secondaryCtaPath}`}
+        secondaryHref={secondaryHref}
         secondaryLabel={messages.cta.secondaryLabel}
         variant={variant}
       />

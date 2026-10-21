@@ -1,113 +1,61 @@
-import Link from "next/link";
-
 import { Container } from "@/components/layout/container";
 import { OptimizedImage } from "@/components/ui/optimized-image";
-import { cn } from "@/lib/utils";
+import { RevealPanel } from "@/components/ui/reveal-panel";
 import {
   resolveServiceDetailImage,
   type ServiceDetailFeatureItem,
   type ServiceVisualVariant,
 } from "@/features/services/service-detail-content";
+import { cn } from "@/lib/utils";
 
 type ServiceDetailFeatureStoriesProps = {
-  ctaLabel: string;
   items: ServiceDetailFeatureItem[];
-  locale: "ar" | "en";
   variant: ServiceVisualVariant;
 };
 
-const featureImagePositionByVariant: Record<ServiceVisualVariant, string> = {
-  fabrication: "object-center",
-  art: "object-center",
-  signage: "object-center",
-  events: "object-center",
-  printing: "object-right",
-  packaging: "object-center",
-};
-
-export function ServiceDetailFeatureStories({
-  ctaLabel,
-  items,
-  locale,
-  variant,
-}: ServiceDetailFeatureStoriesProps) {
-  const isArabic = locale === "ar";
-
+export function ServiceDetailFeatureStories({ items, variant }: ServiceDetailFeatureStoriesProps) {
   return (
-    <section className="bg-page-deep py-3 sm:py-4">
-      <Container className="space-y-3 sm:space-y-4">
+    <section className="border-t border-line bg-page-surface py-14 sm:py-20">
+      <Container className="grid gap-4 sm:grid-cols-2 lg:grid-cols-12 lg:gap-5">
         {items.map((item, index) => {
-          const number = String(index + 1).padStart(2, "0");
-          const imageFirst = index % 2 === 0;
-          const image = (
-            <div className="relative h-full min-h-[260px] border border-line bg-ink sm:min-h-[360px] lg:min-h-[420px]">
-              <OptimizedImage
-                src={resolveServiceDetailImage(item.imageSrc)}
-                alt={item.imageAlt}
-                sizes="(min-width: 1024px) 48vw, 100vw"
-                className="h-full min-h-[260px] rounded-none border-0 bg-ink shadow-none sm:min-h-[360px] lg:min-h-[420px]"
-                imageClassName={cn(
-                  "absolute inset-0 h-full w-full object-cover transition duration-700 group-hover:scale-[1.04]",
-                  featureImagePositionByVariant[variant],
-                )}
-              />
-              <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(0,0,0,0.05),rgba(0,0,0,0.28))]" />
-            </div>
-          );
-
-          const content = (
-            <div
-              dir={isArabic ? "rtl" : "ltr"}
-              className={cn(
-                "relative flex h-full min-h-[260px] items-center border border-line bg-panel-solid px-5 py-8 sm:px-8 lg:min-h-[420px] lg:px-10",
-                isArabic ? "text-right" : "text-left",
-              )}
-            >
-              <span className="pointer-events-none absolute inset-inline-start-5 top-4 text-[4.5rem] font-black leading-none text-heading/6 sm:top-6 sm:text-[6rem]">
-                {number}
-              </span>
-              <div className="relative z-10 max-w-2xl">
-                <p className="tracking-kicker text-[0.68rem] font-medium uppercase text-brand sm:text-[0.74rem]">
-                  {number}
-                </p>
-                <h3 className="mt-4 text-3xl font-black leading-tight text-heading sm:text-4xl">
-                  {item.title}
-                </h3>
-                <p className="mt-4 text-sm leading-7 text-body sm:text-base">
-                  {item.description}
-                </p>
-                <Link
-                  href={`/${locale}/contact`}
-                  className="mt-6 inline-flex text-xs font-semibold uppercase tracking-ui text-brand transition hover:text-brand-strong"
-                >
-                  {ctaLabel}
-                </Link>
-              </div>
-            </div>
-          );
+          const isFeatured = index === 0;
 
           return (
-            <article
+            <RevealPanel
               key={`${item.title}-${index}`}
-              className="group grid gap-3 lg:grid-cols-12 lg:gap-3"
+              delay={index * 80}
+              className={cn(isFeatured ? "sm:col-span-2 lg:col-span-12" : "lg:col-span-6")}
             >
-              <div
+              <article
                 className={cn(
-                  "lg:col-span-6",
-                  imageFirst ? "lg:order-1" : "lg:order-2",
+                  "group relative flex h-full overflow-hidden rounded-[1.75rem] border border-line bg-card-deep shadow-lg transition-all duration-300 hover:border-brand/50 hover:shadow-2xl",
+                  isFeatured ? "min-h-[360px] flex-col justify-end lg:min-h-[440px]" : "min-h-[320px] flex-col justify-end",
                 )}
               >
-                {image}
-              </div>
-              <div
-                className={cn(
-                  "lg:col-span-6",
-                  imageFirst ? "lg:order-2" : "lg:order-1",
-                )}
-              >
-                {content}
-              </div>
-            </article>
+                <OptimizedImage
+                  src={resolveServiceDetailImage(item.imageSrc)}
+                  alt={item.imageAlt}
+                  sizes={isFeatured ? "100vw" : "(min-width: 1024px) 50vw, 100vw"}
+                  className="absolute inset-0 h-full w-full rounded-none border-0 shadow-none"
+                  imageClassName={cn(
+                    "h-full w-full object-cover transition duration-700 group-hover:scale-105",
+                    variant === "printing" ? "object-right" : "object-center",
+                  )}
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/45 to-black/5" />
+
+                <span className="absolute end-5 top-5 flex h-11 w-11 items-center justify-center rounded-xl border border-white/25 bg-black/30 font-mono text-sm font-bold text-brand backdrop-blur-md">
+                  {String(index + 1).padStart(2, "0")}
+                </span>
+
+                <div className="relative p-6 sm:p-8">
+                  <h3 className={cn("max-w-2xl font-black leading-snug text-white", isFeatured ? "text-2xl sm:text-4xl" : "text-xl sm:text-2xl")}>
+                    {item.title}
+                  </h3>
+                  <p className="mt-3 max-w-2xl text-sm leading-7 text-white/80 sm:text-base">{item.description}</p>
+                </div>
+              </article>
+            </RevealPanel>
           );
         })}
       </Container>

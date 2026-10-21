@@ -12,7 +12,7 @@ export function AboutCta() {
   const t = useTranslations("about.cta");
 
   return (
-    <Section className="bg-page-deep">
+    <Section className="overflow-hidden bg-page-deep">
       <Container className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
         <RevealPanel delay={120} direction="left">
           <div className="relative">

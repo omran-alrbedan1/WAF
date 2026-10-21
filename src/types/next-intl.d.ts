@@ -5,6 +5,7 @@ import type forms from "@/messages/en/forms.json";
 import type home from "@/messages/en/home.json";
 import type serviceDetails from "@/messages/en/service-details.json";
 import type services from "@/messages/en/services.json";
+import type works from "@/messages/en/works.json";
 import type { SiteLocale } from "@/config/site";
 
 declare module "next-intl" {
@@ -18,6 +19,7 @@ declare module "next-intl" {
       home: typeof home;
       serviceDetails: typeof serviceDetails;
       services: typeof services;
+      works: typeof works;
     };
   }
 }

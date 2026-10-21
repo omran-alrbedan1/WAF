@@ -3,8 +3,6 @@ export { ServiceDetailFeatureStories } from "./service-detail-feature-stories";
 export { ServiceDetailHero } from "./service-detail-hero";
 export { ServiceDetailPage } from "./service-detail-page";
 export { ServiceDetailProcess } from "./service-detail-process";
-export { ServiceDetailStatement } from "./service-detail-statement";
 export { ServicesShowcaseCta } from "./services-showcase-cta";
 export { ServicesShowcaseGroups } from "./services-showcase-groups";
 export { ServicesShowcaseHero } from "./services-showcase-hero";
-export { ServicesShowcaseRow } from "./services-showcase-row";

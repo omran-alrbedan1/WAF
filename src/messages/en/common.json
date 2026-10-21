@@ -43,6 +43,7 @@
         "home": ["execution company", "commercial projects", "manufacturing to installation"],
         "about": ["about WAF", "WAF team", "project execution experts"],
         "services": ["WAF services", "visual identity execution", "event site fit-out"],
+        "works": ["WAF works", "executed projects", "project portfolio"],
         "contact": ["request a quote", "contact WAF", "project inquiry"]
       },
       "serviceDetails": ["service details", "specialized execution", "professional fit-out"]

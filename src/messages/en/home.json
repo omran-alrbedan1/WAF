@@ -301,6 +301,18 @@
         "service": "3D signs & signage",
         "category": "Identity & Signage",
         "image": "signage"
+      },
+      {
+        "title": "Branded corporate giveaways",
+        "service": "Promotional giveaways printing & production",
+        "category": "Promotional Giveaways",
+        "image": "gifts"
+      },
+      {
+        "title": "Commercial office interior fit-out",
+        "service": "Fabrication & interior fit-out for commercial spaces",
+        "category": "Commercial Fit-Out",
+        "image": "interior"
       }
     ]
   },

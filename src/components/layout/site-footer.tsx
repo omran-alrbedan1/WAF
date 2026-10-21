@@ -143,16 +143,35 @@ export function SiteFooter() {
           <div className="flex flex-col items-center justify-between gap-4 py-6 text-sm md:flex-row">
             <p className="text-faint">{t("footer.copyright")}</p>
 
-            <div className="flex flex-col cursor-pointer items-center gap-3 text-center sm:flex-row sm:gap-4">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em] text-faint">
+            <div className="flex flex-col items-center gap-3 text-center sm:flex-row sm:gap-4">
+              <span className="text-xs font-semibold uppercase tracking-[0.2em] text-faint rtl:tracking-normal">
                 {t("footer.poweredBy")}
               </span>
-              <Link
-                href={"https://futxtech.com/en/home"}
-                className="text-sm font-bold text-body-strong transition-colors hover:text-heading"
+              <a
+                href="https://futxtech.com/en/home"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={t("footer.poweredByAlt")}
+                className="inline-flex items-center transition-opacity hover:opacity-80"
               >
-                {t("footer.poweredByAlt")}
-              </Link>
+                <Image
+                  src={images.brand.futurexLogo}
+                  alt={t("footer.poweredByAlt")}
+                  width={1024}
+                  height={640}
+                  unoptimized
+                  className="-mx-7 -my-8 h-24 w-auto max-w-none shrink-0 dark:hidden"
+                />
+                <Image
+                  src={images.brand.futurexLogoDark}
+                  alt=""
+                  aria-hidden="true"
+                  width={158}
+                  height={51}
+                  unoptimized
+                  className="hidden h-8 w-auto dark:block"
+                />
+              </a>
             </div>
           </div>
         </div>

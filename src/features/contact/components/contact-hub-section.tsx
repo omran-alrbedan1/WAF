@@ -1,16 +1,10 @@
-import {
-  Clock3,
-  Headset,
-  MapPin,
-  PhoneCall,
-} from "lucide-react";
-import { useMessages, useTranslations } from "next-intl";
+import { Clock3, Headset, MapPin, MessageCircle, PhoneCall } from "lucide-react";
+import { useLocale, useMessages, useTranslations } from "next-intl";
 
 import { ContactForm } from "@/components/forms/contact-form";
 import { Container } from "@/components/layout/container";
-import { Section } from "@/components/layout/section";
 import { RevealPanel } from "@/components/ui/reveal-panel";
-import { cn } from "@/lib/utils";
+import { waLink } from "@/lib/whatsapp";
 
 type ContactHubItem = {
   kind: "phone" | "location" | "hours" | "support";
@@ -28,61 +22,63 @@ const iconMap = {
 
 export function ContactHubSection() {
   const t = useTranslations("contact.hub");
-  const messages = useMessages() as {
-    contact: {
-      hub: {
-        items: ContactHubItem[];
-      };
-    };
-  };
+  const locale = useLocale();
+  const messages = useMessages() as unknown as { contact: { hub: { items: ContactHubItem[] } } };
   const items = messages.contact.hub.items;
 
   return (
-    <Section className="bg-gallery-page pt-10">
-      <Container>
-        <div className="grid gap-6 lg:grid-cols-[0.45fr_0.55fr]">
-          <RevealPanel className="overflow-hidden rounded-[22px] border border-brand/35 bg-gallery-panel p-6 shadow-[0_20px_60px_rgba(0,0,0,0.28)] sm:p-8">
-            <h2 className="text-center text-4xl font-semibold tracking-[-0.04em] text-heading">
-              {t("infoTitle")}
-            </h2>
-            <span className="mx-auto mt-4 block h-1 w-12 rounded-full bg-brand" />
+    <section className="relative mt-12 bg-page-deep py-14 sm:pb-20">
+      <Container className="relative z-10 sm:-mt-12 lg:-mt-16">
+        <RevealPanel>
+          <div className="grid overflow-hidden rounded-[2rem] border border-line bg-card-deep shadow-2xl lg:grid-cols-[0.85fr_1.15fr]">
+            <div className="relative isolate overflow-hidden bg-gradient-to-br from-[#052e16] via-[#14532d] to-brand-strong p-8 text-white sm:p-10 lg:p-12">
+              <span className="pointer-events-none absolute -bottom-24 -end-24 -z-10 h-72 w-72 rounded-full border border-white/10" />
+              <span className="pointer-events-none absolute -bottom-12 -end-12 -z-10 h-48 w-48 rounded-full border border-white/15" />
+              <span className="pointer-events-none absolute -top-20 -start-20 -z-10 h-56 w-56 rounded-full bg-white/5" />
 
-            <div className="mt-8 space-y-5">
-              {items.map((item) => {
-                const Icon = iconMap[item.kind];
+              <h2 className="text-3xl font-black leading-tight sm:text-4xl">{t("infoTitle")}</h2>
+              <span className="mt-4 block h-1 w-12 rounded-full bg-white/80" />
 
-                return (
-                  <div
-                    key={item.title}
-                    className="flex items-start gap-4 border-b border-line pb-5 last:border-b-0 last:pb-0"
-                  >
-                    <span className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full border border-brand/35 bg-[radial-gradient(circle,rgba(34,197,94,0.22),rgba(0,0,0,0.12))] text-brand">
-                      <Icon className="size-7" strokeWidth={1.8} />
-                    </span>
-                    <div className="text-right">
-                      <p className="text-xl font-semibold text-heading">{item.title}</p>
-                      <p className="mt-2 text-lg leading-8 text-body-strong">{item.value}</p>
-                      {item.note ? (
-                        <p className="mt-2 text-sm text-brand-strong">{item.note}</p>
-                      ) : null}
-                    </div>
-                  </div>
-                );
-              })}
+              <ul className="mt-10 space-y-7">
+                {items.map((item) => {
+                  const Icon = iconMap[item.kind];
+                  const href = item.kind === "phone" ? `tel:${item.value.replace(/\s/g, "")}` : undefined;
+                  const Wrapper = href ? "a" : "div";
+
+                  return (
+                    <li key={item.title}>
+                      <Wrapper {...(href ? { href } : {})} className="group flex items-center gap-4">
+                        <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white/15 ring-1 ring-white/25 transition-colors group-hover:bg-white group-hover:text-[#14532d]">
+                          <Icon className="size-5" strokeWidth={1.8} />
+                        </span>
+                        <span className="min-w-0">
+                          <span className="block text-xs font-bold text-white/70">{item.title}</span>
+                          <span className="mt-0.5 block break-words text-base font-bold leading-7 sm:text-lg">{item.value}</span>
+                          {item.note ? <span className="block text-sm text-white/70">{item.note}</span> : null}
+                        </span>
+                      </Wrapper>
+                    </li>
+                  );
+                })}
+              </ul>
+
+              <a
+                href={waLink()}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-10 inline-flex min-h-12 items-center gap-3 rounded-full bg-white px-6 py-3 text-sm font-bold text-[#14532d] transition-transform hover:-translate-y-0.5"
+              >
+                <MessageCircle className="h-4 w-4" />
+                {locale === "ar" ? "تواصل عبر واتساب" : "Chat on WhatsApp"}
+              </a>
             </div>
-          </RevealPanel>
 
-          <RevealPanel
-            delay={120}
-            direction="left"
-            className="overflow-hidden rounded-[22px] border border-brand/35 bg-gallery-panel p-6 shadow-[0_20px_60px_rgba(0,0,0,0.28)] sm:p-8"
-          >
-            <div className={cn("mx-auto max-w-2xl")}>
+            <div className="p-6 sm:p-10 lg:p-12">
               <ContactForm />
             </div>
-          </RevealPanel>
-        </div>
+          </div>
+        </RevealPanel>
       </Container>
-    </Section>
+    </section>
   );
 }

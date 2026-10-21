@@ -11,6 +11,7 @@ const dictionaries = {
     home: (await import("@/messages/en/home.json")).default,
     serviceDetails: (await import("@/messages/en/service-details.json")).default,
     services: (await import("@/messages/en/services.json")).default,
+    works: (await import("@/messages/en/works.json")).default,
   }),
   ar: async () => ({
     about: (await import("@/messages/ar/about.json")).default,
@@ -20,6 +21,7 @@ const dictionaries = {
     home: (await import("@/messages/ar/home.json")).default,
     serviceDetails: (await import("@/messages/ar/service-details.json")).default,
     services: (await import("@/messages/ar/services.json")).default,
+    works: (await import("@/messages/ar/works.json")).default,
   }),
 } as const;
 

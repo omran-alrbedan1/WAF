@@ -1,101 +1,43 @@
-import Link from "next/link";
-
 import { Container } from "@/components/layout/container";
-import { cn } from "@/lib/utils";
+import { RevealPanel } from "@/components/ui/reveal-panel";
 import { type ServiceDetailProcessItem } from "@/features/services/service-detail-content";
 
 type ServiceDetailProcessProps = {
-  ctaLabel: string;
   description: string;
   eyebrow: string;
   items: ServiceDetailProcessItem[];
-  locale: "ar" | "en";
   title: string;
 };
 
-export function ServiceDetailProcess({
-  ctaLabel,
-  description,
-  eyebrow,
-  items,
-  locale,
-  title,
-}: ServiceDetailProcessProps) {
-  const isArabic = locale === "ar";
-
+export function ServiceDetailProcess({ description, eyebrow, items, title }: ServiceDetailProcessProps) {
   return (
-    <section className="border-b border-line bg-page-deep py-12 sm:py-16 lg:py-20">
+    <section className="bg-page-deep py-14 sm:py-20">
       <Container>
-        <div
-          dir={isArabic ? "rtl" : "ltr"}
-          className={cn(
-            "mx-auto max-w-3xl text-center",
-            isArabic ? "lg:text-right" : "lg:text-center",
-          )}
-        >
-          <p className="tracking-kicker text-[0.68rem] font-medium uppercase text-brand sm:text-[0.74rem]">
-            {eyebrow}
-          </p>
-          <h2 className="mt-4 text-3xl font-black leading-tight text-heading sm:text-4xl lg:text-5xl">
-            {title}
-          </h2>
-          <p className="mt-4 text-sm leading-7 text-body sm:text-base">
-            {description}
-          </p>
-        </div>
+        <RevealPanel className="grid gap-5 lg:grid-cols-[1fr_0.8fr] lg:items-end lg:gap-16">
+          <div>
+            <p className="mb-4 flex items-center gap-3 text-xs font-bold tracking-[0.18em] text-brand sm:text-sm">
+              <span className="h-px w-10 bg-brand" />
+              {eyebrow}
+            </p>
+            <h2 className="max-w-3xl text-3xl font-black leading-[1.16] tracking-tight text-heading sm:text-4xl lg:text-5xl">
+              {title}
+            </h2>
+          </div>
+          <p className="max-w-2xl text-sm leading-7 text-body sm:text-base sm:leading-8">{description}</p>
+        </RevealPanel>
 
-        <ol className="mt-10 space-y-3 lg:hidden">
+        <ol className="mt-10 grid gap-4 sm:grid-cols-2 lg:mt-14 lg:grid-cols-4">
           {items.map((item, index) => (
-            <li
-              key={item.title}
-              dir={isArabic ? "rtl" : "ltr"}
-              className="grid grid-cols-[88px_minmax(0,1fr)] gap-px border border-line bg-white/8"
-            >
-              <div className="flex items-start justify-center bg-page-deep px-4 py-6">
-                <span className="text-4xl font-black leading-none text-brand">
+            <RevealPanel key={item.title} delay={index * 80}>
+              <li className="group relative h-full overflow-hidden rounded-[1.5rem] border border-line bg-card-deep p-6 transition-all duration-300 hover:-translate-y-1 hover:border-brand/50 hover:shadow-xl">
+                <span className="text-5xl font-black leading-none text-brand/25 transition-colors group-hover:text-brand">
                   {String(index + 1).padStart(2, "0")}
                 </span>
-              </div>
-              <div className={cn("bg-panel-strong px-5 py-6", isArabic ? "text-right" : "text-left")}>
-                <h3 className="text-xl font-bold text-heading">{item.title}</h3>
+                <h3 className="mt-5 text-lg font-black leading-snug text-heading">{item.title}</h3>
                 <p className="mt-3 text-sm leading-7 text-body">{item.body}</p>
-                <Link
-                  href={`/${locale}/contact`}
-                  className="mt-4 inline-flex text-xs font-semibold uppercase tracking-ui text-brand transition hover:text-brand-strong"
-                >
-                  {ctaLabel}
-                </Link>
-              </div>
-            </li>
-          ))}
-        </ol>
-
-        <ol
-          className="relative mt-14 hidden gap-6 lg:grid"
-          style={{ gridTemplateColumns: `repeat(${items.length}, minmax(0, 1fr))` }}
-        >
-          {items.map((item, index) => (
-            <li
-              key={item.title}
-              dir={isArabic ? "rtl" : "ltr"}
-              className={cn(
-                "relative px-1",
-                index < items.length - 1
-                  ? "after:absolute after:top-5 after:h-px after:w-full after:bg-gradient-to-r after:from-brand after:to-brand/20"
-                  : undefined,
-                isArabic ? "after:right-[calc(50%+2rem)]" : "after:left-[calc(50%+2rem)]",
-              )}
-            >
-              <div className="relative z-10 w-fit bg-page-deep pe-4">
-                <span className="text-4xl font-black leading-none text-brand">
-                  {String(index + 1).padStart(2, "0")}
-                </span>
-              </div>
-              <div className={cn("mt-6 border-t border-line pt-5", isArabic ? "text-right" : "text-left")}>
-                <h3 className="text-xl font-bold text-heading">{item.title}</h3>
-                <p className="mt-3 text-sm leading-7 text-body">{item.body}</p>
-              </div>
-            </li>
+                <span className="absolute inset-x-0 bottom-0 h-1 origin-start scale-x-0 bg-brand transition-transform duration-300 group-hover:scale-x-100" />
+              </li>
+            </RevealPanel>
           ))}
         </ol>
       </Container>

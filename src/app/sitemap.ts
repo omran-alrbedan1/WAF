@@ -7,6 +7,7 @@ import { getLanguageAlternates, getLocalizedPath, getSiteUrl } from "@/lib/seo";
 const staticRoutes = [
   { path: "", priority: 1, changeFrequency: "weekly" },
   { path: "/services", priority: 0.85, changeFrequency: "weekly" },
+  { path: "/works", priority: 0.8, changeFrequency: "weekly" },
   { path: "/about", priority: 0.8, changeFrequency: "monthly" },
   { path: "/contact", priority: 0.8, changeFrequency: "weekly" },
 ] as const satisfies Array<{

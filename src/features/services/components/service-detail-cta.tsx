@@ -1,13 +1,11 @@
 import Link from "next/link";
+import { ArrowLeft, ArrowRight, Phone } from "lucide-react";
 
 import { Container } from "@/components/layout/container";
-import { buttonClassName } from "@/components/ui/button";
 import { OptimizedImage } from "@/components/ui/optimized-image";
+import { RevealPanel } from "@/components/ui/reveal-panel";
+import { type ServiceDetailEntry, type ServiceVisualVariant } from "@/features/services/service-detail-content";
 import { cn } from "@/lib/utils";
-import {
-  type ServiceDetailEntry,
-  type ServiceVisualVariant,
-} from "@/features/services/service-detail-content";
 
 type ServiceDetailCtaProps = {
   entry: ServiceDetailEntry;
@@ -20,15 +18,6 @@ type ServiceDetailCtaProps = {
   variant: ServiceVisualVariant;
 };
 
-const ctaImagePositionByVariant: Record<ServiceVisualVariant, string> = {
-  fabrication: "object-center",
-  art: "object-center",
-  signage: "object-center",
-  events: "object-center",
-  printing: "object-right",
-  packaging: "object-center",
-};
-
 export function ServiceDetailCta({
   entry,
   eyebrow,
@@ -39,69 +28,43 @@ export function ServiceDetailCta({
   secondaryLabel,
   variant,
 }: ServiceDetailCtaProps) {
-  const isArabic = locale === "ar";
+  const DirectionArrow = locale === "ar" ? ArrowLeft : ArrowRight;
 
   return (
-    <section className="border-t border-line bg-page-deep py-12 sm:py-16 lg:py-20">
+    <section className="bg-page-deep py-14 sm:py-20">
       <Container>
-        <div className="grid gap-3 lg:grid-cols-12">
-          <div className="lg:col-span-5">
-            <div className="relative min-h-[220px] border border-line bg-ink sm:min-h-[280px] lg:h-full lg:min-h-[320px]">
-              <OptimizedImage
-                src={imageSrc}
-                alt={entry.hero.imageAlt}
-                sizes="(min-width: 1024px) 40vw, 100vw"
-                className="h-full min-h-[220px] rounded-none border-0 bg-ink shadow-none sm:min-h-[280px] lg:min-h-[320px]"
-                imageClassName={cn(
-                  "absolute inset-0 h-full w-full object-cover brightness-[0.85]",
-                  ctaImagePositionByVariant[variant],
-                )}
-              />
-              <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(8,8,8,0.18)_0%,rgba(8,8,8,0.45)_100%)]" />
-            </div>
-          </div>
+        <RevealPanel>
+          <div className="relative isolate overflow-hidden rounded-[1.75rem] border border-brand/40 bg-black px-6 py-14 text-center shadow-2xl sm:px-12 sm:py-20">
+            <OptimizedImage
+              src={imageSrc}
+              alt=""
+              sizes="100vw"
+              className="absolute inset-0 -z-10 h-full w-full rounded-none border-0 shadow-none"
+              imageClassName={cn("h-full w-full object-cover opacity-30", variant === "printing" ? "object-right" : "object-center")}
+            />
+            <div className="absolute inset-0 -z-10 bg-gradient-to-t from-black/85 via-black/60 to-black/40" />
 
-          <div className="lg:col-span-7">
-            <div
-              dir={isArabic ? "rtl" : "ltr"}
-              className={cn(
-                "flex h-full flex-col justify-center border border-line bg-panel-strong px-6 py-8 sm:px-8 lg:min-h-[320px] lg:px-10",
-                isArabic ? "text-right" : "text-left",
-              )}
-            >
-              <p className="tracking-kicker text-[0.68rem] font-medium uppercase text-brand sm:text-[0.74rem]">
-                {eyebrow}
-              </p>
-              <h2 className="mt-4 max-w-[14ch] text-3xl font-black leading-tight text-heading sm:text-4xl lg:text-5xl">
-                {entry.metadata.title}
-              </h2>
-              <p className="mt-4 max-w-2xl text-sm leading-7 text-body sm:text-base">
-                {entry.metadata.description}
-              </p>
-              <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-                <Link
-                  href={`/${locale}/contact`}
-                  className={buttonClassName({
-                    className:
-                      "justify-center rounded-none border border-brand bg-brand text-white px-5 py-3.5 text-xs font-semibold uppercase tracking-ui shadow-none sm:min-w-[180px]",
-                  })}
-                >
-                  {primaryLabel}
-                </Link>
-                <Link
-                  href={secondaryHref}
-                  className={buttonClassName({
-                    variant: "secondary",
-                    className:
-                      "justify-center rounded-none border-white/12 bg-transparent px-5 py-3.5 text-xs font-semibold uppercase tracking-ui shadow-none sm:min-w-[180px]",
-                  })}
-                >
-                  {secondaryLabel}
-                </Link>
-              </div>
+            <p className="mb-4 text-xs font-bold tracking-[0.18em] text-brand sm:text-sm">{eyebrow}</p>
+            <h2 className="mx-auto max-w-2xl text-3xl font-black leading-tight text-white sm:text-4xl">{entry.metadata.title}</h2>
+            <p className="mx-auto mt-4 max-w-xl text-sm leading-7 text-white/80 sm:text-base">{entry.metadata.description}</p>
+            <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
+              <Link
+                href={`/${locale}/contact`}
+                className="inline-flex min-h-13 w-full items-center justify-center gap-3 rounded-full bg-brand px-8 py-3.5 text-sm font-bold text-brand-contrast shadow-[0_14px_36px_rgba(34,197,94,0.28)] transition-colors hover:bg-brand-strong sm:w-auto"
+              >
+                {primaryLabel}
+                <DirectionArrow className="h-4 w-4" />
+              </Link>
+              <Link
+                href={secondaryHref}
+                className="inline-flex min-h-13 w-full items-center justify-center gap-3 rounded-full border border-white/30 bg-white/5 px-8 py-3.5 text-sm font-bold text-white backdrop-blur-sm transition-colors hover:border-white/60 sm:w-auto"
+              >
+                <Phone className="h-4 w-4 text-brand" />
+                {secondaryLabel}
+              </Link>
             </div>
           </div>
-        </div>
+        </RevealPanel>
       </Container>
     </section>
   );

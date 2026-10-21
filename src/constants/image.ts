@@ -3,6 +3,8 @@ export const images = {
     logoLight: "/images/waf/brand/waf-logo.png",
     logoDark: "/images/waf/brand/waf-logo-dark.png",
     ogShare: "/images/waf/brand/og-share.jpg",
+    futurexLogo: "/images/waf/brand/futurex-logo.png",
+    futurexLogoDark: "/images/waf/brand/futurex-logo.svg",
   },
   home: {
     hero: "/images/waf/home/hero.png",

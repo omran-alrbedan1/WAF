@@ -66,7 +66,7 @@ export function ContactForm() {
         <h2 className="max-w-full break-words text-4xl font-semibold tracking-[-0.04em] text-heading">
           {t("title")}
         </h2>
-        <span className="ms-auto block h-1 w-12 rounded-full bg-brand" />
+        <span className=" block h-1 w-12 rounded-full bg-brand" />
       </div>
 
       <label htmlFor="contact-name" className="grid gap-2">

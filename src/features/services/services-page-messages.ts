@@ -22,6 +22,8 @@ export type ServicesMessages = {
   };
   hero: {
     description: string;
+    eyebrow: string;
+    secondaryCta: string;
     imageAlt: string;
     primaryCta: string;
     sectionLabel: string;
