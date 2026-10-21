@@ -12,40 +12,40 @@ export function AboutCta() {
   const t = useTranslations("about.cta");
 
   return (
-    <Section className="red-power-divider bg-[#0a0b0c]">
+    <Section className="bg-page-deep">
       <Container className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
         <RevealPanel delay={120} direction="left">
           <div className="relative">
             <OptimizedImage
-              src={images.about.techniciansWithDodge}
+              src={images.about.teamOnSite}
               alt={t("imageAlt")}
               sizes="(min-width: 1024px) 55vw, 100vw"
-              className="aspect-[16/9] rounded-none border border-red-600/25 bg-black shadow-none"
+              className="aspect-[16/9] rounded-none border border-brand/25 bg-ink shadow-none"
               imageClassName="absolute inset-0 h-full w-full object-cover"
             />
             <span className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
           </div>
         </RevealPanel>
         <RevealPanel className="space-y-6">
-          <p className="text-xs font-semibold uppercase tracking-[0.34em] text-red-500">
+          <p className="text-xs font-semibold uppercase tracking-[0.34em] text-brand">
             {t("eyebrow")}
           </p>
-          <h2 className="text-4xl font-semibold uppercase tracking-tight text-white sm:text-5xl">
+          <h2 className="text-4xl font-semibold uppercase tracking-tight text-heading sm:text-5xl">
             {t("title")}
           </h2>
-          <p className="max-w-2xl text-base leading-7 text-zinc-400 sm:text-lg">
+          <p className="max-w-2xl text-base leading-7 text-body sm:text-lg">
             {t("description")}
           </p>
           <div className="flex flex-wrap gap-4">
             <Link
               href={`/${locale}/contact`}
-              className="inline-flex items-center justify-center rounded-md bg-red-600 px-6 py-3 text-xs font-medium uppercase tracking-[0.18em] text-white transition duration-200 ease-out hover:bg-red-500"
+              className="inline-flex items-center justify-center rounded-md bg-brand text-white px-6 py-3 text-xs font-medium uppercase tracking-[0.18em] transition duration-200 ease-out hover:bg-brand-strong"
             >
               {t("primaryLabel")}
             </Link>
             <Link
               href={`/${locale}/contact`}
-              className="inline-flex items-center justify-center rounded-md border border-white/15 px-6 py-3 text-xs font-medium uppercase tracking-[0.18em] text-white transition duration-200 ease-out hover:border-red-500/70 hover:bg-white/5"
+              className="inline-flex items-center justify-center rounded-md border border-line px-6 py-3 text-xs font-medium uppercase tracking-[0.18em] text-heading transition duration-200 ease-out hover:border-brand-strong/70 hover:bg-chip"
             >
               {t("secondaryLabel")}
             </Link>

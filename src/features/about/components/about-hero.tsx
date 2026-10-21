@@ -20,7 +20,7 @@ export function AboutHero() {
   const highlightedWord = titleWords[titleWords.length - 1];
 
   return (
-    <Section className="relative overflow-hidden border-b md:-mt-32 border-white/8 bg-black py-0">
+    <Section className="relative overflow-hidden border-b md:-mt-32 border-line bg-ink py-0">
       {/* Background Image Container */}
       <div className="absolute inset-0 z-0">
         <OptimizedImage
@@ -28,7 +28,7 @@ export function AboutHero() {
           alt={t("imageAlt")}
           priority
           sizes="100vw"
-          className="h-full w-full rounded-none border-0 bg-black shadow-none"
+          className="h-full w-full rounded-none border-0 bg-ink shadow-none"
           imageClassName="absolute inset-0 h-full w-full object-cover object-center brightness-[0.75] contrast-[1.1]"
         />
       </div>
@@ -46,22 +46,22 @@ export function AboutHero() {
           >
             {/* Top Red Tech Accent Line */}
             <div className="mb-4 flex items-center gap-2">
-              <div className="h-4 w-1 -skew-x-12 bg-red-600 shadow-[0_0_8px_rgba(220,38,38,0.8)]" />
-              <p className="text-xs font-bold uppercase tracking-widest text-red-500 sm:text-sm">
+              <div className="h-4 w-1 -skew-x-12 bg-brand shadow-[0_0_8px_rgba(34,197,94,0.8)]" />
+              <p className="text-xs font-bold uppercase tracking-widest text-brand sm:text-sm">
                 {t("eyebrow")}
               </p>
             </div>
 
             {/* Title with Glowing Red Accent */}
-            <h1 className="text-3xl font-black leading-tight tracking-tight text-white sm:text-4xl lg:text-5xl">
+            <h1 className="text-3xl font-black leading-tight tracking-tight text-heading sm:text-4xl lg:text-5xl">
               {mainTitle}{" "}
-              <span className="text-red-600 drop-shadow-[0_0_15px_rgba(220,38,38,0.5)]">
+              <span className="text-brand drop-shadow-[0_0_15px_rgba(34,197,94,0.5)]">
                 {highlightedWord}
               </span>
             </h1>
 
             {/* Description */}
-            <p className="mt-4 max-w-xl text-xs leading-relaxed text-zinc-300 sm:text-sm lg:text-base">
+            <p className="mt-4 max-w-xl text-xs leading-relaxed text-body-strong sm:text-sm lg:text-base">
               {t("description")}
             </p>
 
@@ -70,7 +70,7 @@ export function AboutHero() {
               {/* Primary CTA (Solid Red Button with Calendar Icon) */}
               <Link
                 href={`/${locale}/contact`}
-                className="group inline-flex items-center gap-3 rounded-sm bg-red-600 px-6 py-3.5 text-xs font-bold uppercase tracking-wider text-white shadow-[0_0_15px_rgba(220,38,38,0.3)] transition-all hover:bg-red-700 hover:shadow-[0_0_20px_rgba(220,38,38,0.5)]"
+                className="group inline-flex items-center gap-3 rounded-sm bg-brand text-white px-6 py-3.5 text-xs font-bold uppercase tracking-wider shadow-[0_0_15px_rgba(34,197,94,0.3)] transition-all hover:bg-brand-strong hover:shadow-[0_0_20px_rgba(34,197,94,0.5)]"
               >
                 <span>{t("primaryCta")}</span>
                 <Calendar className="size-4 transition-transform group-hover:scale-110" />
@@ -79,10 +79,10 @@ export function AboutHero() {
               {/* Secondary CTA (Outlined Dark Button with Phone Icon) */}
               <Link
                 href={`/${locale}/contact`}
-                className="group inline-flex items-center gap-3 rounded-sm border border-zinc-800 bg-black/60 px-6 py-3.5 text-xs font-bold uppercase tracking-wider text-zinc-200 transition-all hover:border-zinc-700 hover:bg-zinc-900 hover:text-white"
+                className="group inline-flex items-center gap-3 rounded-sm border border-line bg-ink/60 px-6 py-3.5 text-xs font-bold uppercase tracking-wider text-body-strong transition-all hover:border-line hover:bg-muted hover:text-heading"
               >
                 <span>{t("secondaryCta")}</span>
-                <Phone className="size-4 text-zinc-400 transition-transform group-hover:scale-110 group-hover:text-white" />
+                <Phone className="size-4 text-body transition-transform group-hover:scale-110 group-hover:text-heading" />
               </Link>
             </div>
           </div>

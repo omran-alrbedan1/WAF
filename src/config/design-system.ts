@@ -10,12 +10,12 @@ export const designSystem = {
     muted: "#25282B",
     mutedForeground: "#B8BCC1",
     border: "#2B2F33",
-    brand: "#E10613",
-    brandStrong: "#FF2331",
+    brand: "#22C55E",
+    brandStrong: "#16A34A",
     steel: "#73777C",
   },
   shadows: {
-    glow: "0 0 42px rgba(225, 6, 19, 0.28)",
+    glow: "0 0 42px rgba(34, 197, 94, 0.28)",
     panel: "0 32px 100px rgba(0, 0, 0, 0.58)",
   },
   radius: {

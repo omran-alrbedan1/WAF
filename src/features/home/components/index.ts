@@ -1,4 +1,10 @@
 export { BrandIntroductionSection } from "./brand-introduction-section";
+export { ClientsSection } from "./clients-section";
+export { CitiesSection } from "./cities-section";
+export { FaqSection } from "./faq-section";
 export { PerformanceSection } from "./performance-section";
+export { ProcessSection } from "./process-section";
 export { ServicesOverviewSection } from "./services-overview-section";
-export { WhyRedPowerSection } from "./why-red-power-section";
+export { TrustBar } from "./trust-bar";
+export { WhyWafSection } from "./why-waf-section";
+export { WorksSection } from "./works-section";

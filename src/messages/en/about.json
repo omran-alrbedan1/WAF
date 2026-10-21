@@ -1,87 +1,87 @@
 {
   "metadata": {
-    "title": "About the Workshop, Team & Service Standards",
-    "description": "Learn about Red Power Garage, our specialist automotive team, and the professional service standards behind our diagnostics, maintenance, and performance work."
+    "title": "About WAF | Project Execution & Fit-Out Company",
+    "description": "Learn about WAF for Business Services — a company executing and fitting out commercial projects, exhibitions, and events from manufacturing to installation."
   },
   "hero": {
-    "eyebrow": "We are more than just a workshop.",
-    "title": "Our passion is cars and our mission is trust",
-    "description": "At Red Power Garage, we provide professional care for your vehicle that combines technical expertise with genuine passion. Our specialized team ensures maintenance and repair services with the highest quality standards, with full commitment to transparency and reliability in every step.",
-    "primaryCta": "Book your appointment now",
+    "eyebrow": "About WAF",
+    "title": "We turn ideas into practical reality",
+    "description": "A project execution and fit-out company delivering manufacturing, execution, and installation for commercial projects and events, through a specialized team focused on execution quality, commitment, and turning ideas into practical reality.",
+    "primaryCta": "Request an Execution Quote",
     "secondaryCta": "Contact Us",
-    "imageAlt": "Red Power Garage about page hero with Dodge workshop background"
+    "imageAlt": "The WAF team on a project site"
   },
   "passion": {
-    "eyebrow": "Experience built on passion",
-    "title": "Experience built on passion",
-    "description": "Our goal at Red Power Garage is to provide car maintenance and repair services with complete transparency and high reliability. We put customer satisfaction first, and always work to deliver an exceptional service experience that exceeds your expectations.",
+    "eyebrow": "Our Values",
+    "title": "Values that drive every project",
+    "description": "At WAF, we follow clear standards that make every project a new success story for our clients.",
     "items": [
       {
-        "title": "True passion",
-        "body": "Treat every car as if it were our own"
+        "title": "Fair Pricing",
+        "body": "We invest in R&D to deliver our products and services at competitive, high-quality prices"
       },
       {
-        "title": "Modern techniques",
-        "body": "Latest diagnostic equipment and certified tools"
+        "title": "Commitment",
+        "body": "Our clients' trust is the foundation of our success; we stay in constant contact with every client"
       },
       {
-        "title": "Specialized team",
-        "body": "Highly experienced and continuously trained technicians"
+        "title": "Quality",
+        "body": "Our core bet and the value we aim to be known for — exceeding client expectations and needs"
       },
       {
-        "title": "Trusted",
-        "body": "Full transparency in diagnosis and pricing"
+        "title": "Professionalism",
+        "body": "A specialized team managing every stage from manufacturing to installation with precision"
       }
     ]
   },
   "stats": {
-    "eyebrow": "Results we are proud of",
-    "title": "Results we are proud of",
+    "eyebrow": "Results we're proud of",
+    "title": "Trust built through execution",
     "items": [
       {
-        "number": "15+",
-        "label": "Years of experience"
+        "number": "40+",
+        "label": "Brands that trusted us"
       },
       {
-        "number": "500+",
-        "label": "Cars serviced"
+        "number": "7",
+        "label": "Integrated services"
       },
       {
         "number": "100%",
-        "label": "Customer satisfaction"
+        "label": "Commitment to quality and deadlines"
       },
       {
         "number": "24/7",
-        "label": "Support and follow-up"
+        "label": "Communication and follow-up"
       }
     ]
   },
   "team": {
-    "eyebrow": "Experience united by one spirit",
-    "title": "Experience united by one spirit",
-    "quote": "Our shared goal is to provide the best service to our customers with the highest levels of quality and professionalism, with full commitment to technical standards and safety in every work we do.",
-    "quoteAuthor": "Red Power Garage Team",
+    "eyebrow": "Our Team",
+    "title": "Expertise united by one spirit",
+    "quote": "Our shared goal is to deliver the best execution for our clients at the highest levels of quality and professionalism, with full commitment to standards at every project stage.",
+    "quoteAuthor": "The WAF Team",
     "items": [
       {
-        "title": "Certified technicians",
-        "body": "Practical experience and certified qualifications"
+        "title": "Specialized team",
+        "body": "Experts in manufacturing, execution, and installation for commercial projects and events"
       },
       {
-        "title": "Continuous training",
-        "body": "We develop our skills to keep up with the latest technologies"
+        "title": "Professional project management",
+        "body": "Precise follow-up on every stage from idea to final handover"
       },
       {
-        "title": "Team spirit",
-        "body": "We work as one efficient team for you"
+        "title": "Success partners",
+        "body": "We work with our clients as partners to ensure results that exceed expectations"
       }
     ]
   },
   "cta": {
-    "eyebrow": "Ready to give your car the care it deserves?",
-    "title": "Ready to give your car the care it deserves?",
-    "description": "Contact us today and get the best service from our specialized team. We are here to help you keep your car in its best condition.",
-    "primaryLabel": "Contact Us",
-    "secondaryLabel": "Book your appointment now",
-    "imageAlt": "Red Power Garage about page CTA with Dodge Challenger background"
+    "eyebrow": "Start Your Project",
+    "title": "Ready to execute your next project?",
+    "description": "Contact us today and get an execution quote tailored to your project's needs.",
+    "primaryLabel": "Request an Execution Quote",
+    "secondaryLabel": "Contact Us",
+    "imageAlt": "An executed project by WAF"
   }
 }

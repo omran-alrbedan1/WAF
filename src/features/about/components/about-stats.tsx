@@ -19,13 +19,13 @@ export function AboutStats() {
   const items = t.raw("items") as AboutStatsItem[];
 
   return (
-    <Section className="bg-black py-6 sm:py-8 lg:py-10">
+    <Section className="bg-ink py-6 sm:py-8 lg:py-10">
       <Container className="max-w-[90rem] px-4 sm:px-6 lg:px-8">
         {/* Outer Card */}
-        <div className="relative overflow-hidden rounded-xl border border-white/10 bg-[#080808] p-6 shadow-[0_0_50px_rgba(0,0,0,0.8)] sm:p-10 lg:p-12">
+        <div className="relative overflow-hidden rounded-xl border border-line bg-card-deep p-6 shadow-[0_1px_3px_rgba(0,0,0,0.1),0_16px_40px_rgba(0,0,0,0.12)] sm:p-10 lg:p-12">
           
           {/* Subtle Red Top Glow Accent */}
-          <div className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-red-600/50 to-transparent" />
+          <div className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-brand/50 to-transparent" />
 
           {/* Grid Layout: Left Column (Title & Stats) | Right Column (Image) */}
           <div
@@ -37,12 +37,12 @@ export function AboutStats() {
               {/* Header Block */}
               <RevealPanel className="space-y-2">
                 <div className="flex items-center gap-1.5">
-                  <span className="text-xs font-bold text-red-600 sm:text-sm">/</span>
-                  <p className="text-xs font-bold tracking-wider text-red-600 sm:text-sm">
+                  <span className="text-xs font-bold text-brand sm:text-sm">/</span>
+                  <p className="text-xs font-bold tracking-wider text-brand sm:text-sm">
                     {t("eyebrow")}
                   </p>
                 </div>
-                <h2 className="text-3xl font-black tracking-tight text-white sm:text-4xl lg:text-5xl">
+                <h2 className="text-3xl font-black tracking-tight text-heading sm:text-4xl lg:text-5xl">
                   {t("title")}
                 </h2>
               </RevealPanel>
@@ -62,19 +62,19 @@ export function AboutStats() {
                     {index !== 0 && (
                       <div
                         className={cn(
-                          "hidden sm:block absolute inset-y-2 w-px bg-gradient-to-b from-transparent via-red-900/40 to-transparent",
+                          "hidden sm:block absolute inset-y-2 w-px bg-gradient-to-b from-transparent via-brand/30 to-transparent",
                           isArabic ? "right-0" : "left-0"
                         )}
                       />
                     )}
 
                     {/* Bright Red Stat Number */}
-                    <h3 className="text-4xl font-black tracking-tight text-red-600 sm:text-4xl ">
+                    <h3 className="text-4xl font-black tracking-tight text-brand sm:text-4xl ">
                       {item.number}
                     </h3>
 
                     {/* Stat Description Label */}
-                    <p className="mt-2 text-xs font-medium leading-relaxed text-zinc-400 sm:text-sm">
+                    <p className="mt-2 text-xs font-medium leading-relaxed text-body sm:text-sm">
                       {item.label}
                     </p>
                   </RevealPanel>
@@ -95,10 +95,10 @@ export function AboutStats() {
               {/* Soft Gradient Overlay to blend seamlessly into the card border */}
               <div
                 className={cn(
-                  "pointer-events-none absolute inset-0 bg-gradient-to-t from-[#080808] via-transparent to-transparent lg:bg-gradient-to-r",
+                  "pointer-events-none absolute inset-0 bg-gradient-to-t from-card-deep via-transparent to-transparent lg:bg-gradient-to-r",
                   isArabic
-                    ? "lg:from-transparent lg:to-[#080808]"
-                    : "lg:from-[#080808] lg:to-transparent"
+                    ? "lg:from-transparent lg:to-card-deep"
+                    : "lg:from-card-deep lg:to-transparent"
                 )}
               />
             </div>

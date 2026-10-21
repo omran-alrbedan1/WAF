@@ -25,7 +25,7 @@ export function OptimizedImage({
   return (
     <div
       className={cn(
-        "relative overflow-hidden rounded-[2rem] border border-white/10 bg-zinc-950/80 shadow-[0_40px_120px_rgba(0,0,0,0.65)]",
+        "relative overflow-hidden rounded-[2rem] border border-line bg-ink/80 shadow-[0_1px_3px_rgba(0,0,0,0.1),0_16px_40px_rgba(0,0,0,0.12)]",
         className
       )}
     >

@@ -61,7 +61,7 @@ export default async function ServicesPage({ params }: ServicesPageProps) {
         })}
       />
 
-      <div className="bg-page-deep pb-16 text-white sm:pb-20">
+      <div className="bg-page-deep pb-16 text-heading sm:pb-20">
         <ServicesShowcaseHero hero={hero} locale={typedLocale} />
         <ServicesShowcaseGroups catalog={catalog} locale={typedLocale} />
         <ServicesShowcaseCta />

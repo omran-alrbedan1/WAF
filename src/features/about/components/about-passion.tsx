@@ -23,11 +23,11 @@ export function AboutPassion() {
   const items = t.raw("items") as AboutPassionItem[];
 
   return (
-    <Section className="bg-black py-6 sm:py-8 lg:py-10">
+    <Section className="bg-ink py-6 sm:py-8 lg:py-10">
       {/* Expanded Max-Width Container */}
       <Container className="max-w-[90rem] px-4 sm:px-6 lg:px-8">
         {/* Expanded Outer Card with Red Glowing Border & Increased Padding */}
-        <div className="relative rounded-xl border border-red-600/40 bg-[#08090a] p-8 sm:p-12 lg:p-14 shadow-[0_0_40px_rgba(220,38,38,0.15)]">
+        <div className="relative rounded-xl border border-brand/40 bg-page-deep p-8 sm:p-12 lg:p-14 shadow-[0_0_40px_rgba(34,197,94,0.15)]">
           <div className="grid items-center gap-10 lg:grid-cols-12 lg:gap-16">
             
             {/* Left Showcase Image Block */}
@@ -35,12 +35,12 @@ export function AboutPassion() {
               direction={isArabic ? "right" : "left"}
               className="relative overflow-hidden rounded-lg lg:col-span-5"
             >
-              <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg border border-white/10">
+              <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg border border-line">
                 <OptimizedImage
-                  src={images.about.garageWorkshopBackground}
+                  src={images.about.workshopBackground}
                   alt={t("title")}
                   sizes="(min-width: 1024px) 45vw, 100vw"
-                  className="h-full w-full rounded-none border-0 bg-black shadow-none"
+                  className="h-full w-full rounded-none border-0 bg-ink shadow-none"
                   imageClassName="h-full w-full object-cover object-center transition-transform duration-500 hover:scale-105"
                 />
                 {/* Ambient Red Overlay */}
@@ -59,15 +59,15 @@ export function AboutPassion() {
               {/* Heading & Eyebrow Section */}
               <RevealPanel className="space-y-4">
                 <div className="flex items-center gap-2">
-                  <span className="h-4 w-1 -skew-x-12 bg-red-600 shadow-[0_0_8px_rgba(220,38,38,0.8)]" />
-                  <p className="text-xs font-bold uppercase tracking-widest text-red-500 sm:text-sm">
+                  <span className="h-4 w-1 -skew-x-12 bg-brand shadow-[0_0_8px_rgba(34,197,94,0.8)]" />
+                  <p className="text-xs font-bold uppercase tracking-widest text-brand sm:text-sm">
                     {t("eyebrow")}
                   </p>
                 </div>
-                <h2 className="text-3xl font-black uppercase tracking-tight text-white sm:text-4xl lg:text-5xl">
+                <h2 className="text-3xl font-black uppercase tracking-tight text-heading sm:text-4xl lg:text-5xl">
                   {t("title")}
                 </h2>
-                <p className="max-w-3xl text-sm leading-relaxed text-zinc-400 sm:text-base">
+                <p className="max-w-3xl text-sm leading-relaxed text-body sm:text-base">
                   {t("description")}
                 </p>
               </RevealPanel>
@@ -87,17 +87,17 @@ export function AboutPassion() {
                       )}
                     >
                       {/* Red Outlined Icon Container */}
-                      <div className="flex h-14 w-14 items-center justify-center rounded-lg border border-red-600/50 bg-red-950/20 text-red-500 shadow-[0_0_15px_rgba(220,38,38,0.25)]">
+                      <div className="flex h-14 w-14 items-center justify-center rounded-lg border border-brand/50 bg-brand-contrast/20 text-brand shadow-[0_0_15px_rgba(34,197,94,0.25)]">
                         <Icon className="size-7 stroke-[1.75]" />
                       </div>
 
                       {/* Feature Title */}
-                      <h3 className="mt-5 text-sm font-bold uppercase tracking-tight text-white sm:text-base">
+                      <h3 className="mt-5 text-sm font-bold uppercase tracking-tight text-heading sm:text-base">
                         {item.title}
                       </h3>
 
                       {/* Feature Description */}
-                      <p className="mt-2 text-xs leading-relaxed text-zinc-400 sm:text-sm">
+                      <p className="mt-2 text-xs leading-relaxed text-body sm:text-sm">
                         {item.body}
                       </p>
                     </RevealPanel>

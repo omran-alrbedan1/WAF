@@ -8,9 +8,6 @@ const staticRoutes = [
   { path: "", priority: 1, changeFrequency: "weekly" },
   { path: "/services", priority: 0.85, changeFrequency: "weekly" },
   { path: "/about", priority: 0.8, changeFrequency: "monthly" },
-  { path: "/specials", priority: 0.75, changeFrequency: "weekly" },
-  { path: "/gallery", priority: 0.75, changeFrequency: "weekly" },
-  { path: "/reviews", priority: 0.7, changeFrequency: "weekly" },
   { path: "/contact", priority: 0.8, changeFrequency: "weekly" },
 ] as const satisfies Array<{
   changeFrequency: NonNullable<MetadataRoute.Sitemap[number]["changeFrequency"]>;

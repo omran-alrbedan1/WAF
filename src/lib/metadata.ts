@@ -8,7 +8,7 @@ import {
   getSiteUrl,
 } from "@/lib/seo";
 
-const SOCIAL_IMAGE_PATH = "/images/red-power/brand/og-share-background-og.jpg";
+const SOCIAL_IMAGE_PATH = "/images/waf/brand/og-share.jpg";
 
 type LocalizedMetadata = {
   title: string;
@@ -36,7 +36,7 @@ export function buildMetadata(
     publisher: siteConfig.legalName,
     referrer: "origin-when-cross-origin",
     keywords: getMetadataKeywords(keywords, title),
-    category: "Automotive",
+    category: "Business Services",
     classification,
     robots: {
       index: true,

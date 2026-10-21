@@ -1,108 +1,113 @@
 {
   "metadata": {
-    "title": "Auto Repair, Diagnostics & Performance Services",
-    "description": "Explore Red Power Garage services including vehicle diagnostics, preventive maintenance, mechanical repairs, electrical systems work, pre-purchase inspections, and performance upgrades."
+    "title": "WAF Services | Project, Exhibition & Event Execution",
+    "description": "Explore WAF services: creative sculptures, graffiti murals, visual identity & signage, event site preparation, large-format printing, fabrication & installation, and corporate giveaways."
   },
   "hero": {
-    "eyebrow": "Red Power Garage",
+    "eyebrow": "WAF Business Services",
     "sectionLabel": "01 / SERVICES",
-    "title": "Professional services for your vehicle",
-    "description": "Red Power Garage delivers a complete set of workshop services using modern diagnostic tools, specialist American-car knowledge, disciplined maintenance, and performance-minded support.",
-    "primaryCta": "Book Your Slot",
-    "secondaryCta": "Explore Home",
-    "imageAlt": "Technician working under a vehicle hood at Red Power Garage"
+    "title": "Professional execution & fit-out services",
+    "description": "We deliver execution and fit-out for commercial projects, exhibitions, and events from manufacturing to installation through a specialized team.",
+    "primaryCta": "Request an Execution Quote",
+    "secondaryCta": "About WAF",
+    "imageAlt": "WAF execution and fit-out work"
   },
   "catalog": {
-    "eyebrow": "Performance • Precision • Trust",
-    "title": "Specialist American-vehicle service from diagnosis to performance.",
-    "description": "The page is now structured around the same rhythm as the new concept: precise diagnostics, informed maintenance, and stronger performance development.",
-    "cta": "Learn more",
+    "eyebrow": "From Manufacturing to Installation",
+    "title": "Integrated services that deliver your project from idea to handover",
+    "description": "Seven core services covering everything your commercial project or event needs.",
+    "cta": "More about this service",
     "groups": [
       {
-        "label": "DIAGNOSE",
-        "heading": "Accurate diagnosis for better solutions",
-        "itemSlugs": ["advanced-diagnostics", "pre-purchase-inspection"]
+        "label": "FABRICATE",
+        "heading": "High-quality fabrication and build",
+        "itemSlugs": ["creative-sculptures", "fabrication-installation"]
       },
       {
-        "label": "MAINTAIN",
-        "heading": "Maintenance that understands the details",
-        "itemSlugs": ["preventive-maintenance", "mechanical-maintenance", "electrical-systems"]
+        "label": "BRAND",
+        "heading": "Visual identity that leaves a mark",
+        "itemSlugs": ["signage-branding", "graffiti-murals", "large-format-printing"]
       },
       {
-        "label": "PERFORM",
-        "heading": "Stronger performance for a better drive",
-        "itemSlugs": ["performance-development"]
+        "label": "EVENTS",
+        "heading": "Complete fit-out for events and corporates",
+        "itemSlugs": ["event-sites", "packaging-giveaways"]
       }
     ],
     "items": [
       {
-        "slug": "advanced-diagnostics",
-        "title": "Diagnostics",
-        "body": "Modern scan tools and technical analysis to find the real cause of faults and define a clear repair path."
+        "slug": "creative-sculptures",
+        "title": "Creative Sculptures & Interior Fit-Out",
+        "body": "Design and execution of creative sculptures and interior fit-out reflecting your project's identity."
       },
       {
-        "slug": "preventive-maintenance",
-        "title": "Preventive Maintenance",
-        "body": "A structured maintenance plan focused on reliability, fewer surprise issues, and better day-to-day vehicle performance."
+        "slug": "graffiti-murals",
+        "title": "Graffiti & Artistic Murals",
+        "body": "Artistic graffiti and mural works that give your spaces a distinctive character."
       },
       {
-        "slug": "mechanical-maintenance",
-        "title": "Mechanical",
-        "body": "Professional mechanical repair and workshop execution across core vehicle systems with dependable technical standards."
+        "slug": "signage-branding",
+        "title": "Visual Identity & Signage",
+        "body": "Execution of visual identity, signage, and wayfinding boards with precision and quality."
       },
       {
-        "slug": "electrical-systems",
-        "title": "Electrical",
-        "body": "Electrical and electronic troubleshooting handled with modern tools and practical workshop experience."
+        "slug": "event-sites",
+        "title": "Event Site Preparation",
+        "body": "Complete preparation of event and exhibition sites from planning to handover."
       },
       {
-        "slug": "pre-purchase-inspection",
-        "title": "Pre-Purchase Inspection",
-        "body": "A complete pre-purchase check that exposes vehicle condition clearly before you commit to the deal."
+        "slug": "large-format-printing",
+        "title": "Large Format Printing",
+        "body": "Large-format printing and production with the latest technology and finest materials."
       },
       {
-        "slug": "performance-development",
-        "title": "Performance",
-        "body": "Performance-focused support for drivers who want sharper response, stronger output, and a more intentional setup."
+        "slug": "fabrication-installation",
+        "title": "Fabrication, Installation & Handover",
+        "body": "Fabricating, installing, and handing over complete projects to professional standards."
+      },
+      {
+        "slug": "packaging-giveaways",
+        "title": "Packaging & Corporate Giveaways",
+        "body": "Packaging solutions and promotional giveaways that strengthen your brand presence."
       }
     ]
   },
   "features": {
-    "eyebrow": "Red Power Garage",
-    "cta": "Learn More",
+    "eyebrow": "Why WAF?",
+    "cta": "Request an Execution Quote",
     "items": [
       {
-        "slug": "advanced-diagnostics",
-        "title": "Diagnostics",
-        "description": "Precision service, modern technology, and a team that understands technical inspection from the first check.",
-        "imageAlt": "Engine service inspection inside Red Power Garage"
+        "slug": "creative-sculptures",
+        "title": "Execution Quality",
+        "description": "Strict quality standards at every stage from manufacturing to installation.",
+        "imageAlt": "A creative sculpture executed by WAF"
       },
       {
-        "slug": "preventive-maintenance",
-        "title": "Preventive Maintenance",
-        "description": "Clear maintenance planning, consistent quality, and service processes that support long-term vehicle reliability.",
-        "imageAlt": "Brake and wheel components representing preventive maintenance"
+        "slug": "signage-branding",
+        "title": "Deadline Commitment",
+        "description": "A clear timeline and full commitment to delivery dates.",
+        "imageAlt": "Signage and wayfinding installation"
       },
       {
-        "slug": "mechanical-maintenance",
-        "title": "Mechanical",
-        "description": "Professional mechanical maintenance supported by practical workshop expertise and dependable execution.",
-        "imageAlt": "Technician performing mechanical work at Red Power Garage"
+        "slug": "event-sites",
+        "title": "Specialized Team",
+        "description": "A professional team managing your project from idea to handover.",
+        "imageAlt": "Event site preparation"
       },
       {
-        "slug": "electrical-systems",
-        "title": "Electrical",
-        "description": "Electrical and electronic systems support for modern vehicles, diagnostics, and specialist troubleshooting.",
-        "imageAlt": "Technical service gallery strip showing workshop equipment"
+        "slug": "large-format-printing",
+        "title": "Competitive Pricing",
+        "description": "R&D investment to deliver the best value for the price.",
+        "imageAlt": "Large format printing"
       }
     ]
   },
   "cta": {
-    "eyebrow": "Red Power Garage",
-    "title": "Ready to give your car the attention it deserves?",
-    "description": "Book your visit now and let the Red Power Garage team shape the right path for maintenance, diagnostics, or performance work based on your vehicle's needs.",
-    "primaryLabel": "Book Appointment",
+    "eyebrow": "Start Now",
+    "title": "Ready to execute your project?",
+    "description": "Contact us and get a custom execution quote for your project.",
+    "primaryLabel": "Request an Execution Quote",
     "secondaryLabel": "Contact Us",
-    "imageAlt": "Service gallery strip showing workshop tools and performance vehicles"
+    "imageAlt": "An executed project by WAF"
   }
 }

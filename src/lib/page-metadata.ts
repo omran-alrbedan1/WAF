@@ -4,7 +4,7 @@ import type { SiteLocale } from "@/config/site";
 import { siteConfig } from "@/config/site";
 import { getLanguageAlternates, getMetadataKeywords, getSiteUrl } from "@/lib/seo";
 
-const SOCIAL_IMAGE_PATH = "/images/red-power/brand/og-share-background-og.jpg";
+const SOCIAL_IMAGE_PATH = "/images/waf/brand/og-share.jpg";
 
 type PageMetadataInput = {
   locale: SiteLocale;

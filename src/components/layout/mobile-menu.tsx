@@ -49,7 +49,7 @@ export function MobileMenu() {
         onClick={() =>
           setOpenPathname((current) => (current === pathname ? null : pathname))
         }
-        className="inline-flex h-11 w-11 items-center justify-center border border-white/15 bg-white/[0.03] text-white transition hover:border-red-500/70 hover:bg-white/5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-500"
+        className="inline-flex h-11 w-11 items-center justify-center border border-line bg-chip text-heading transition hover:border-brand-strong/70 hover:bg-chip focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-strong"
       >
         <span className="sr-only">{menuT("menuLabel")}</span>
         <div className="flex flex-col gap-1.5">
@@ -60,7 +60,7 @@ export function MobileMenu() {
       </button>
 
       {open ? (
-        <div className="absolute inset-x-0 top-full border-b border-white/10 bg-[#0b0c0d]/98 px-6 py-5 backdrop-blur-xl">
+        <div className="absolute inset-x-0 top-full border-b border-line bg-background/98 px-6 py-5 backdrop-blur-xl">
           <nav
             id="mobile-nav"
             aria-label={navT("mobileAriaLabel")}
@@ -77,8 +77,8 @@ export function MobileMenu() {
                   aria-current={isActive ? "page" : undefined}
                   onClick={() => setOpenPathname(null)}
                   className={cn(
-                    "rounded-md border border-transparent px-4 py-3 text-xs uppercase tracking-[0.18em] text-zinc-200 transition hover:border-red-500/40 hover:bg-white/5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-500",
-                    isActive && "border-white/10 bg-white/5 text-white"
+                    "rounded-md border border-transparent px-4 py-3 text-xs uppercase tracking-[0.18em] text-body-strong transition hover:border-brand-strong/40 hover:bg-chip focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-strong",
+                    isActive && "border-line bg-chip text-heading"
                   )}
                 >
                   {navT(link.labelKey)}

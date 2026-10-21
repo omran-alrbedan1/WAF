@@ -14,7 +14,7 @@ export type ServiceRequestValues = {
   phone: string;
   email: string;
   serviceType: string;
-  vehicleModel: string;
+  projectType: string;
   preferredDate: string;
   description: string;
   referenceImage?: File | null;
@@ -28,7 +28,7 @@ export type ServiceRequestField =
   | "phone"
   | "email"
   | "serviceType"
-  | "vehicleModel"
+  | "projectType"
   | "preferredDate"
   | "description"
   | "referenceImage";

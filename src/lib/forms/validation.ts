@@ -60,8 +60,8 @@ export function validateServiceRequestForm(values: ServiceRequestValues) {
     fieldErrors.serviceType = "required";
   }
 
-  if (!values.vehicleModel.trim()) {
-    fieldErrors.vehicleModel = "required";
+  if (!values.projectType.trim()) {
+    fieldErrors.projectType = "required";
   }
 
   if (!values.preferredDate.trim()) {

@@ -63,14 +63,14 @@ export function ContactForm() {
   return (
     <form onSubmit={handleSubmit} className="grid gap-5" noValidate>
       <div className="space-y-3 text-right">
-        <h2 className="max-w-full break-words text-4xl font-semibold tracking-[-0.04em] text-white">
+        <h2 className="max-w-full break-words text-4xl font-semibold tracking-[-0.04em] text-heading">
           {t("title")}
         </h2>
-        <span className="ms-auto block h-1 w-12 rounded-full bg-red-600" />
+        <span className="ms-auto block h-1 w-12 rounded-full bg-brand" />
       </div>
 
       <label htmlFor="contact-name" className="grid gap-2">
-        <span className="text-sm font-medium text-white">
+        <span className="text-sm font-medium text-heading">
           {t("fields.name")}
         </span>
         <input
@@ -80,7 +80,7 @@ export function ContactForm() {
           value={values.name}
           onChange={(event) => updateField("name", event.target.value)}
           aria-label={t("fields.name")}
-          className="min-w-0 w-full rounded-[10px] border border-white/10 bg-black/35 px-4 py-3.5 text-white outline-none transition placeholder:text-zinc-500 focus:border-red-500"
+          className="min-w-0 w-full rounded-[10px] border border-line bg-ink-soft px-4 py-3.5 text-heading outline-none transition placeholder:text-faint focus:border-brand-strong"
           placeholder={t("placeholders.name")}
           autoComplete="name"
           aria-invalid={Boolean(fieldErrors.name)}
@@ -94,7 +94,7 @@ export function ContactForm() {
       </label>
 
       <label htmlFor="contact-phone" className="grid gap-2">
-        <span className="text-sm font-medium text-white">
+        <span className="text-sm font-medium text-heading">
           {t("fields.phone")}
         </span>
         <input
@@ -105,7 +105,7 @@ export function ContactForm() {
           onChange={(event) => updateField("phone", event.target.value)}
           type="tel"
           aria-label={t("fields.phone")}
-          className="min-w-0 w-full rounded-[10px] border border-white/10 bg-black/35 px-4 py-3.5 text-white outline-none transition placeholder:text-zinc-500 focus:border-red-500"
+          className="min-w-0 w-full rounded-[10px] border border-line bg-ink-soft px-4 py-3.5 text-heading outline-none transition placeholder:text-faint focus:border-brand-strong"
           placeholder={t("placeholders.phone")}
           autoComplete="tel"
           aria-invalid={Boolean(fieldErrors.phone)}
@@ -119,7 +119,7 @@ export function ContactForm() {
       </label>
 
       <label htmlFor="contact-message" className="grid gap-2">
-        <span className="text-sm font-medium text-white">
+        <span className="text-sm font-medium text-heading">
           {t("fields.message")}
         </span>
         <textarea
@@ -129,7 +129,7 @@ export function ContactForm() {
           value={values.message}
           onChange={(event) => updateField("message", event.target.value)}
           aria-label={t("fields.message")}
-          className="min-h-48 min-w-0 w-full rounded-[10px] border border-white/10 bg-black/35 px-4 py-3.5 text-white outline-none transition placeholder:text-zinc-500 focus:border-red-500"
+          className="min-h-48 min-w-0 w-full rounded-[10px] border border-line bg-ink-soft px-4 py-3.5 text-heading outline-none transition placeholder:text-faint focus:border-brand-strong"
           placeholder={t("placeholders.message")}
           aria-invalid={Boolean(fieldErrors.message)}
           aria-describedby={
@@ -166,7 +166,7 @@ export function ContactForm() {
         {t("submit")}
       </button>
 
-      <p className={cn("text-xs text-zinc-500", locale === "ar" ? "text-right" : "text-left")}>
+      <p className={cn("text-xs text-faint", locale === "ar" ? "text-right" : "text-left")}>
         {t("description")}
       </p>
     </form>

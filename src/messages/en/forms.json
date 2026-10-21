@@ -32,15 +32,15 @@
     "error": "We could not send your message."
   },
   "serviceRequestForm": {
-    "eyebrow": "Service request",
-    "title": "Request a specialized service",
-    "description": "Prepared for bookings, custom work, diagnostics, or performance-related requests.",
+    "eyebrow": "Execution quote request",
+    "title": "Request an execution quote",
+    "description": "Prepared for commercial projects, exhibitions, events, and custom work requests.",
     "fields": {
       "fullName": "Full name",
       "phone": "Phone",
       "email": "Email",
       "serviceType": "Service type",
-      "vehicleModel": "Vehicle model",
+      "projectType": "Project type",
       "preferredDate": "Preferred date",
       "description": "Request details",
       "referenceImage": "Reference image"
@@ -49,9 +49,9 @@
       "fullName": "Your full name",
       "phone": "Your phone number",
       "email": "name@example.com",
-      "serviceType": "Diagnostics, performance, maintenance...",
-      "vehicleModel": "Vehicle make and model",
-      "description": "Tell us what you need and any vehicle symptoms"
+      "serviceType": "Sculptures, signage, events...",
+      "projectType": "Project or event type",
+      "description": "Tell us about your project and the service you need"
     },
     "fileHint": "Optional. JPG, PNG, or WebP up to 5 MB.",
     "submit": "Send request",

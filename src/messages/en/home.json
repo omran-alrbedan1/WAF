@@ -1,106 +1,463 @@
 {
   "metadata": {
-    "title": "American Car Service, Diagnostics & Performance",
-    "description": "Professional auto repair, diagnostics, preventive maintenance, and performance services for American vehicles with specialist Mopar expertise."
+    "title": "WAF Business Services | Project, Exhibition & Event Execution",
+    "description": "WAF executes and fits out commercial projects, exhibitions, and events — from manufacturing to installation and handover."
   },
   "hero": {
-    "eyebrow": "Red Power",
-    "title": "American expertise. Power on the road.",
-    "description": "Precision diagnostics, professional maintenance, and performance upgrades for American vehicles.",
-    "primaryCta": "Book Your Slot",
-    "secondaryCta": "Explore Our Services",
-    "highlights": ["Genuine parts and approved quality", "Certified technicians with American expertise", "Advanced diagnostics and precise results"],
-    "imageAlt": "Black muscle car inside Red Power Garage"
+    "eyebrow": "WAF Business Services",
+    "title": "From idea to a lasting impression.",
+    "description": "We execute and fit out commercial projects, exhibitions, and events — with integrated solutions from fabrication and preparation through installation and handover.",
+    "supporting": "Instead of juggling multiple vendors for design, printing, packaging, signage, and installation, WAF handles your project from a single source — with consistent quality, studied costs, and a clear execution timeline.",
+    "microcopy": "Send the service type, city, quantity or size, and required delivery date — we'll guide you to the best-fit solution for your project.",
+    "primaryCta": "Request a Quote via WhatsApp",
+    "secondaryCta": "Explore WAF Services",
+    "highlightOne": "From fabrication to installation",
+    "highlightTwo": "Quality and care in every detail",
+    "highlightThree": "One partner for every solution",
+    "visualLabel": "JEDDAH · SAUDI ARABIA",
+    "slideLabel": "Show background image {number}",
+    "pauseSlideshow": "Pause background slideshow",
+    "playSlideshow": "Play background slideshow",
+    "highlights": [
+      "A specialized team from manufacturing to installation",
+      "Execution quality that exceeds expectations",
+      "Full commitment to timelines and details"
+    ],
+    "imageAlt": "A WAF execution and fit-out project"
   },
   "brandIntroduction": {
     "eyebrow": "Our Services",
-    "title": "Integrated solutions for performance without limits.",
-    "description": "From diagnosis to upgrades, we cover everything needed to keep your vehicle performing at its peak.",
+    "title": "Integrated execution solutions from idea to handover",
+    "description": "We deliver manufacturing, execution, and installation for commercial projects and events through a specialized team.",
     "sectionCta": "Explore All Services",
     "cards": [
       {
         "number": "01",
         "icon": "pulse",
-        "title": "Advanced Electronic Diagnostics",
-        "body": "We use modern diagnostic equipment to identify faults quickly and explain them clearly.",
+        "title": "Creative Sculptures & Interior Fit-Out",
+        "body": "Design and execution of creative sculptures and interior fit-out that reflect your project's identity.",
         "cta": "Learn More"
       },
       {
         "number": "02",
         "icon": "tool",
-        "title": "Preventive Maintenance",
-        "body": "Routine service programs that protect reliability and help prevent costly issues before they happen.",
+        "title": "Visual Identity & Signage",
+        "body": "Execution of visual identity, signage, and wayfinding boards with precision and high quality.",
         "cta": "Learn More"
       },
       {
         "number": "03",
         "icon": "gauge",
-        "title": "Performance Upgrades",
-        "body": "From more power to sharper control, we help move your car to a higher level of response.",
+        "title": "Event Site Preparation",
+        "body": "Preparing and executing event and exhibition sites from planning to handover.",
         "cta": "Learn More"
       },
       {
         "number": "04",
         "icon": "mopar",
-        "title": "Mopar and American Expertise",
-        "body": "Specialist experience with Dodge, Jeep, Chrysler, and RAM backed by deep American performance knowledge.",
+        "title": "Large Format Printing",
+        "body": "Large-format printing and production using the latest technology and finest materials.",
         "cta": "Learn More"
       }
     ]
   },
   "performance": {
-    "eyebrow": "Precision in Every Detail",
-    "primaryCta": "Explore Our Workshop",
+    "eyebrow": "About WAF",
+    "primaryCta": "Company Profile",
     "points": [
-      "Diagnostics that save time and cost",
-      "Genuine parts and reliable performance",
-      "Support backed by workmanship confidence",
-      "A real passion for performance, proven on the road"
+      {
+        "title": "Fair pricing",
+        "description": "Competitive pricing shaped by investment in research and development."
+      },
+      {
+        "title": "Commitment",
+        "description": "Client trust is the foundation of our work, with clear communication at every stage."
+      },
+      {
+        "title": "Quality",
+        "description": "Careful attention to detail helps us exceed expectations on every project."
+      },
+      {
+        "title": "Ideas into reality",
+        "description": "A specialized team turns concepts into practical results, through handover."
+      }
     ],
     "heading": {
-      "title": "We do more than repair. We build real performance difference.",
-      "description": "Diagnostic precision, parts quality, and clear execution. Every detail here is designed to deliver stronger results and higher confidence."
+      "title": "We deliver manufacturing, execution, and installation for commercial projects and events",
+      "description": "Through a specialized team focused on execution quality, commitment, and turning ideas into practical reality."
     },
-    "imageAlt": "Red performance brake detail inside the Red Power workshop"
+    "imageAlt": "WAF execution and fit-out work",
+    "imageCaption": "We turn ideas into spaces people experience",
+    "serviceCountLabel": "integrated services"
   },
   "whyRedPower": {
-    "eyebrow": "Why Choose Red Power?",
-    "title": "Numbers that reflect trust.",
-    "description": "Workshop quality should be visible in both service results and customer confidence, so we surface direct signals of that credibility.",
+    "eyebrow": "Why WAF?",
+    "title": "Trust built through execution, sustained through commitment",
+    "description": "WAF clients testify to execution quality and commitment on every project.",
     "stats": [
       {
-        "value": "+1000",
-        "title": "Satisfied Clients",
-        "label": "Trust built through real results"
+        "value": "40+",
+        "title": "Brands",
+        "label": "trusted us with their projects"
       },
       {
-        "value": "+1500",
-        "title": "Vehicles Serviced",
-        "label": "Hands-on Mopar and American vehicle experience"
+        "value": "7",
+        "title": "Integrated services",
+        "label": "from manufacturing to installation"
       },
       {
-        "value": "+10",
-        "title": "Years of Experience",
-        "label": "Technical depth in the performance space"
+        "value": "100%",
+        "title": "Commitment",
+        "label": "to quality and deadlines"
       },
       {
-        "value": "98%",
-        "title": "Customer Satisfaction",
-        "label": "Turning performance into a consistent standard"
+        "value": "24/7",
+        "title": "Communication",
+        "label": "and follow-up on every project"
       }
     ]
   },
+  "trustBar": {
+    "items": [
+      { "icon": "wrench", "label": "End-to-end execution from design to installation" },
+      { "icon": "pin", "label": "WAF Jeddah serving companies, stores & events" },
+      { "icon": "layers", "label": "Printing, packaging, signage & giveaway solutions" },
+      { "icon": "receipt", "label": "Pricing scoped by materials, size & timeline" }
+    ]
+  },
+  "servicesGrid": {
+    "title": "Integrated services to build your brand presence and execute your projects",
+    "intro": "WAF for Business Services combines design, printing, packaging, signage, exhibition booths, event fit-out, and promotional giveaways in one integrated system serving companies, stores, and commercial projects across Jeddah and Saudi Arabia.",
+    "forWhom": "Who is it for?",
+    "weReceive": "What do we need from you?",
+    "weDeliver": "What do we deliver?",
+    "viewAll": "View all WAF services",
+    "viewAllNote": "Need more than one service in the same project? Contact us and we'll suggest the best-fit package.",
+    "cards": [
+      {
+        "title": "Visual Identity & Branding",
+        "forWhom": "Startups, stores, restaurants, cafés, new ventures, or brands wanting a professional, consistent rebuild of their image.",
+        "weReceive": "Project name, business nature, target audience, services or products, references, preferred/disliked colors, and any existing logo or files.",
+        "weDeliver": "Logo, colors, typography, visual elements, identity applications, usage templates, and print-ready files for packaging, social media, signage, and marketing materials.",
+        "cta": "Start building your identity",
+        "image": "signage"
+      },
+      {
+        "title": "Packaging Design & Production",
+        "forWhom": "Stores, restaurants, coffee, perfume, food and gift products — projects that need packaging reflecting product quality.",
+        "weReceive": "Product type, dimensions, required quantity, usage, approximate budget, visual identity or logo, and examples of similar packaging.",
+        "weDeliver": "Packaging design, print-ready files, suitable material suggestions, production per quantity and budget, and commercially usable outputs.",
+        "cta": "Design your product packaging",
+        "image": "packaging"
+      },
+      {
+        "title": "Printing Services",
+        "forWhom": "Companies and events needing professional prints — banners, brochures, roll-ups, signs, promotional materials, or large-format printing.",
+        "weReceive": "Design file if available, material type, size, quantity, delivery date, usage location, and required material.",
+        "weDeliver": "Digital printing, commercial prints, promotional materials, signs, roll-ups, brochures, banners, and ready-to-use outputs for campaigns, exhibitions, stores, or events.",
+        "cta": "Order printing now",
+        "image": "printing"
+      },
+      {
+        "title": "Exhibition Booths & Stands",
+        "badge": "Design + Execution + Installation",
+        "forWhom": "Companies participating in exhibitions, conferences, product launches, or commercial events needing organized, clear presence.",
+        "weReceive": "Booth area, site dimensions, event type, visual identity, participation goal, required elements, installation date, and organizer requirements.",
+        "weDeliver": "Booth design & execution, printing, signage, visual elements, stands, final fit-out, and installation per site and project scope.",
+        "cta": "Prepare your next booth",
+        "image": "booth"
+      },
+      {
+        "title": "Event Branding & Organization",
+        "forWhom": "Companies organizing events, campaigns, openings, exhibitions, or field experiences needing an integrated visual presence.",
+        "weReceive": "Event type, date, location, expected attendance, visual identity, required materials list, and any theme or concept.",
+        "weDeliver": "Visual materials, signs, stands, décor, prints, branded elements, event-site fit-out, and branded products supporting your presence.",
+        "cta": "Equip your company event",
+        "image": "events"
+      },
+      {
+        "title": "Interior Design & Commercial Fit-Out",
+        "forWhom": "Shops, offices, cafés, restaurants, showrooms — spaces that need consistency with the brand identity.",
+        "weReceive": "Space type, photos or site plan, dimensions, business nature, visual identity, fit-out goal, budget, and opening date.",
+        "weDeliver": "Interior fit-out, signage, branding elements, commercial décor, in-space identity application, and visual details improving visitor experience.",
+        "cta": "Upgrade your commercial space",
+        "image": "interior"
+      },
+      {
+        "title": "3D Signs & Signage",
+        "forWhom": "Offices, stores, restaurants, exhibitions, and commercial entities needing clear, professional presence inside or outside the site.",
+        "weReceive": "Logo or identity, required size, installation location, sign type, site photos, preferred material, and execution date.",
+        "weDeliver": "3D signs, indoor & outdoor signage, wayfinding signs, façades, raised lettering, and multi-material execution suited to the site.",
+        "cta": "Request a professional sign",
+        "image": "signage"
+      },
+      {
+        "title": "Promotional Giveaways & Uniforms",
+        "forWhom": "Companies wanting promotional gifts, uniforms, branded products, event marketing materials, or brand-carrying tools.",
+        "weReceive": "Logo or identity, product type, quantity, intended use, target audience, uniform sizes, and approximate budget.",
+        "weDeliver": "Promotional gifts, product printing, uniforms, bags, boxes, marketing tools, and branded products ready for use.",
+        "cta": "Prepare your promotional products",
+        "image": "gifts"
+      }
+    ]
+  },
+  "whyWaf": {
+    "eyebrow": "The WAF difference",
+    "title": "Why choose WAF for Business Services?",
+    "intro": "WAF's strength isn't in offering a single service — it's in combining interconnected services into one clear execution experience, helping you save time, control budget, and get consistent outputs from first idea to final handover.",
+    "points": [
+      {
+        "title": "One source instead of many vendors",
+        "body": "WAF combines identity, printing, packaging, signage, exhibitions, events, and giveaways — reducing fragmentation and keeping the project consistent."
+      },
+      {
+        "title": "Practical execution, not just ideas",
+        "body": "WAF doesn't stop at concepts or designs — we focus on turning ideas into usable outputs: printing, installation, and handover."
+      },
+      {
+        "title": "Fair value for money",
+        "body": "Projects are priced by service type, materials, quantity, and execution time — helping you choose the right solution without unjustified costs."
+      },
+      {
+        "title": "Field experience & supplier network",
+        "body": "WAF relies on hands-on experience and a supplier network that provides better options in materials, pricing, and execution."
+      },
+      {
+        "title": "Visual consistency across all outputs",
+        "body": "When identity, printing, packaging, and signage come from different parties, results fragment. WAF unifies the look from design to execution."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "HOW WE WORK",
+    "stepLabel": "STEP {number}",
+    "title": "How does your project start with WAF?",
+    "intro": "We designed the WAF workflow to be clear from the first message — so you know what's needed, what you'll get, and how the project moves from request to execution and handover.",
+    "cta": "Start now by sending your project details",
+    "ctaNote": "Replies during official working hours",
+    "steps": [
+      {
+        "title": "Send your request details",
+        "body": "Specify the service type, city, quantity or size, delivery date, and whether you have a ready design or need design + execution."
+      },
+      {
+        "title": "We review the need & suggest the best fit",
+        "body": "The WAF team understands the project nature and determines whether you need printing only, packaging, identity, signage, event fit-out, a booth, or an integrated solution."
+      },
+      {
+        "title": "You get a clear quote",
+        "body": "The offer is prepared by scope of work, materials, quantity, and execution time — not a generic price that doesn't fit your project."
+      },
+      {
+        "title": "We start design or production",
+        "body": "After approval, the team begins preparing files, fabrication, printing, or preparing project elements per the agreed plan."
+      },
+      {
+        "title": "Delivery or installation when needed",
+        "body": "Outputs are delivered or installation & fit-out is executed on-site per the service nature and prior agreement."
+      }
+    ]
+  },
+  "works": {
+    "title": "WAF Works: execution that proves quality before words",
+    "intro": "In printing, packaging, signage, exhibitions, and events, images alone aren't enough. We present WAF's work in a way that shows the project type, the executed service, and the challenge we actually handled.",
+    "serviceLabel": "Service",
+    "viewAll": "Browse more of WAF's work",
+    "similarCta": "Request a similar project execution",
+    "filters": ["All", "Identity & Signage", "Printing & Large Format", "Packaging", "Exhibitions & Stands", "Events", "Promotional Giveaways", "Commercial Fit-Out"],
+    "items": [
+      {
+        "title": "Launch materials for a brand in Jeddah",
+        "service": "Visual identity, packaging & prints",
+        "category": "Identity & Signage",
+        "image": "signage"
+      },
+      {
+        "title": "Exhibition booth for a commercial brand",
+        "service": "Booth design & execution",
+        "category": "Exhibitions & Stands",
+        "image": "booth"
+      },
+      {
+        "title": "Product packaging for a specialty coffee store",
+        "service": "Packaging design & production",
+        "category": "Packaging",
+        "image": "packaging"
+      },
+      {
+        "title": "Banners & roll-ups for a commercial event",
+        "service": "Large-format printing",
+        "category": "Printing & Large Format",
+        "image": "printing"
+      },
+      {
+        "title": "Corporate event site fit-out",
+        "service": "Event branding & fit-out",
+        "category": "Events",
+        "image": "events"
+      },
+      {
+        "title": "3D sign for a store façade",
+        "service": "3D signs & signage",
+        "category": "Identity & Signage",
+        "image": "signage"
+      }
+    ]
+  },
+  "clientsSection": {
+    "title": "Companies and entities that trusted WAF to execute their projects",
+    "intro": "We're proud of clients across different sectors trusting WAF's business-service solutions — from printing and large-format production to exhibitions, signage, events, packaging, and giveaways.",
+    "groups": ["Major companies & entities", "Restaurants & cafés", "Stores & commercial projects", "Events & exhibitions", "Educational & sports entities"],
+    "trustIndicators": [
+      "Over 4 years in the Saudi market",
+      "Specialized team in design & execution",
+      "Services from concept to installation",
+      "Head office in Jeddah, serving multiple Saudi cities"
+    ]
+  },
+  "cities": {
+    "title": "WAF Jeddah — execution, printing & branding services across Saudi Arabia",
+    "intro": "WAF for Business Services operates from its head office in Jeddah — Al Hamra district, Qurtoba Business Center, First Floor, Office No. 3 — and serves companies, stores, and events in several cities across the Kingdom.",
+    "mapsCta": "Open WAF's location on Google Maps",
+    "jeddah": {
+      "badge": "Head Office",
+      "title": "Jeddah — WAF's Head Office",
+      "body": "Jeddah is the base of WAF for Business Services, where the head office is located in Al Hamra district, Qurtoba Business Center, First Floor, Office No. 3. In Jeddah, WAF offers commercial project execution & fit-out, large-format printing, visual identity & signage, packaging design & production, signs, exhibition & stand fit-out, events, and promotional giveaways."
+    },
+    "riyadh": {
+      "badge": "Expansion City",
+      "title": "Riyadh — an expansion city for WAF services",
+      "body": "Riyadh is an important expansion city where WAF serves exhibition, event, giveaway, printing, branding, and commercial fit-out projects for companies needing integrated solutions from a single source."
+    },
+    "othersLabel": "We also serve projects in:",
+    "mapNames": {
+      "jeddah": "Jeddah",
+      "riyadh": "Riyadh",
+      "makkah": "Makkah",
+      "madinah": "Madinah",
+      "taif": "Taif",
+      "yanbu": "Yanbu",
+      "jazan": "Jazan",
+      "abha": "Abha",
+      "khamisMushait": "Khamis Mushait",
+      "tabuk": "Tabuk"
+    },
+    "mapCredit": "Map: Wikimedia Commons, CC BY-SA 3.0",
+    "others": ["Makkah", "Madinah", "Taif", "Yanbu", "Jazan", "Abha", "Khamis Mushait", "Tabuk"]
+  },
+  "whatsappCta": {
+    "title": "Ready to start your project with WAF?",
+    "body": "Whether you need urgent printing, packaging design, visual identity, signage, exhibition fit-out, a 3D sign, or promotional products — send your project details via WhatsApp and the WAF team will help identify the best fit in materials, quantity, timeline, and expected cost.",
+    "cta": "Request a quote via WhatsApp",
+    "hours": "Replies during working hours: Saturday to Thursday, 10:00 AM – 8:00 PM.",
+    "messageTitle": "Ready-made WhatsApp message",
+    "messageLines": [
+      "Hello WAF, I'd like a quote for a new project.",
+      "Service type:",
+      "City:",
+      "Quantity or size:",
+      "Required delivery date:",
+      "Do you have a ready design? Yes / No",
+      "Additional notes:"
+    ]
+  },
+  "faq": {
+    "title": "Common questions before working with WAF",
+    "cta": "Request a quote now",
+    "items": [
+      {
+        "question": "Is WAF only a printing company?",
+        "answer": "No — WAF is not just a printing company. WAF for Business Services offers integrated solutions including printing & large-format production, visual identity & signage, packaging, exhibition booths, events, interior design, and promotional giveaways."
+      },
+      {
+        "question": "Does WAF only serve Jeddah?",
+        "answer": "WAF is based in Jeddah and serves several cities across Saudi Arabia, with particular focus on Jeddah, Riyadh, and areas where projects can be executed per the request's nature."
+      },
+      {
+        "question": "What does 'WAF for project execution & fit-out' mean?",
+        "answer": "It means WAF helps you execute multiple aspects within one project — design, printing, packaging, signage, fit-out, and installation — instead of dealing with separate vendors."
+      },
+      {
+        "question": "Can I request just a single service?",
+        "answer": "Yes — you can request a single service like printing, packaging, a sign, giveaways, or stand fit-out, or an integrated package per your project's needs."
+      },
+      {
+        "question": "How is pricing determined?",
+        "answer": "Pricing is based on service type, quantity, dimensions, materials, delivery date, and whether the project needs design or production only. Send your project details to get a quote."
+      },
+      {
+        "question": "Is WAF suitable for startups?",
+        "answer": "Yes — WAF suits startups and new stores needing identity, packaging, prints, signage, or launch fit-out from one source at a studied cost."
+      },
+      {
+        "question": "Does WAF execute exhibition booths & events?",
+        "answer": "Yes — WAF provides solutions for commercial projects and exhibitions including design, printing, signage, visual elements, fit-out, and installation per project scope."
+      },
+      {
+        "question": "Do I need a ready design?",
+        "answer": "Not necessarily. Contact us with an idea or initial need and we'll guide you on whether you need design, file preparation, production, or full execution."
+      },
+      {
+        "question": "Can I request a quote via WhatsApp?",
+        "answer": "Yes — send your project details via WhatsApp to get an initial estimate or quote based on the available information."
+      }
+    ]
+  },
+  "clients": {
+    "eyebrow": "WAF Clients",
+    "title": "Trust built through execution, sustained through commitment",
+    "description": "We executed and fit out projects for leading brands and organizations across the Kingdom.",
+    "items": [
+      "Bin Laden Group",
+      "NEOM",
+      "ROSHN",
+      "Jabal Omar",
+      "SAS",
+      "Barn's",
+      "Leica",
+      "Hajj Security",
+      "AutoZone",
+      "Namco",
+      "King's",
+      "BRILLO",
+      "Daret Alqahwa",
+      "Big Dish",
+      "Hatan",
+      "Diyar Al Haram",
+      "Sharek",
+      "Shahm Holding",
+      "Wahaj",
+      "Sports Transformation",
+      "Yah Burger",
+      "Over Dose",
+      "Coco Net",
+      "Banana Juice",
+      "Mahd Academy",
+      "Real Up",
+      "Zainy",
+      "Kaffa Boom",
+      "UBT",
+      "MTC",
+      "Lilly",
+      "Do Chocolate",
+      "Brazilian Club",
+      "Aam",
+      "Blooming",
+      "Chocolate Corner",
+      "Al Diyar Al Arabiya"
+    ]
+  },
   "contactCta": {
-    "eyebrow": "Ready for the next step?",
-    "title": "Book now and let us unlock your car's full power.",
-    "description": "Book now and let us unlock your car's full power.",
-    "primaryLabel": "Book Your Slot",
-    "secondaryLabel": "Contact on WhatsApp",
+    "eyebrow": "Request a Quote",
+    "title": "Ready to execute your next project?",
+    "description": "Contact us today and get an execution quote tailored to your commercial project or event.",
+    "primaryLabel": "Request an Execution Quote",
+    "secondaryLabel": "Contact Us",
     "features": [
-      "Fast and clear appointment booking",
-      "Free technical guidance before your visit",
-      "Professional service from a specialist team"
+      "Fast response to your request",
+      "A competitive price offer",
+      "A specialized team for your project"
     ],
-    "imageAlt": "Front view of a Dodge performance car under red lighting"
+    "imageAlt": "The WAF team executing a project"
   }
 }

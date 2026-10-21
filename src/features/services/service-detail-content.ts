@@ -1,12 +1,12 @@
 import { images } from "@/constants/image";
 
 export type ServiceVisualVariant =
-  | "diagnostics"
-  | "maintenance"
-  | "mechanical"
-  | "electrical"
-  | "inspection"
-  | "performance";
+  | "fabrication"
+  | "art"
+  | "signage"
+  | "events"
+  | "printing"
+  | "packaging";
 
 export type ServiceDetailProcessItem = {
   body: string;
@@ -54,27 +54,31 @@ export type ServiceDetailMessages = {
 };
 
 const variantBySlug: Record<string, ServiceVisualVariant> = {
-  "advanced-diagnostics": "diagnostics",
-  "preventive-maintenance": "maintenance",
-  "mechanical-maintenance": "mechanical",
-  "electrical-systems": "electrical",
-  "pre-purchase-inspection": "inspection",
-  "performance-development": "performance",
+  "creative-sculptures": "fabrication",
+  "graffiti-murals": "art",
+  "signage-branding": "signage",
+  "event-sites": "events",
+  "large-format-printing": "printing",
+  "fabrication-installation": "fabrication",
+  "packaging-giveaways": "packaging",
 };
 
 const detailImageByPath: Record<string, string> = {
-  "/images/red-power/service-details/mechanic-engine-service.png":
-    images.serviceDetails.mechanicEngineService,
-  "/images/red-power/service-details/brake-and-wheel-detail.png":
-    images.serviceDetails.brakeAndWheelDetail,
-  "/images/red-power/service-details/car-maintenance-workshop.png":
-    images.serviceDetails.carMaintenanceWorkshop,
-  "/images/red-power/service-details/red-dodge-garage-hero.png":
-    images.serviceDetails.redDodgeGarageHero,
+  "/images/waf/service-details/fabrication-workshop.png":
+    images.serviceDetails.fabricationWorkshop,
+  "/images/waf/service-details/mural-art.png": images.serviceDetails.muralArt,
+  "/images/waf/service-details/signage-install.png":
+    images.serviceDetails.signageInstall,
+  "/images/waf/service-details/event-site.png": images.serviceDetails.eventSite,
+  "/images/waf/service-details/large-format-print.png":
+    images.serviceDetails.largeFormatPrint,
+  "/images/waf/service-details/exhibition-booth.png":
+    images.serviceDetails.exhibitionBooth,
+  "/images/waf/service-details/packaging.png": images.serviceDetails.packaging,
 };
 
 export function getServiceVisualVariant(slug: string): ServiceVisualVariant {
-  return variantBySlug[slug] ?? "diagnostics";
+  return variantBySlug[slug] ?? "fabrication";
 }
 
 export function resolveServiceDetailImage(src: string) {

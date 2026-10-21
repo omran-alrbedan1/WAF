@@ -27,18 +27,18 @@ export function AboutTeam() {
   const items = t.raw("items") as AboutTeamItem[];
 
   return (
-    <Section className="bg-black py-8 sm:py-12 lg:py-16">
+    <Section className="bg-ink py-8 sm:py-12 lg:py-16">
       <Container className="max-w-[90rem] space-y-10 px-4 sm:px-6 lg:px-8">
 
         {/* Header Block: Centered Eyebrow & Main Title */}
         <RevealPanel className="text-center space-y-3">
           <div className="inline-flex items-center gap-1.5 justify-center">
-            <span className="text-xs font-bold text-red-600 sm:text-sm">/</span>
-            <p className="text-xs font-bold uppercase tracking-widest text-red-600 sm:text-sm">
+            <span className="text-xs font-bold text-brand sm:text-sm">/</span>
+            <p className="text-xs font-bold uppercase tracking-widest text-brand sm:text-sm">
               {t("eyebrow")}
             </p>
           </div>
-          <h2 className="text-3xl font-black uppercase tracking-tight text-white sm:text-4xl lg:text-5xl">
+          <h2 className="text-3xl font-black uppercase tracking-tight text-heading sm:text-4xl lg:text-5xl">
             {t("title")}
           </h2>
         </RevealPanel>
@@ -49,16 +49,16 @@ export function AboutTeam() {
           className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4"
         >
           {/* Card 1: Quote Box (Dark Solid Box with Red Accents) */}
-          <RevealPanel className="relative flex flex-col justify-between rounded-xl border border-white/10 bg-[#0a0a0a] p-6 sm:p-8 shadow-lg">
+          <RevealPanel className="relative flex flex-col justify-between rounded-xl border border-line bg-card-deep p-6 sm:p-8 shadow-lg">
             <div className="space-y-4">
-              <Quote className="size-8 text-red-600 fill-red-600/20" />
-              <q className="block text-sm font-medium leading-relaxed text-zinc-300 not-italic sm:text-base">
+              <Quote className="size-8 text-brand fill-brand/20" />
+              <q className="block text-sm font-medium leading-relaxed text-body-strong not-italic sm:text-base">
                 {t("quote")}
               </q>
             </div>
 
-            <footer className="mt-8 pt-4 border-t border-white/5">
-              <p className="text-xs font-bold text-red-600 tracking-wider">
+            <footer className="mt-8 pt-4 border-t border-line">
+              <p className="text-xs font-bold text-brand tracking-wider">
                 — {t("quoteAuthor")}
               </p>
             </footer>
@@ -73,10 +73,10 @@ export function AboutTeam() {
               <RevealPanel
                 key={item.title}
                 delay={(index + 1) * 80}
-                className="group relative flex flex-col rounded-xl border border-white/10 bg-[#0a0a0a] text-center shadow-lg transition-all duration-300 hover:border-red-600/40"
+                className="group relative flex flex-col rounded-xl border border-line bg-card-deep text-center shadow-lg transition-all duration-300 hover:border-brand/40"
               >
                 {/* Image */}
-                <div className="relative h-44 w-full overflow-hidden rounded-t-xl bg-zinc-900 sm:h-48">
+                <div className="relative h-44 w-full overflow-hidden rounded-t-xl bg-muted sm:h-48">
                   <OptimizedImage
                     src={imgSrc}
                     alt={item.title}
@@ -86,12 +86,12 @@ export function AboutTeam() {
                   />
 
                   {/* Gradient */}
-                  <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent" />
+                  <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-card-deep via-transparent to-transparent" />
                 </div>
 
                 {/* Icon — NOT inside the overflow-hidden image */}
                 <div className="relative flex justify-center">
-                  <div className="absolute -top-5 z-10 flex h-11 w-11 items-center justify-center rounded-full border-2 border-[#0a0a0a] bg-red-600 text-white shadow-[0_0_15px_rgba(220,38,38,0.5)]">
+                  <div className="absolute -top-5 z-10 flex h-11 w-11 items-center justify-center rounded-full border-2 border-[#0a0a0a] bg-brand text-white shadow-[0_0_15px_rgba(34,197,94,0.5)]">
                     <Icon className="size-5" />
                   </div>
                 </div>
@@ -99,11 +99,11 @@ export function AboutTeam() {
                 {/* Content */}
                 <div className="flex flex-1 flex-col justify-between p-6 pt-8">
                   <div>
-                    <h3 className="text-lg font-bold uppercase tracking-tight text-white sm:text-xl">
+                    <h3 className="text-lg font-bold uppercase tracking-tight text-heading sm:text-xl">
                       {item.title}
                     </h3>
 
-                    <p className="mt-2 text-xs leading-relaxed text-zinc-400 sm:text-sm">
+                    <p className="mt-2 text-xs leading-relaxed text-body sm:text-sm">
                       {item.body}
                     </p>
                   </div>

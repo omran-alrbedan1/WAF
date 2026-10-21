@@ -29,7 +29,7 @@ export function ServiceDetailPage({
   const variant = getServiceVisualVariant(slug);
 
   return (
-    <div className=" text-white">
+    <div className=" text-heading">
       <ServiceDetailHero
         entry={entry}
         heroImageSrc={heroImageSrc}

@@ -1,121 +1,104 @@
 {
   "brand": {
-    "name": "Red Power",
-    "tagline": "Performance • Precision • Trust",
-    "homeLabel": "Red Power home"
+    "name": "WAF",
+    "tagline": "From Manufacturing to Installation",
+    "homeLabel": "Go to WAF homepage"
   },
   "navigation": {
-    "ariaLabel": "Primary navigation",
+    "ariaLabel": "Main navigation",
     "mobileAriaLabel": "Mobile navigation",
     "home": "Home",
-    "services": "Services",
-    "about": "About",
-    "specials": "Specials",
-    "gallery": "Gallery",
-    "reviews": "Reviews",
-    "contact": "Contact"
+    "services": "Our Services",
+    "works": "Our Work",
+    "about": "About Us",
+    "contact": "Contact Us"
   },
   "header": {
-    "bookNow": "Book Service"
+    "bookNow": "Request a Quote"
   },
   "mobileMenu": {
-    "openLabel": "Open navigation menu",
-    "closeLabel": "Close navigation menu",
+    "openLabel": "Open menu",
+    "closeLabel": "Close menu",
     "menuLabel": "Menu"
   },
   "a11y": {
     "skipToContent": "Skip to main content"
   },
   "seo": {
-    "classification": "Automotive maintenance and performance services",
-    "ogImageAlt": "Red Power Garage social preview",
+    "classification": "Commercial project, exhibition, and event execution",
+    "ogImageAlt": "Share image for WAF Business Services",
     "keywords": {
       "default": [
-        "Red Power Garage",
-        "auto repair",
-        "car maintenance",
-        "vehicle diagnostics",
-        "performance garage",
-        "American car service",
-        "Mopar service",
-        "brake repair",
-        "electrical diagnostics"
+        "WAF",
+        "WAF Business Services",
+        "project execution",
+        "exhibition fit-out",
+        "event site preparation",
+        "signage and wayfinding",
+        "large format printing",
+        "creative sculptures",
+        "corporate giveaways"
       ],
       "routes": {
-        "home": ["performance workshop", "premium garage", "automotive specialists"],
-        "about": ["about Red Power Garage", "garage experts", "automotive workshop team"],
-        "services": ["garage services", "engine diagnostics", "preventive maintenance"],
-        "specials": ["service offers", "garage specials", "seasonal maintenance packages"],
-        "gallery": ["garage gallery", "workshop photos", "performance car workshop"],
-        "reviews": ["customer reviews", "garage reputation", "service quality"],
-        "contact": ["book car service", "contact garage", "request diagnostics"]
+        "home": ["execution company", "commercial projects", "manufacturing to installation"],
+        "about": ["about WAF", "WAF team", "project execution experts"],
+        "services": ["WAF services", "visual identity execution", "event site fit-out"],
+        "contact": ["request a quote", "contact WAF", "project inquiry"]
       },
-      "serviceDetails": ["service details", "specialist car service", "professional maintenance"]
+      "serviceDetails": ["service details", "specialized execution", "professional fit-out"]
     },
     "schema": {
-      "websiteDescription": "Professional automotive maintenance, diagnostics, and performance services for American vehicles in Jeddah.",
-      "organizationDescription": "Red Power Garage delivers specialist automotive maintenance, diagnostics, and performance support for individual and business customers.",
-      "automotiveBusinessDescription": "A premium automotive destination for performance-focused service, diagnostics, and specialist requests."
+      "websiteDescription": "A project execution and fit-out company delivering manufacturing, execution, and installation for commercial projects, exhibitions, and events.",
+      "organizationDescription": "WAF for Business Services — executing and fitting out commercial projects, exhibitions, and events from manufacturing to installation.",
+      "automotiveBusinessDescription": "An integrated destination for executing commercial projects, exhibitions, and events with high quality and full commitment."
     }
   },
   "footer": {
-    "description": "Professional vehicle maintenance, diagnostics, performance development, and American/Mopar expertise for individual and business customers.",
+    "description": "Integrated execution solutions for commercial projects, exhibitions, and events — from manufacturing to installation.",
     "quickLinksTitle": "Quick Links",
-    "contactTitle": "Contact",
+    "contactTitle": "Head Office",
     "social": {
-      "instagramHref": "https://www.instagram.com/red_power_carage/",
-      "instagramLabel": "Red Power Garage on Instagram"
+      "instagramHref": "https://www.instagram.com/waf4adv1/",
+      "instagramLabel": "WAF on Instagram"
     },
     "contact": {
       "items": [
         {
           "kind": "phone",
-          "label": "Individuals",
-          "value": "+966504773142",
-          "href": "tel:+966504773142"
-        },
-        {
-          "kind": "phone",
-          "label": "Companies",
-          "value": "+9665011006551",
-          "href": "tel:+9665011006551"
+          "label": "Phone",
+          "value": "0530063630",
+          "href": "tel:+966530063630"
         },
         {
           "kind": "email",
           "label": "Email",
-          "value": "info@qamrah-pioneer.com",
-          "href": "mailto:info@qamrah-pioneer.com"
-        },
-        {
-          "kind": "location",
-          "label": "Location",
-          "value": "285, Asfan Industrial Area, Jeddah, Saudi Arabia",
-          "href": "https://maps.app.goo.gl/XzxTbW7bU86WPg679?g_st=ic"
-        },
-        {
-          "kind": "hours",
-          "label": "Working Hours",
-          "value": "Sat-Wed: 9:00 AM - 7:00 PM\nThu: 9:00 AM - 4:00 PM\nFri: Closed"
+          "value": "info@waf-sa.com",
+          "href": "mailto:info@waf-sa.com"
         },
         {
           "kind": "instagram",
           "label": "Instagram",
-          "value": "@red_power_carage",
-          "href": "https://www.instagram.com/red_power_carage/"
+          "value": "@waf4adv1",
+          "href": "https://www.instagram.com/waf4adv1/"
+        },
+        {
+          "kind": "location",
+          "label": "Location",
+          "value": "Saudi Arabia"
         }
       ]
     },
     "services": [
-      "Individual Service",
-      "Corporate Support",
-      "Fleet Solutions"
+      "Creative sculptures & interior fit-out",
+      "Visual identity & signage",
+      "Event site preparation"
     ],
-    "companyLine": "Under the umbrella of Qumrah Al-Raeda Company",
-    "copyright": "© 2026 Red Power Garage. All rights reserved.",
+    "companyLine": "Project execution & fit-out company",
+    "copyright": "© WAF for Business Services. All rights reserved.",
     "poweredBy": "Powered by",
-    "poweredByAlt": "Future X logo"
+    "poweredByAlt": "FutureX Tech"
   },
   "floatingAction": {
-    "label": "Book now"
+    "label": "Contact Us"
   }
 }

@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "title": "Contact Red Power and Book Your Visit",
-    "description": "Contact Red Power to book a visit, send a quick inquiry, or open the workshop location in Google Maps."
+    "title": "Contact WAF | Business Services",
+    "description": "Contact WAF to request an execution quote for your commercial project or event — a specialized team is ready to answer your questions."
   },
   "hero": {
     "eyebrow": "Contact",
-    "title": "Red Power",
-    "description": "A specialized team, advanced tools, and results that meet high expectations. We are here to answer your questions and help you choose the best solution for your vehicle.",
-    "imageAlt": "Red Power contact hero with a vehicle inside the workshop",
+    "title": "WAF Business Services",
+    "description": "A specialized team, advanced tools, and results that meet high expectations. We are here to answer your questions and help you choose the best solution for your project.",
+    "imageAlt": "Contact the WAF Business Services team",
     "highlights": [
       "Custom Solutions",
       "Professional Support",
@@ -19,20 +19,20 @@
     "formTitle": "Send Us a Message",
     "items": [
       {
-        "title": "Address",
-        "value": "285, Asfan Industrial Area, Jeddah, Saudi Arabia",
+        "title": "Phone",
+        "value": "0530063630",
+        "note": "",
+        "kind": "phone"
+      },
+      {
+        "title": "Location",
+        "value": "Saudi Arabia",
         "note": "",
         "kind": "location"
       },
       {
-        "title": "Working Hours",
-        "value": "Saturday - Thursday",
-        "note": "10:00 AM - 10:00 PM",
-        "kind": "hours"
-      },
-      {
-        "title": "Customer Support",
-        "value": "We are here to help and answer all your questions.",
+        "title": "Follow Us",
+        "value": "@waf4adv1 on Instagram, X, and LinkedIn",
         "note": "",
         "kind": "support"
       }
@@ -40,34 +40,34 @@
   },
   "location": {
     "title": "Our Location",
-    "address": "285, Asfan Industrial Area, Jeddah, Saudi Arabia",
+    "address": "Saudi Arabia",
     "buttonLabel": "Open in Google Maps",
-    "link": "https://maps.app.goo.gl/XzxTbW7bU86WPg679?g_st=ic"
+    "link": "https://maps.app.goo.gl/"
   },
   "features": {
-    "title": "Why Choose Red Power?",
+    "title": "Why Choose WAF?",
     "items": [
       {
         "title": "Real Expertise",
-        "description": "Years of experience delivering professional automotive service with high standards."
+        "description": "Years of experience executing and fitting out commercial projects, exhibitions, and events to high standards."
       },
       {
         "title": "Guaranteed Quality",
-        "description": "We use advanced equipment and genuine parts with confidence in our service."
+        "description": "We use the latest equipment and finest materials with full confidence in our execution."
       },
       {
         "title": "Specialized Team",
-        "description": "Engineers and technicians trained to a high professional level."
+        "description": "A professional team managing your project from manufacturing to installation and handover."
       },
       {
-        "title": "Performance Beyond Expectations",
-        "description": "We focus on power, precision, and detail in every step."
+        "title": "Commitment Beyond Expectations",
+        "description": "We focus on quality, precision, and meeting deadlines in every step."
       }
     ]
   },
   "cta": {
-    "title": "Ready to elevate your vehicle's performance?",
-    "description": "Contact Red Power today and leave the rest to us.",
+    "title": "Ready to execute your next project?",
+    "description": "Contact WAF today and leave the rest to us.",
     "buttonLabel": "Contact Us"
   }
 }

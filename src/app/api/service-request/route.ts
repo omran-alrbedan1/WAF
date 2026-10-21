@@ -88,7 +88,7 @@ export async function POST(request: Request) {
     phone: String(formData.get("phone") ?? ""),
     email: String(formData.get("email") ?? ""),
     serviceType: String(formData.get("serviceType") ?? ""),
-    vehicleModel: String(formData.get("vehicleModel") ?? ""),
+    projectType: String(formData.get("projectType") ?? ""),
     preferredDate: String(formData.get("preferredDate") ?? ""),
     description: String(formData.get("description") ?? ""),
     referenceImage:
@@ -140,7 +140,7 @@ export async function POST(request: Request) {
       phone: payload.phone.trim(),
       email: payload.email.trim(),
       serviceType: payload.serviceType.trim(),
-      vehicleModel: payload.vehicleModel.trim(),
+      projectType: payload.projectType.trim(),
       preferredDate: payload.preferredDate,
       description: payload.description.trim(),
       referenceImage: payload.referenceImage

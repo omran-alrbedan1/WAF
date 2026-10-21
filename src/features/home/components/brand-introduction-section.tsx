@@ -30,33 +30,33 @@ export function BrandIntroductionSection() {
   }>;
 
   const cardImages = [
-    images.home.serviceMoparExpertise,
-    images.home.servicePerformanceIntake,
-    images.home.serviceMaintenanceOil,
-    images.home.serviceDiagnosticsTablet,
+    images.home.serviceSculptures,
+    images.home.serviceSignage,
+    images.home.serviceEvents,
+    images.home.servicePrinting,
   ];
 
   const renderLucideIcon = (iconName: string) => {
     switch (iconName) {
       case "pulse":
       case "activity":
-        return <Activity className="h-6 w-6 text-white" />;
+        return <Activity className="h-6 w-6 text-heading" />;
       case "tool":
       case "wrench":
-        return <Wrench className="h-6 w-6 text-white" />;
+        return <Wrench className="h-6 w-6 text-heading" />;
       case "gauge":
-        return <Gauge className="h-6 w-6 text-white" />;
+        return <Gauge className="h-6 w-6 text-heading" />;
       default:
-        return <ShieldCheck className="h-6 w-6 text-white" />;
+        return <ShieldCheck className="h-6 w-6 text-heading" />;
     }
   };
 
   return (
-    <Section id="services" className="bg-background py-16 text-white sm:py-20">
+    <Section id="services" className="bg-background py-16 text-heading sm:py-20">
       <Container className="space-y-10 px-4 sm:space-y-12 sm:px-6">
         <RevealPanel>
           <div className="flex flex-col items-start justify-between gap-4 text-right">
-            <div className="flex items-center gap-2 text-sm font-bold tracking-wider text-red-600">
+            <div className="flex items-center gap-2 text-sm font-bold tracking-wider text-brand">
               <span>{t("eyebrow")}</span>
               <span>{"///"}</span>
             </div>
@@ -65,7 +65,7 @@ export function BrandIntroductionSection() {
               {t("title")}
             </h2>
 
-            <p className="max-w-2xl text-base font-medium leading-relaxed text-zinc-400 sm:text-lg">
+            <p className="max-w-2xl text-base font-medium leading-relaxed text-body sm:text-lg">
               {t("description")}
             </p>
           </div>
@@ -87,7 +87,7 @@ export function BrandIntroductionSection() {
               <motion.article
                 whileHover={reduceMotion ? undefined : { y: -8 }}
                 transition={softSpring}
-                className="group relative flex h-full min-h-[24rem] flex-col rounded-md border border-red-900/30 bg-card-deep transition-all duration-300 hover:border-red-600/60 sm:min-h-0"
+                className="group relative flex h-full min-h-[24rem] flex-col rounded-md border border-brand/30 bg-card-deep transition-all duration-300 hover:border-brand/60 sm:min-h-0"
               >
                 <div className="relative w-full">
                   <div className="relative aspect-[4/3] w-full overflow-hidden rounded-t-md">
@@ -100,7 +100,7 @@ export function BrandIntroductionSection() {
                         src={cardImages[index] ?? cardImages[0]}
                         alt={item.title}
                         sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
-                        className="h-full w-full border-0 bg-black shadow-none"
+                        className="h-full w-full border-0 bg-ink shadow-none"
                         imageClassName="h-full w-full object-cover"
                       />
                     </motion.div>
@@ -108,7 +108,7 @@ export function BrandIntroductionSection() {
                   </div>
 
                   <motion.div
-                    className="absolute right-[3.5rem] bottom-0 left-0 z-10 h-[2px] bg-gradient-to-l from-red-600 via-red-600/60 to-transparent shadow-[0_0_10px_rgba(220,38,38,0.8)] sm:right-[4.5rem]"
+                    className="absolute right-[3.5rem] bottom-0 left-0 z-10 h-[2px] bg-gradient-to-l from-brand via-brand/60 to-transparent shadow-[0_0_10px_rgba(34,197,94,0.8)] sm:right-[4.5rem]"
                     whileInView={reduceMotion ? undefined : { scaleX: [0.2, 1] }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.8, delay: 0.18 + index * 0.08 }}
@@ -116,7 +116,7 @@ export function BrandIntroductionSection() {
                   />
 
                   <motion.div
-                    className="absolute top-full right-3 z-20 flex h-12 w-10 -translate-y-1/2 items-center justify-center bg-red-600 p-[2px] sm:right-4 sm:h-14 sm:w-12"
+                    className="absolute top-full right-3 z-20 flex h-12 w-10 -translate-y-1/2 items-center justify-center bg-brand p-[2px] sm:right-4 sm:h-14 sm:w-12"
                     initial={reduceMotion ? false : { scale: 0.85, opacity: 0 }}
                     whileInView={reduceMotion ? undefined : { scale: 1, opacity: 1 }}
                     viewport={{ once: true }}
@@ -141,10 +141,10 @@ export function BrandIntroductionSection() {
                   transition={{ duration: 0.5, delay: 0.22 + index * 0.08 }}
                 >
                   <div className="space-y-3">
-                    <h3 className="text-lg font-bold text-white transition-colors group-hover:text-red-500 sm:text-xl">
+                    <h3 className="text-lg font-bold text-heading transition-colors group-hover:text-brand sm:text-xl">
                       {item.title}
                     </h3>
-                    <p className="text-sm font-normal leading-relaxed text-zinc-400">
+                    <p className="text-sm font-normal leading-relaxed text-body">
                       {item.body}
                     </p>
                   </div>
@@ -156,10 +156,10 @@ export function BrandIntroductionSection() {
                   >
                     <Link
                       href={`/${locale}/services`}
-                      className="inline-flex items-center gap-1.5 text-sm font-bold text-zinc-300 transition-colors hover:text-red-500"
+                      className="inline-flex items-center gap-1.5 text-sm font-bold text-body-strong transition-colors hover:text-brand"
                     >
                       <span>{item.cta}</span>
-                      <ChevronLeft className="h-4 w-4 text-red-600" />
+                      <ChevronLeft className="h-4 w-4 text-brand" />
                     </Link>
                   </motion.div>
                 </motion.div>

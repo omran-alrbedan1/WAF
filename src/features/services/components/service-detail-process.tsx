@@ -24,7 +24,7 @@ export function ServiceDetailProcess({
   const isArabic = locale === "ar";
 
   return (
-    <section className="border-b border-white/8 bg-page-deep py-12 sm:py-16 lg:py-20">
+    <section className="border-b border-line bg-page-deep py-12 sm:py-16 lg:py-20">
       <Container>
         <div
           dir={isArabic ? "rtl" : "ltr"}
@@ -33,13 +33,13 @@ export function ServiceDetailProcess({
             isArabic ? "lg:text-right" : "lg:text-center",
           )}
         >
-          <p className="tracking-kicker text-[0.68rem] font-medium uppercase text-red-500 sm:text-[0.74rem]">
+          <p className="tracking-kicker text-[0.68rem] font-medium uppercase text-brand sm:text-[0.74rem]">
             {eyebrow}
           </p>
-          <h2 className="mt-4 text-3xl font-black leading-tight text-white sm:text-4xl lg:text-5xl">
+          <h2 className="mt-4 text-3xl font-black leading-tight text-heading sm:text-4xl lg:text-5xl">
             {title}
           </h2>
-          <p className="mt-4 text-sm leading-7 text-zinc-400 sm:text-base">
+          <p className="mt-4 text-sm leading-7 text-body sm:text-base">
             {description}
           </p>
         </div>
@@ -49,19 +49,19 @@ export function ServiceDetailProcess({
             <li
               key={item.title}
               dir={isArabic ? "rtl" : "ltr"}
-              className="grid grid-cols-[88px_minmax(0,1fr)] gap-px border border-white/8 bg-white/8"
+              className="grid grid-cols-[88px_minmax(0,1fr)] gap-px border border-line bg-white/8"
             >
               <div className="flex items-start justify-center bg-page-deep px-4 py-6">
-                <span className="text-4xl font-black leading-none text-red-600">
+                <span className="text-4xl font-black leading-none text-brand">
                   {String(index + 1).padStart(2, "0")}
                 </span>
               </div>
               <div className={cn("bg-panel-strong px-5 py-6", isArabic ? "text-right" : "text-left")}>
-                <h3 className="text-xl font-bold text-white">{item.title}</h3>
-                <p className="mt-3 text-sm leading-7 text-zinc-400">{item.body}</p>
+                <h3 className="text-xl font-bold text-heading">{item.title}</h3>
+                <p className="mt-3 text-sm leading-7 text-body">{item.body}</p>
                 <Link
                   href={`/${locale}/contact`}
-                  className="mt-4 inline-flex text-xs font-semibold uppercase tracking-ui text-red-500 transition hover:text-red-400"
+                  className="mt-4 inline-flex text-xs font-semibold uppercase tracking-ui text-brand transition hover:text-brand-strong"
                 >
                   {ctaLabel}
                 </Link>
@@ -81,19 +81,19 @@ export function ServiceDetailProcess({
               className={cn(
                 "relative px-1",
                 index < items.length - 1
-                  ? "after:absolute after:top-5 after:h-px after:w-full after:bg-gradient-to-r after:from-red-600 after:to-red-600/20"
+                  ? "after:absolute after:top-5 after:h-px after:w-full after:bg-gradient-to-r after:from-brand after:to-brand/20"
                   : undefined,
                 isArabic ? "after:right-[calc(50%+2rem)]" : "after:left-[calc(50%+2rem)]",
               )}
             >
               <div className="relative z-10 w-fit bg-page-deep pe-4">
-                <span className="text-4xl font-black leading-none text-red-600">
+                <span className="text-4xl font-black leading-none text-brand">
                   {String(index + 1).padStart(2, "0")}
                 </span>
               </div>
-              <div className={cn("mt-6 border-t border-white/10 pt-5", isArabic ? "text-right" : "text-left")}>
-                <h3 className="text-xl font-bold text-white">{item.title}</h3>
-                <p className="mt-3 text-sm leading-7 text-zinc-400">{item.body}</p>
+              <div className={cn("mt-6 border-t border-line pt-5", isArabic ? "text-right" : "text-left")}>
+                <h3 className="text-xl font-bold text-heading">{item.title}</h3>
+                <p className="mt-3 text-sm leading-7 text-body">{item.body}</p>
               </div>
             </li>
           ))}

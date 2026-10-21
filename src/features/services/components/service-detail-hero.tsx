@@ -19,12 +19,12 @@ type ServiceDetailHeroProps = {
 };
 
 const heroImagePositionByVariant: Record<ServiceVisualVariant, string> = {
-  diagnostics: "object-center",
-  maintenance: "object-center",
-  mechanical: "object-center",
-  electrical: "object-center",
-  inspection: "object-right",
-  performance: "object-center",
+  fabrication: "object-center",
+  art: "object-center",
+  signage: "object-center",
+  events: "object-center",
+  printing: "object-right",
+  packaging: "object-center",
 };
 
 export function ServiceDetailHero({
@@ -44,7 +44,7 @@ export function ServiceDetailHero({
   const titlePart2 = titleWords.slice(midPoint).join(" ");
 
   return (
-    <section className="relative min-w-full  border-b border-white/8 bg-black py-0 w-full">
+    <section className="relative min-w-full  border-b border-line bg-ink py-0 w-full">
         <div className="relative grid min-h-[520px] items-center lg:grid-cols-12 lg:min-h-[580px]">
           
           {/* Content Box (Left side in LTR, Right side in RTL) */}
@@ -56,15 +56,15 @@ export function ServiceDetailHero({
             )}
           >
             {/* Dynamic Two-Tone Title */}
-            <h1 className="mt-4 text-3xl font-black leading-tight tracking-tight text-white sm:text-4xl lg:text-5xl">
+            <h1 className="mt-4 text-3xl font-black leading-tight tracking-tight text-heading sm:text-4xl lg:text-5xl">
               {titlePart1}{" "}
-              <span className="text-red-600 drop-shadow-[0_0_12px_rgba(220,38,38,0.4)]">
+              <span className="text-brand drop-shadow-[0_0_12px_rgba(34,197,94,0.4)]">
                 {titlePart2}
               </span>
             </h1>
 
             {/* Subtitle / Description */}
-            <p className="mt-4 max-w-xl text-xs leading-relaxed text-zinc-300 sm:text-sm lg:text-base">
+            <p className="mt-4 max-w-xl text-xs leading-relaxed text-body-strong sm:text-sm lg:text-base">
               {entry.hero.description}
             </p>
 
@@ -73,7 +73,7 @@ export function ServiceDetailHero({
               {/* Primary CTA (Solid Red with Glow) */}
               <Link
                 href={`/${locale}/contact`}
-                className="group inline-flex items-center gap-3 rounded-sm bg-red-600 px-6 py-3.5 text-xs font-bold uppercase tracking-wider text-white shadow-[0_0_15px_rgba(220,38,38,0.3)] transition-all hover:bg-red-700 hover:shadow-[0_0_20px_rgba(220,38,38,0.5)]"
+                className="group inline-flex items-center gap-3 rounded-sm bg-brand text-white px-6 py-3.5 text-xs font-bold uppercase tracking-wider shadow-[0_0_15px_rgba(34,197,94,0.3)] transition-all hover:bg-brand-strong hover:shadow-[0_0_20px_rgba(34,197,94,0.5)]"
               >
                 <span>{primaryCtaLabel}</span>
                 <Calendar className="size-4 transition-transform group-hover:scale-110" />
@@ -82,10 +82,10 @@ export function ServiceDetailHero({
               {/* Secondary CTA (Dark Outlined) */}
               <Link
                 href={secondaryCtaHref}
-                className="group inline-flex items-center gap-3 rounded-sm border border-zinc-800 bg-black/60 px-6 py-3.5 text-xs font-bold uppercase tracking-wider text-zinc-200 transition-all hover:border-zinc-700 hover:bg-zinc-900 hover:text-white"
+                className="group inline-flex items-center gap-3 rounded-sm border border-line bg-ink/60 px-6 py-3.5 text-xs font-bold uppercase tracking-wider text-body-strong transition-all hover:border-line hover:bg-muted hover:text-heading"
               >
                 <span>{secondaryCtaLabel}</span>
-                <Phone className="size-4 text-zinc-400 transition-transform group-hover:scale-110 group-hover:text-white" />
+                <Phone className="size-4 text-body transition-transform group-hover:scale-110 group-hover:text-heading" />
               </Link>
             </div>
           </div>
@@ -95,7 +95,7 @@ export function ServiceDetailHero({
             {/* Angled Red Separator Accent */}
             <div
               className={cn(
-                "pointer-events-none absolute inset-y-0 z-10 hidden w-1 bg-gradient-to-b from-red-600 via-red-500 to-red-700 shadow-[0_0_15px_rgba(220,38,38,0.8)] lg:block",
+                "pointer-events-none absolute inset-y-0 z-10 hidden w-1 bg-gradient-to-b from-brand via-red-500 to-brand-strong shadow-[0_0_15px_rgba(34,197,94,0.8)] lg:block",
                 isArabic
                   ? "right-0 -skew-x-12"
                   : "left-0 -skew-x-12"
@@ -109,7 +109,7 @@ export function ServiceDetailHero({
                 alt={entry.hero.imageAlt}
                 priority
                 sizes="(min-width: 1024px) 58vw, 100vw"
-                className="h-full w-full rounded-none border-0 bg-black shadow-none"
+                className="h-full w-full rounded-none border-0 bg-ink shadow-none"
                 imageClassName={cn(
                   "absolute inset-0 h-full w-full object-cover brightness-[0.85] contrast-[1.05]",
                   heroImagePositionByVariant[variant]

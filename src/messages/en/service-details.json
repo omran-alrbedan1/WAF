@@ -1,259 +1,384 @@
 {
   "shared": {
-    "eyebrow": "Red Power Garage",
-    "processEyebrow": "Performance • Precision • Trust",
-    "processLinkLabel": "Book Service",
+    "eyebrow": "WAF Business Services",
+    "processEyebrow": "From Manufacturing to Installation",
+    "processLinkLabel": "Request a Quote",
     "secondaryCtaLabel": "Explore Services",
     "secondaryCtaPath": "/services"
   },
   "cta": {
-    "primaryLabel": "Book Appointment",
+    "primaryLabel": "Request an Execution Quote",
     "secondaryLabel": "Explore Services"
   },
   "entries": {
-    "advanced-diagnostics": {
+    "creative-sculptures": {
       "metadata": {
-        "title": "Advanced Vehicle Diagnostics",
-        "description": "Advanced vehicle diagnostics, fault tracing, and technical inspection with clear reporting for faster and more confident repair decisions."
+        "title": "Creative Sculptures & Interior Fit-Out",
+        "description": "Design and execution of creative sculptures and interior fit-out reflecting your commercial project identity with high quality."
       },
       "hero": {
-        "title": "Advanced Vehicle Diagnostics",
-        "description": "Advanced diagnostics and inspection.",
-        "imageAlt": "Technician diagnosing a vehicle engine at Red Power Garage"
+        "title": "Creative Sculptures & Interior Fit-Out",
+        "description": "Design and execution of creative sculptures and interior fit-out reflecting your commercial project identity with high quality",
+        "imageAlt": "Creative Sculptures & Interior Fit-Out by WAF"
       },
       "process": {
-        "title": "Automotive service with a higher standard.",
-        "description": "Professional diagnostics and evaluation with clear communication, specialist inspection, and reliable reporting.",
+        "title": "A clear execution methodology.",
+        "description": "Design and execution of creative sculptures and interior fit-out reflecting your commercial project identity with high quality.",
         "items": [
-          { "title": "Inspect", "body": "Initial inspection built around symptoms, checks, and visible conditions." },
-          { "title": "Diagnose", "body": "Technical diagnostics using workshop tools and specialist fault tracing." },
-          { "title": "Report", "body": "Clear findings, priorities, and transparent recommendations before work proceeds." },
-          { "title": "Service", "body": "A confirmed service path based on real workshop diagnosis and customer needs." }
+          {
+            "title": "Concept",
+            "body": "We start by understanding your needs and project goals precisely."
+          },
+          {
+            "title": "Fabrication",
+            "body": "We execute with the latest equipment and finest materials."
+          },
+          {
+            "title": "Fit-Out",
+            "body": "We install and prepare on site professionally."
+          },
+          {
+            "title": "Installation",
+            "body": "We hand over the project complete as agreed."
+          }
         ]
       },
       "featureItems": [
         {
-          "title": "Inspect",
-          "description": "Precision service, modern technology, and a team that understands technical inspection from the first check.",
-          "imageAlt": "Technician inspecting the engine bay at Red Power Garage",
-          "imageSrc": "/images/red-power/service-details/mechanic-engine-service.png"
+          "title": "Custom design",
+          "description": "Design and execution of creative sculptures and interior fit-out reflecting your commercial project identity with high quality.",
+          "imageAlt": "Creative Sculptures & Interior Fit-Out — Custom design",
+          "imageSrc": "/images/waf/service-details/fabrication-workshop.png"
         },
         {
-          "title": "Diagnose",
-          "description": "Advanced diagnostic work that helps isolate faults, confirm root causes, and reduce wasted repair time.",
-          "imageAlt": "Vehicle diagnostics in a modern workshop",
-          "imageSrc": "/images/red-power/service-details/car-maintenance-workshop.png"
+          "title": "High-quality materials",
+          "description": "Design and execution of creative sculptures and interior fit-out reflecting your commercial project identity with high quality.",
+          "imageAlt": "Creative Sculptures & Interior Fit-Out — High-quality materials",
+          "imageSrc": "/images/waf/service-details/fabrication-workshop.png"
         },
         {
-          "title": "Report",
-          "description": "Transparent technical communication so the customer understands the condition, urgency, and next step.",
-          "imageAlt": "Brake and wheel parts used to support technical reporting visuals",
-          "imageSrc": "/images/red-power/service-details/brake-and-wheel-detail.png"
+          "title": "Precise execution",
+          "description": "Design and execution of creative sculptures and interior fit-out reflecting your commercial project identity with high quality.",
+          "imageAlt": "Creative Sculptures & Interior Fit-Out — Precise execution",
+          "imageSrc": "/images/waf/service-details/fabrication-workshop.png"
         }
       ]
     },
-    "preventive-maintenance": {
+    "graffiti-murals": {
       "metadata": {
-        "title": "Preventive Maintenance Service",
-        "description": "Preventive maintenance service focused on reliability, factory service intervals, fluid care, and quality-controlled workshop execution."
+        "title": "Graffiti & Artistic Murals",
+        "description": "Artistic graffiti and mural works that add a distinctive, unique character to your project spaces."
       },
       "hero": {
-        "title": "Preventive Maintenance Service",
-        "description": "Preventive maintenance and workshop care.",
-        "imageAlt": "Brake and wheel service detail for preventive maintenance"
+        "title": "Graffiti & Artistic Murals",
+        "description": "Artistic graffiti and mural works that add a distinctive, unique character to your project spaces",
+        "imageAlt": "Graffiti & Artistic Murals by WAF"
       },
       "process": {
-        "title": "Automotive service with a higher standard.",
-        "description": "Workshop maintenance built around consistent service intervals, quality parts, and technical review before delivery.",
+        "title": "A clear execution methodology.",
+        "description": "Artistic graffiti and mural works that add a distinctive, unique character to your project spaces.",
         "items": [
-          { "title": "Inspect", "body": "Check service condition, usage pattern, and required maintenance interval." },
-          { "title": "Maintain", "body": "Carry out periodic maintenance with quality-focused workshop standards." },
-          { "title": "Review", "body": "Review completed work, fluids, components, and maintenance priorities." },
-          { "title": "Protect", "body": "Keep the vehicle on a more reliable long-term service path." }
+          {
+            "title": "Idea",
+            "body": "We start by understanding your needs and project goals precisely."
+          },
+          {
+            "title": "Sketch",
+            "body": "We execute with the latest equipment and finest materials."
+          },
+          {
+            "title": "Execution",
+            "body": "We install and prepare on site professionally."
+          },
+          {
+            "title": "Handover",
+            "body": "We hand over the project complete as agreed."
+          }
         ]
       },
       "featureItems": [
         {
-          "title": "Inspect",
-          "description": "Professional service planning begins with the right interval, condition review, and technical priorities.",
-          "imageAlt": "Preventive maintenance inspection in the workshop",
-          "imageSrc": "/images/red-power/service-details/brake-and-wheel-detail.png"
+          "title": "Professional artists",
+          "description": "Artistic graffiti and mural works that add a distinctive, unique character to your project spaces.",
+          "imageAlt": "Graffiti & Artistic Murals — Professional artists",
+          "imageSrc": "/images/waf/service-details/mural-art.png"
         },
         {
-          "title": "Maintain",
-          "description": "Preventive maintenance supports reliability, lower surprise failures, and better long-term operating confidence.",
-          "imageAlt": "Maintenance workshop environment at Red Power Garage",
-          "imageSrc": "/images/red-power/service-details/car-maintenance-workshop.png"
+          "title": "Durable vivid colors",
+          "description": "Artistic graffiti and mural works that add a distinctive, unique character to your project spaces.",
+          "imageAlt": "Graffiti & Artistic Murals — Durable vivid colors",
+          "imageSrc": "/images/waf/service-details/mural-art.png"
         },
         {
-          "title": "Review",
-          "description": "Final review keeps the process transparent and confirms the work is aligned with the vehicle's actual condition.",
-          "imageAlt": "Mechanic engine service close-up at Red Power Garage",
-          "imageSrc": "/images/red-power/service-details/mechanic-engine-service.png"
+          "title": "Exclusive designs",
+          "description": "Artistic graffiti and mural works that add a distinctive, unique character to your project spaces.",
+          "imageAlt": "Graffiti & Artistic Murals — Exclusive designs",
+          "imageSrc": "/images/waf/service-details/mural-art.png"
         }
       ]
     },
-    "mechanical-maintenance": {
+    "signage-branding": {
       "metadata": {
-        "title": "Mechanical Repairs & Maintenance",
-        "description": "Professional mechanical repairs and maintenance carried out with accurate diagnosis, workshop discipline, and dependable service quality."
+        "title": "Visual Identity, Signage & Wayfinding",
+        "description": "Executing visual identity, signage, and wayfinding boards with precision that strengthens your brand presence."
       },
       "hero": {
-        "title": "Mechanical Repairs & Maintenance",
-        "description": "Advanced mechanical maintenance.",
-        "imageAlt": "Mechanical maintenance workshop scene"
+        "title": "Visual Identity, Signage & Wayfinding",
+        "description": "Executing visual identity, signage, and wayfinding boards with precision that strengthens your brand presence",
+        "imageAlt": "Visual Identity, Signage & Wayfinding by WAF"
       },
       "process": {
-        "title": "Automotive service with a higher standard.",
-        "description": "Mechanical service should be based on accurate diagnosis, quality execution, and a clear delivery standard.",
+        "title": "A clear execution methodology.",
+        "description": "Executing visual identity, signage, and wayfinding boards with precision that strengthens your brand presence.",
         "items": [
-          { "title": "Inspect", "body": "Mechanical review of symptoms, wear, function, and related systems." },
-          { "title": "Diagnose", "body": "Confirm the source of the issue before beginning repair work." },
-          { "title": "Repair", "body": "Carry out the recommended mechanical work with proper workshop controls." },
-          { "title": "Verify", "body": "Review the result and confirm the vehicle leaves in the expected condition." }
+          {
+            "title": "Design",
+            "body": "We start by understanding your needs and project goals precisely."
+          },
+          {
+            "title": "Fabrication",
+            "body": "We execute with the latest equipment and finest materials."
+          },
+          {
+            "title": "Installation",
+            "body": "We install and prepare on site professionally."
+          },
+          {
+            "title": "Inspection",
+            "body": "We hand over the project complete as agreed."
+          }
         ]
       },
       "featureItems": [
         {
-          "title": "Inspect",
-          "description": "Mechanical work starts with a clear review, not guesswork, so the repair path fits the real problem.",
-          "imageAlt": "Mechanic engine service scene",
-          "imageSrc": "/images/red-power/service-details/mechanic-engine-service.png"
+          "title": "Detail precision",
+          "description": "Executing visual identity, signage, and wayfinding boards with precision that strengthens your brand presence.",
+          "imageAlt": "Visual Identity, Signage & Wayfinding — Detail precision",
+          "imageSrc": "/images/waf/service-details/signage-install.png"
         },
         {
-          "title": "Diagnose",
-          "description": "Workshop diagnosis helps connect symptoms with the real component or system requiring attention.",
-          "imageAlt": "Modern mechanical workshop environment",
-          "imageSrc": "/images/red-power/service-details/car-maintenance-workshop.png"
+          "title": "Resistant materials",
+          "description": "Executing visual identity, signage, and wayfinding boards with precision that strengthens your brand presence.",
+          "imageAlt": "Visual Identity, Signage & Wayfinding — Resistant materials",
+          "imageSrc": "/images/waf/service-details/signage-install.png"
         },
         {
-          "title": "Repair",
-          "description": "Execution follows a professional service path with workshop discipline, quality checks, and technical review.",
-          "imageAlt": "Brake and wheel detail for mechanical repair support",
-          "imageSrc": "/images/red-power/service-details/brake-and-wheel-detail.png"
+          "title": "Professional installation",
+          "description": "Executing visual identity, signage, and wayfinding boards with precision that strengthens your brand presence.",
+          "imageAlt": "Visual Identity, Signage & Wayfinding — Professional installation",
+          "imageSrc": "/images/waf/service-details/signage-install.png"
         }
       ]
     },
-    "electrical-systems": {
+    "event-sites": {
       "metadata": {
-        "title": "Electrical Systems Diagnostics & Repair",
-        "description": "Electrical and electronic diagnostics, troubleshooting, and repair for modern vehicles using structured testing and accurate fault isolation."
+        "title": "Event Site Preparation & Execution",
+        "description": "Complete preparation of event and exhibition sites from planning to handover with professional execution standards."
       },
       "hero": {
-        "title": "Electrical Systems Diagnostics & Repair",
-        "description": "Electrical systems and specialist troubleshooting.",
-        "imageAlt": "Electrical and engine systems service at Red Power Garage"
+        "title": "Event Site Preparation & Execution",
+        "description": "Complete preparation of event and exhibition sites from planning to handover with professional execution standards",
+        "imageAlt": "Event Site Preparation & Execution by WAF"
       },
       "process": {
-        "title": "Automotive service with a higher standard.",
-        "description": "Electrical work requires careful testing, accurate fault tracing, and a technical workflow that avoids unnecessary replacement.",
+        "title": "A clear execution methodology.",
+        "description": "Complete preparation of event and exhibition sites from planning to handover with professional execution standards.",
         "items": [
-          { "title": "Inspect", "body": "Review symptoms, modules, power delivery, and visible system condition." },
-          { "title": "Diagnose", "body": "Use proper testing and tracing to isolate the electrical fault." },
-          { "title": "Correct", "body": "Apply the recommended fix based on the confirmed cause." },
-          { "title": "Verify", "body": "Retest the system to confirm stable operation and delivery quality." }
+          {
+            "title": "Planning",
+            "body": "We start by understanding your needs and project goals precisely."
+          },
+          {
+            "title": "Preparation",
+            "body": "We execute with the latest equipment and finest materials."
+          },
+          {
+            "title": "Execution",
+            "body": "We install and prepare on site professionally."
+          },
+          {
+            "title": "Handover",
+            "body": "We hand over the project complete as agreed."
+          }
         ]
       },
       "featureItems": [
         {
-          "title": "Inspect",
-          "description": "Electrical work starts with structured observation and system checks rather than assumption.",
-          "imageAlt": "Engine bay inspection related to electrical systems",
-          "imageSrc": "/images/red-power/service-details/mechanic-engine-service.png"
+          "title": "Integrated management",
+          "description": "Complete preparation of event and exhibition sites from planning to handover with professional execution standards.",
+          "imageAlt": "Event Site Preparation & Execution — Integrated management",
+          "imageSrc": "/images/waf/service-details/event-site.png"
         },
         {
-          "title": "Diagnose",
-          "description": "Technical troubleshooting helps isolate the real source of faults across modern electrical systems.",
-          "imageAlt": "Modern workshop used for electrical diagnostics",
-          "imageSrc": "/images/red-power/service-details/car-maintenance-workshop.png"
+          "title": "Fast setup",
+          "description": "Complete preparation of event and exhibition sites from planning to handover with professional execution standards.",
+          "imageAlt": "Event Site Preparation & Execution — Fast setup",
+          "imageSrc": "/images/waf/service-details/event-site.png"
         },
         {
-          "title": "Verify",
-          "description": "Testing after repair helps ensure the system performs correctly and the delivery remains reliable.",
-          "imageAlt": "Brake and wheel detail used as a technical service visual",
-          "imageSrc": "/images/red-power/service-details/brake-and-wheel-detail.png"
+          "title": "Full readiness",
+          "description": "Complete preparation of event and exhibition sites from planning to handover with professional execution standards.",
+          "imageAlt": "Event Site Preparation & Execution — Full readiness",
+          "imageSrc": "/images/waf/service-details/event-site.png"
         }
       ]
     },
-    "pre-purchase-inspection": {
+    "large-format-printing": {
       "metadata": {
-        "title": "Pre-Purchase Vehicle Inspection",
-        "description": "Professional pre-purchase vehicle inspections that reveal condition, hidden risks, and service priorities before you commit to a purchase."
+        "title": "Large Format Printing & Production",
+        "description": "Large-format printing and production with the latest technology and finest materials for sharp, accurate results."
       },
       "hero": {
-        "title": "Pre-Purchase Vehicle Inspection",
-        "description": "Pre-purchase inspection and technical review.",
-        "imageAlt": "Vehicle inspection detail for pre-purchase service"
+        "title": "Large Format Printing & Production",
+        "description": "Large-format printing and production with the latest technology and finest materials for sharp, accurate results",
+        "imageAlt": "Large Format Printing & Production by WAF"
       },
       "process": {
-        "title": "Automotive service with a higher standard.",
-        "description": "Pre-purchase inspection is about reducing uncertainty through structured review, technical checks, and transparent reporting.",
+        "title": "A clear execution methodology.",
+        "description": "Large-format printing and production with the latest technology and finest materials for sharp, accurate results.",
         "items": [
-          { "title": "Inspect", "body": "Inspect condition, visible wear, and key functional areas before purchase." },
-          { "title": "Diagnose", "body": "Use technical review to identify hidden issues or early warning signs." },
-          { "title": "Report", "body": "Summarize the condition, urgency, and expected service priorities." },
-          { "title": "Decide", "body": "Help the customer move forward with clearer purchase confidence." }
+          {
+            "title": "File",
+            "body": "We start by understanding your needs and project goals precisely."
+          },
+          {
+            "title": "Print",
+            "body": "We execute with the latest equipment and finest materials."
+          },
+          {
+            "title": "Cut",
+            "body": "We install and prepare on site professionally."
+          },
+          {
+            "title": "Deliver",
+            "body": "We hand over the project complete as agreed."
+          }
         ]
       },
       "featureItems": [
         {
-          "title": "Inspect",
-          "description": "A structured pre-purchase inspection helps reveal condition, wear, and likely service priorities.",
-          "imageAlt": "Brake and wheel inspection for pre-purchase review",
-          "imageSrc": "/images/red-power/service-details/brake-and-wheel-detail.png"
+          "title": "Latest machines",
+          "description": "Large-format printing and production with the latest technology and finest materials for sharp, accurate results.",
+          "imageAlt": "Large Format Printing & Production — Latest machines",
+          "imageSrc": "/images/waf/service-details/large-format-print.png"
         },
         {
-          "title": "Diagnose",
-          "description": "Technical evaluation supports better decisions and helps reduce hidden surprises after purchase.",
-          "imageAlt": "Mechanic inspection in the engine bay",
-          "imageSrc": "/images/red-power/service-details/mechanic-engine-service.png"
+          "title": "Accurate colors",
+          "description": "Large-format printing and production with the latest technology and finest materials for sharp, accurate results.",
+          "imageAlt": "Large Format Printing & Production — Accurate colors",
+          "imageSrc": "/images/waf/service-details/large-format-print.png"
         },
         {
-          "title": "Report",
-          "description": "The result should be clear enough for the customer to understand what is healthy, what is urgent, and what to budget for.",
-          "imageAlt": "Workshop scene used for pre-purchase reporting visuals",
-          "imageSrc": "/images/red-power/service-details/car-maintenance-workshop.png"
+          "title": "Huge formats",
+          "description": "Large-format printing and production with the latest technology and finest materials for sharp, accurate results.",
+          "imageAlt": "Large Format Printing & Production — Huge formats",
+          "imageSrc": "/images/waf/service-details/large-format-print.png"
         }
       ]
     },
-    "performance-development": {
+    "fabrication-installation": {
       "metadata": {
-        "title": "Performance Development & Upgrades",
-        "description": "Performance development, upgrade planning, and specialist service for drivers who want stronger results from their American performance vehicle."
+        "title": "Fabrication, Installation & Project Handover",
+        "description": "Fabricating, installing, and handing over complete projects from workshop to site with professional standards."
       },
       "hero": {
-        "title": "Performance Development & Upgrades",
-        "description": "Performance development and specialist planning.",
-        "imageAlt": "Red Dodge performance car for service details hero"
+        "title": "Fabrication, Installation & Project Handover",
+        "description": "Fabricating, installing, and handing over complete projects from workshop to site with professional standards",
+        "imageAlt": "Fabrication, Installation & Project Handover by WAF"
       },
       "process": {
-        "title": "Automotive service with a higher standard.",
-        "description": "Performance work should start with the right technical direction, realistic goals, and a service path suited to the vehicle.",
+        "title": "A clear execution methodology.",
+        "description": "Fabricating, installing, and handing over complete projects from workshop to site with professional standards.",
         "items": [
-          { "title": "Inspect", "body": "Assess the vehicle baseline, condition, and target outcome." },
-          { "title": "Diagnose", "body": "Confirm current system health before making performance decisions." },
-          { "title": "Plan", "body": "Define the recommended path for performance-oriented service or development." },
-          { "title": "Support", "body": "Move forward with a practical, workshop-backed performance direction." }
+          {
+            "title": "Fabricate",
+            "body": "We start by understanding your needs and project goals precisely."
+          },
+          {
+            "title": "Transport",
+            "body": "We execute with the latest equipment and finest materials."
+          },
+          {
+            "title": "Install",
+            "body": "We install and prepare on site professionally."
+          },
+          {
+            "title": "Handover",
+            "body": "We hand over the project complete as agreed."
+          }
         ]
       },
       "featureItems": [
         {
-          "title": "Inspect",
-          "description": "Performance service starts with a realistic assessment of the vehicle, condition, and intended result.",
-          "imageAlt": "Red Dodge hero image for performance development",
-          "imageSrc": "/images/red-power/service-details/red-dodge-garage-hero.png"
+          "title": "Equipped workshop",
+          "description": "Fabricating, installing, and handing over complete projects from workshop to site with professional standards.",
+          "imageAlt": "Fabrication, Installation & Project Handover — Equipped workshop",
+          "imageSrc": "/images/waf/service-details/exhibition-booth.png"
         },
         {
-          "title": "Diagnose",
-          "description": "Baseline checks help ensure the vehicle is technically ready before any stronger performance path is discussed.",
-          "imageAlt": "Engine service image supporting performance diagnostics",
-          "imageSrc": "/images/red-power/service-details/mechanic-engine-service.png"
+          "title": "Safe installation",
+          "description": "Fabricating, installing, and handing over complete projects from workshop to site with professional standards.",
+          "imageAlt": "Fabrication, Installation & Project Handover — Safe installation",
+          "imageSrc": "/images/waf/service-details/exhibition-booth.png"
         },
         {
-          "title": "Plan",
-          "description": "The best performance direction comes from planning, not assumptions, and should fit the vehicle's actual needs.",
-          "imageAlt": "Workshop scene supporting performance planning",
-          "imageSrc": "/images/red-power/service-details/car-maintenance-workshop.png"
+          "title": "On-time handover",
+          "description": "Fabricating, installing, and handing over complete projects from workshop to site with professional standards.",
+          "imageAlt": "Fabrication, Installation & Project Handover — On-time handover",
+          "imageSrc": "/images/waf/service-details/exhibition-booth.png"
+        }
+      ]
+    },
+    "packaging-giveaways": {
+      "metadata": {
+        "title": "Packaging & Corporate Giveaways",
+        "description": "Packaging solutions and promotional giveaways designed to strengthen your brand presence and leave a lasting impression."
+      },
+      "hero": {
+        "title": "Packaging & Corporate Giveaways",
+        "description": "Packaging solutions and promotional giveaways designed to strengthen your brand presence and leave a lasting impression",
+        "imageAlt": "Packaging & Corporate Giveaways by WAF"
+      },
+      "process": {
+        "title": "A clear execution methodology.",
+        "description": "Packaging solutions and promotional giveaways designed to strengthen your brand presence and leave a lasting impression.",
+        "items": [
+          {
+            "title": "Select",
+            "body": "We start by understanding your needs and project goals precisely."
+          },
+          {
+            "title": "Design",
+            "body": "We execute with the latest equipment and finest materials."
+          },
+          {
+            "title": "Produce",
+            "body": "We install and prepare on site professionally."
+          },
+          {
+            "title": "Deliver",
+            "body": "We hand over the project complete as agreed."
+          }
+        ]
+      },
+      "featureItems": [
+        {
+          "title": "Custom designs",
+          "description": "Packaging solutions and promotional giveaways designed to strengthen your brand presence and leave a lasting impression.",
+          "imageAlt": "Packaging & Corporate Giveaways — Custom designs",
+          "imageSrc": "/images/waf/service-details/packaging.png"
+        },
+        {
+          "title": "Varied options",
+          "description": "Packaging solutions and promotional giveaways designed to strengthen your brand presence and leave a lasting impression.",
+          "imageAlt": "Packaging & Corporate Giveaways — Varied options",
+          "imageSrc": "/images/waf/service-details/packaging.png"
+        },
+        {
+          "title": "Guaranteed quality",
+          "description": "Packaging solutions and promotional giveaways designed to strengthen your brand presence and leave a lasting impression.",
+          "imageAlt": "Packaging & Corporate Giveaways — Guaranteed quality",
+          "imageSrc": "/images/waf/service-details/packaging.png"
         }
       ]
     }

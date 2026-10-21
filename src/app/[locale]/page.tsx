@@ -4,9 +4,15 @@ import { HeroSection } from "@/components/sections/hero-section";
 import { JsonLd } from "@/components/seo/json-ld";
 import {
   BrandIntroductionSection,
+  CitiesSection,
+  ClientsSection,
+  FaqSection,
   PerformanceSection,
+  ProcessSection,
   ServicesOverviewSection,
-  WhyRedPowerSection,
+  TrustBar,
+  WhyWafSection,
+  WorksSection,
 } from "@/features/home/components";
 import { isValidLocale } from "@/lib/i18n";
 import { buildMetadata } from "@/lib/metadata";
@@ -56,10 +62,16 @@ export default async function LocaleHomePage({ params }: LocalePageProps) {
         })}
       />
       <HeroSection />
+      <TrustBar />
       <BrandIntroductionSection />
       <ServicesOverviewSection />
+      <WhyWafSection />
+      <ProcessSection />
+      <WorksSection />
+      <ClientsSection />
+      <CitiesSection />
+      <FaqSection />
       <PerformanceSection />
-      <WhyRedPowerSection />
     </>
   );
 }

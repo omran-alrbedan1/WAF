@@ -82,7 +82,11 @@ export function buildOrganizationSchema({ locale, description }: SchemaInput) {
     description,
     email: siteConfig.contactEmail,
     foundingDate: `${siteConfig.foundedYear}`,
-    sameAs: [siteConfig.instagramUrl, siteConfig.mapsUrl],
+    sameAs: [
+      siteConfig.instagramUrl,
+      siteConfig.twitterUrl,
+      siteConfig.linkedinUrl,
+    ],
   };
 }
 
@@ -92,14 +96,19 @@ export function buildAutomotiveBusinessSchema({
 }: SchemaInput) {
   return {
     "@context": "https://schema.org",
-    "@type": "AutoRepair",
+    "@type": "LocalBusiness",
     "@id": `${getSiteUrl(getLocalizedPath(locale, "/contact"))}#business`,
     name: LOCALIZED_SITE_NAMES[locale],
     description,
     url: getSiteUrl(getLocalizedPath(locale)),
     email: siteConfig.contactEmail,
     foundingDate: `${siteConfig.foundedYear}`,
-    sameAs: [siteConfig.instagramUrl, siteConfig.mapsUrl],
+    telephone: siteConfig.phone,
+    sameAs: [
+      siteConfig.instagramUrl,
+      siteConfig.twitterUrl,
+      siteConfig.linkedinUrl,
+    ],
     parentOrganization: {
       "@id": `${getSiteUrl(getLocalizedPath(locale, "/contact"))}#organization`,
     },

@@ -17,12 +17,12 @@ type ServiceDetailFeatureStoriesProps = {
 };
 
 const featureImagePositionByVariant: Record<ServiceVisualVariant, string> = {
-  diagnostics: "object-center",
-  maintenance: "object-center",
-  mechanical: "object-center",
-  electrical: "object-center",
-  inspection: "object-right",
-  performance: "object-center",
+  fabrication: "object-center",
+  art: "object-center",
+  signage: "object-center",
+  events: "object-center",
+  printing: "object-right",
+  packaging: "object-center",
 };
 
 export function ServiceDetailFeatureStories({
@@ -40,12 +40,12 @@ export function ServiceDetailFeatureStories({
           const number = String(index + 1).padStart(2, "0");
           const imageFirst = index % 2 === 0;
           const image = (
-            <div className="relative h-full min-h-[260px] border border-white/8 bg-black sm:min-h-[360px] lg:min-h-[420px]">
+            <div className="relative h-full min-h-[260px] border border-line bg-ink sm:min-h-[360px] lg:min-h-[420px]">
               <OptimizedImage
                 src={resolveServiceDetailImage(item.imageSrc)}
                 alt={item.imageAlt}
                 sizes="(min-width: 1024px) 48vw, 100vw"
-                className="h-full min-h-[260px] rounded-none border-0 bg-black shadow-none sm:min-h-[360px] lg:min-h-[420px]"
+                className="h-full min-h-[260px] rounded-none border-0 bg-ink shadow-none sm:min-h-[360px] lg:min-h-[420px]"
                 imageClassName={cn(
                   "absolute inset-0 h-full w-full object-cover transition duration-700 group-hover:scale-[1.04]",
                   featureImagePositionByVariant[variant],
@@ -59,26 +59,26 @@ export function ServiceDetailFeatureStories({
             <div
               dir={isArabic ? "rtl" : "ltr"}
               className={cn(
-                "relative flex h-full min-h-[260px] items-center border border-white/8 bg-panel-solid px-5 py-8 sm:px-8 lg:min-h-[420px] lg:px-10",
+                "relative flex h-full min-h-[260px] items-center border border-line bg-panel-solid px-5 py-8 sm:px-8 lg:min-h-[420px] lg:px-10",
                 isArabic ? "text-right" : "text-left",
               )}
             >
-              <span className="pointer-events-none absolute inset-inline-start-5 top-4 text-[4.5rem] font-black leading-none text-white/6 sm:top-6 sm:text-[6rem]">
+              <span className="pointer-events-none absolute inset-inline-start-5 top-4 text-[4.5rem] font-black leading-none text-heading/6 sm:top-6 sm:text-[6rem]">
                 {number}
               </span>
               <div className="relative z-10 max-w-2xl">
-                <p className="tracking-kicker text-[0.68rem] font-medium uppercase text-red-500 sm:text-[0.74rem]">
+                <p className="tracking-kicker text-[0.68rem] font-medium uppercase text-brand sm:text-[0.74rem]">
                   {number}
                 </p>
-                <h3 className="mt-4 text-3xl font-black leading-tight text-white sm:text-4xl">
+                <h3 className="mt-4 text-3xl font-black leading-tight text-heading sm:text-4xl">
                   {item.title}
                 </h3>
-                <p className="mt-4 text-sm leading-7 text-zinc-400 sm:text-base">
+                <p className="mt-4 text-sm leading-7 text-body sm:text-base">
                   {item.description}
                 </p>
                 <Link
                   href={`/${locale}/contact`}
-                  className="mt-6 inline-flex text-xs font-semibold uppercase tracking-ui text-red-500 transition hover:text-red-400"
+                  className="mt-6 inline-flex text-xs font-semibold uppercase tracking-ui text-brand transition hover:text-brand-strong"
                 >
                   {ctaLabel}
                 </Link>

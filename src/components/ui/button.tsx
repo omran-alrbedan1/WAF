@@ -2,11 +2,11 @@ import { cn } from "@/lib/utils";
 
 const buttonVariants = {
   primary:
-    "bg-red-600 text-white hover:bg-red-500",
+    "bg-brand text-white hover:bg-brand-strong",
   secondary:
-    "border border-white/15 bg-transparent text-white hover:border-red-500/70 hover:bg-white/5",
+    "border border-line bg-transparent text-heading hover:border-brand-strong/70 hover:bg-chip",
   ghost:
-    "border border-transparent bg-transparent text-zinc-300 hover:border-white/10 hover:bg-white/5 hover:text-white",
+    "border border-transparent bg-transparent text-body-strong hover:border-line hover:bg-chip hover:text-heading",
 } as const;
 
 const buttonSizes = {
@@ -29,7 +29,7 @@ export function buttonClassName({
   variant = "primary",
 }: ButtonClassNameOptions = {}) {
   return cn(
-    "inline-flex items-center justify-center rounded-md font-medium transition duration-200 ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-500 focus-visible:ring-offset-2 focus-visible:ring-offset-black",
+    "inline-flex items-center justify-center rounded-md font-medium transition duration-200 ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-strong focus-visible:ring-offset-2 focus-visible:ring-offset-black",
     buttonVariants[variant],
     buttonSizes[size],
     className

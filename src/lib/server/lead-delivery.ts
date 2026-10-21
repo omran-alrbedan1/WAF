@@ -8,15 +8,15 @@ const DEDUPE_WINDOW_MS = 30_000;
 // production rate limits at the CDN/WAF or with a shared backing store.
 
 declare global {
-  var __redPowerLeadCache: Map<string, number> | undefined;
+  var __wafLeadCache: Map<string, number> | undefined;
 }
 
 function getCache() {
-  if (!global.__redPowerLeadCache) {
-    global.__redPowerLeadCache = new Map<string, number>();
+  if (!global.__wafLeadCache) {
+    global.__wafLeadCache = new Map<string, number>();
   }
 
-  return global.__redPowerLeadCache;
+  return global.__wafLeadCache;
 }
 
 export function isDuplicateLead(keyParts: string[]) {

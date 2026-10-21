@@ -1,251 +1,184 @@
 "use client";
 
 import Link from "next/link";
-import { motion, useReducedMotion } from "framer-motion";
-import { ArrowLeft } from "lucide-react";
+import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { useLocale, useTranslations } from "next-intl";
+import { useEffect, useState } from "react";
+import { ArrowLeft, ArrowRight, Check, MapPin, MessageCircle, Pause, Play } from "lucide-react";
 
-import { Container } from "@/components/layout/container";
-import { Section } from "@/components/layout/section";
 import { images } from "@/constants/image";
-import {
-  clipRevealUp,
-  floatingAmbient,
-  glowPulse,
-  lineDrawIn,
-  motionEasing,
-  softSpring,
-  staggerContainer,
-} from "@/components/ui/motion-presets";
-import { buttonClassName } from "@/components/ui/button";
+import { clipRevealUp, softSpring, staggerContainer } from "@/components/ui/motion-presets";
 import { OptimizedImage } from "@/components/ui/optimized-image";
+import { waLink } from "@/lib/whatsapp";
+
+const heroBackgrounds = [
+  images.home.hero,
+  images.home.heroAlt1,
+  images.home.heroAlt2,
+  images.home.heroAlt3,
+];
 
 export function HeroSection() {
   const locale = useLocale();
   const t = useTranslations("home.hero");
   const reduceMotion = useReducedMotion();
+  const isArabic = locale === "ar";
+  const DirectionArrow = isArabic ? ArrowLeft : ArrowRight;
+  const [activeBackground, setActiveBackground] = useState(0);
+  const [isPlaying, setIsPlaying] = useState(true);
+
+  useEffect(() => {
+    if (reduceMotion || !isPlaying) {
+      return;
+    }
+
+    const timer = window.setInterval(() => {
+      setActiveBackground((current) => (current + 1) % heroBackgrounds.length);
+    }, 6500);
+
+    return () => window.clearInterval(timer);
+  }, [isPlaying, reduceMotion]);
 
   return (
-    <Section className="relative min-h-[34rem] overflow-hidden border-b border-red-600/20 bg-page-deep py-0 text-white sm:min-h-[35rem] lg:h-[70vh] lg:min-h-[38rem]">
-      <motion.div
-        className="absolute inset-0"
-        initial={reduceMotion ? false : { scale: 1.08 }}
-        animate={reduceMotion ? undefined : floatingAmbient(12, 10, 1.1, 28)}
-      >
-        <OptimizedImage
-          src={images.home.hero}
-          alt={t("imageAlt")}
-          priority
-          sizes="100vw"
-          className="h-full w-full rounded-none border-0 shadow-none"
-          imageClassName="h-full w-full object-cover object-center"
-        />
+    <section className="relative isolate min-h-[calc(100svh-5rem)] overflow-hidden bg-page-deep">
+      <AnimatePresence initial={false}>
         <motion.div
-          className="absolute inset-0 bg-gradient-to-t from-page-deep via-page-deep/78 to-page-deep/30 lg:bg-gradient-to-l lg:from-page-deep lg:via-page-deep/88 lg:to-transparent"
-          animate={reduceMotion ? undefined : { opacity: [0.9, 0.75, 0.9] }}
-          transition={
-            reduceMotion
-              ? undefined
-              : {
-                  duration: 8.5,
-                  repeat: Number.POSITIVE_INFINITY,
-                  ease: "easeInOut",
-                }
-          }
-        />
-        <motion.div
-          className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-page-deep to-transparent"
-          animate={reduceMotion ? undefined : { opacity: [0.9, 0.7, 0.9] }}
-          transition={
-            reduceMotion
-              ? undefined
-              : {
-                  duration: 6.5,
-                  repeat: Number.POSITIVE_INFINITY,
-                  ease: "easeInOut",
-                }
-          }
-        />
-      </motion.div>
-
-      <motion.div
-        className="pointer-events-none absolute left-[18%] top-[18%] h-36 w-36 rounded-full border border-red-500/12 bg-red-600/8 blur-3xl"
-        animate={reduceMotion ? undefined : floatingAmbient(18, 14, 1.12, 11)}
-      />
-      <motion.div
-        className="absolute right-[45%] top-1/2 h-[500px] w-[500px] -translate-y-1/2 rounded-full bg-red-700/10 blur-[160px]"
-        animate={reduceMotion ? undefined : glowPulse(8)}
-      />
-      <motion.div
-        className="pointer-events-none absolute right-[10%] bottom-[10%] h-24 w-24 rounded-full bg-red-500/10 blur-2xl"
-        animate={reduceMotion ? undefined : floatingAmbient(10, 16, 1.18, 9)}
-      />
-
-      <motion.div
-        className="pointer-events-none absolute inset-y-0 right-0 hidden w-[38vw] bg-[linear-gradient(110deg,transparent_0%,rgba(255,255,255,0.08)_48%,transparent_65%)] blur-2xl lg:block"
-        animate={reduceMotion ? undefined : { x: ["-140%", "160%"] }}
-        transition={
-          reduceMotion
-            ? undefined
-            : {
-                duration: 3.8,
-                repeat: Number.POSITIVE_INFINITY,
-                repeatDelay: 2.6,
-                ease: motionEasing,
-              }
-        }
-      />
-
-      <div
-        className="pointer-events-none absolute bottom-[-12%] left-[43%] top-[-12%] z-[2] hidden lg:block"
-        style={{
-          transform: "rotate(12deg)",
-          transformOrigin: "center",
-        }}
-      >
-        <motion.div
-          className="h-full w-[2px] bg-red-600 shadow-[0_0_20px_rgba(220,38,38,0.85)]"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={reduceMotion ? undefined : lineDrawIn("y", 0.3)}
-          style={{ transformOrigin: "center" }}
-        />
-      </div>
-
-      <div
-        className="pointer-events-none absolute bottom-[-10%] left-[44%] top-[-10%] z-[2] hidden lg:block"
-        style={{
-          transform: "rotate(12deg)",
-          transformOrigin: "center",
-        }}
-      >
-        <motion.div
-          className="h-full w-px bg-red-600/20"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={reduceMotion ? undefined : lineDrawIn("y", 0.48)}
-          style={{ transformOrigin: "center" }}
-        />
-      </div>
-
-      <Container className="relative z-10 flex min-h-[32rem] items-end px-4 pt-12 pb-8 sm:min-h-[35rem] sm:px-6 sm:pb-10 lg:min-h-[72vh] lg:items-center lg:px-10 lg:pb-12">
-        <motion.div
-          className="w-full lg:w-[52%]"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.35 }}
-          variants={staggerContainer(0.14, 0.08)}
+          key={activeBackground}
+          className="absolute inset-0"
+          initial={reduceMotion ? false : { opacity: 0, scale: 1.04 }}
+          animate={{ opacity: 1, scale: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: reduceMotion ? 0 : 1.25, ease: "easeOut" }}
         >
-          <div className="max-w-3xl text-right">
-            <motion.div
+          <OptimizedImage
+            src={heroBackgrounds[activeBackground]}
+            alt=""
+            priority={activeBackground === 0}
+            sizes="100vw"
+            className="h-full w-full rounded-none border-0 shadow-none"
+            imageClassName="h-full w-full object-cover object-center"
+          />
+        </motion.div>
+      </AnimatePresence>
+      <div className="absolute inset-0 bg-black/40" />
+      <div
+        className={`absolute inset-0 ${
+          isArabic
+            ? "bg-gradient-to-l from-black/80 via-black/45 to-black/10"
+            : "bg-gradient-to-r from-black/80 via-black/45 to-black/10"
+        }`}
+      />
+      <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-transparent to-black/15" />
+      <div className="pointer-events-none absolute inset-0 opacity-20 [background-image:radial-gradient(rgba(255,255,255,0.7)_0.7px,transparent_0.7px)] [background-size:5px_5px]" />
+
+      <div className="relative mx-auto flex min-h-[calc(100svh-5rem)] max-w-7xl items-center px-6 py-16 sm:px-10 lg:px-12 lg:py-24">
+        <div className={`relative z-10 w-full max-w-3xl ${isArabic ? "text-right" : "text-left"}`}>
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={staggerContainer(0.12, 0.08)}
+            className="max-w-2xl"
+          >
+            <motion.p
               variants={clipRevealUp(0.02)}
-              className="mb-5 flex items-center justify-start gap-3 sm:mb-6"
+              className="inline-flex items-center gap-3 rounded-full border border-white/20 bg-black/20 px-4 py-2 text-xs font-bold tracking-[0.12em] text-white/90 backdrop-blur-md sm:text-sm"
             >
-              <span className="tracking-ui text-xs font-bold text-red-500 sm:text-sm">
-                {t("eyebrow")}
-              </span>
-              <motion.span
-                className="text-sm font-black tracking-widest text-red-600"
-                animate={reduceMotion ? undefined : { x: [0, -2, 0], opacity: [0.7, 1, 0.7] }}
-                transition={
-                  reduceMotion
-                    ? undefined
-                    : {
-                        duration: 2.4,
-                        repeat: Number.POSITIVE_INFINITY,
-                        ease: "easeInOut",
-                      }
-                }
-              >
-                {"///"}
-              </motion.span>
-            </motion.div>
+              <span className="h-2 w-2 rounded-full bg-brand shadow-[0_0_16px_rgba(34,197,94,0.8)]" />
+              {t("eyebrow")}
+            </motion.p>
 
-            <div className="overflow-hidden">
-              <motion.h1
-                variants={clipRevealUp(0.1)}
-                className="tracking-display-tight max-w-[12ch] text-4xl font-black leading-[1.02] text-white sm:text-5xl lg:text-[4.5rem] xl:text-[4rem]"
-              >
-                {t("title")}
-              </motion.h1>
-            </div>
+            <motion.h1
+              variants={clipRevealUp(0.1)}
+              className="mt-7 text-4xl font-black leading-[1.2] tracking-tight text-white sm:text-5xl lg:text-7xl"
+            >
+              {t("title")}
+            </motion.h1>
+
+            <motion.p
+              variants={clipRevealUp(0.2)}
+              className="mt-6 max-w-xl text-base leading-8 text-white/80 sm:text-lg sm:leading-9"
+            >
+              {t("description")}
+            </motion.p>
 
             <motion.div
-              variants={lineDrawIn("x", 0.26)}
-              className="mt-6 flex items-center justify-start gap-2 sm:mt-7"
-              style={{ transformOrigin: "right" }}
+              variants={clipRevealUp(0.28)}
+              className="mt-7 flex flex-wrap gap-x-6 gap-y-3"
             >
-              <span className="h-[3px] w-16 bg-red-600" />
-              <span className="h-[3px] w-5 bg-red-600/50" />
-              <span className="h-[3px] w-2 bg-red-600/20" />
+              {(["highlightOne", "highlightTwo", "highlightThree"] as const).map((key) => (
+                <div key={key} className="flex items-center gap-2 text-sm font-medium text-white/90">
+                  <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-brand text-black">
+                    <Check className="h-3 w-3" strokeWidth={3} />
+                  </span>
+                  {t(key)}
+                </div>
+              ))}
             </motion.div>
 
-            <div className="overflow-hidden">
-              <motion.p
-                variants={clipRevealUp(0.22)}
-                className="mt-6 max-w-xl text-sm font-medium leading-7 text-zinc-300 sm:mt-7 sm:max-w-2xl sm:text-lg sm:leading-8 lg:text-xl"
-              >
-                {t("description")}
-              </motion.p>
-            </div>
-
             <motion.div
-              variants={clipRevealUp(0.32)}
-              className="mt-8 flex flex-col items-stretch justify-start gap-3 sm:mt-9 sm:flex-row sm:flex-wrap sm:items-center sm:gap-4"
+              variants={clipRevealUp(0.36)}
+              className="mt-9 flex flex-wrap items-center gap-3"
             >
-              <motion.div whileHover={reduceMotion ? undefined : { y: -4, scale: 1.01 }} transition={softSpring}>
-                <Link
-                  href={`/${locale}/contact`}
-                  className={buttonClassName({
-                    className:
-                      "group inline-flex min-h-14 w-full items-center justify-center gap-3 rounded-md border border-red-500/50 bg-red-600 px-6 py-3.5 text-sm font-bold text-white shadow-[0_10px_35px_rgba(220,38,38,0.25)] transition-all duration-300 hover:border-red-400 hover:bg-red-500 hover:shadow-[0_12px_40px_rgba(220,38,38,0.4)] sm:w-auto sm:px-7 sm:text-base",
-                  })}
-                >
-                  <span>{t("primaryCta")}</span>
-                  <motion.span whileHover={reduceMotion ? undefined : { x: -4 }} transition={softSpring}>
-                    <ArrowLeft className="h-5 w-5" />
-                  </motion.span>
-                </Link>
-              </motion.div>
-
-              <motion.div whileHover={reduceMotion ? undefined : { y: -4, scale: 1.01 }} transition={softSpring}>
+              <motion.a
+                whileHover={reduceMotion ? undefined : { y: -3 }}
+                transition={softSpring}
+                href={waLink()}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex min-h-14 items-center gap-3 rounded-full bg-brand px-7 py-3.5 text-sm font-bold text-brand-contrast shadow-[0_14px_36px_rgba(34,197,94,0.28)] transition-colors hover:bg-brand-strong sm:px-8"
+              >
+                <MessageCircle className="h-4 w-4" />
+                {t("primaryCta")}
+                <DirectionArrow className="h-4 w-4" />
+              </motion.a>
+              <motion.div whileHover={reduceMotion ? undefined : { y: -3 }} transition={softSpring}>
                 <Link
                   href={`/${locale}/services`}
-                  className={buttonClassName({
-                    variant: "secondary",
-                    className:
-                      "group inline-flex min-h-14 w-full items-center justify-center gap-3 rounded-md border border-white/20 bg-black/40 px-6 py-3.5 text-sm font-bold text-white backdrop-blur-md transition-all duration-300 hover:border-white/50 hover:bg-white/10 sm:w-auto sm:px-7 sm:text-base",
-                  })}
+                  className="inline-flex min-h-14 items-center gap-2 rounded-full border border-white/35 bg-white/5 px-7 py-3.5 text-sm font-bold text-white backdrop-blur-sm transition-colors hover:border-white/70 hover:bg-white/10 sm:px-8"
                 >
-                  <span>{t("secondaryCta")}</span>
-                  <motion.span whileHover={reduceMotion ? undefined : { x: -4 }} transition={softSpring}>
-                    <ArrowLeft className="h-5 w-5" />
-                  </motion.span>
+                  {t("secondaryCta")}
+                  <DirectionArrow className="h-4 w-4" />
                 </Link>
               </motion.div>
             </motion.div>
 
-            <motion.div
+            <motion.p
               variants={clipRevealUp(0.42)}
-              className="mt-10 flex flex-wrap items-center justify-start gap-3 sm:mt-12"
+              className="mt-5 max-w-lg text-xs leading-6 text-white/65 sm:text-sm"
             >
-              <motion.span
-                className="h-px w-12 bg-red-600"
-                variants={lineDrawIn("x", 0.46)}
-                style={{ transformOrigin: "right" }}
-              />
-              <span className="text-xs font-bold tracking-[0.2em] text-zinc-500">
-                RED POWER GARAGE
-              </span>
-              <span className="text-xs text-red-600">{"///"}</span>
-            </motion.div>
-          </div>
-        </motion.div>
-      </Container>
-
-      <div className="absolute right-0 bottom-0 left-0 h-px bg-gradient-to-r from-transparent via-red-600 to-transparent lg:hidden" />
-    </Section>
+              {t("microcopy")}
+            </motion.p>
+          </motion.div>
+        </div>
+        <div className="absolute bottom-6 end-6 hidden items-center gap-3 rounded-full border border-white/20 bg-black/25 px-4 py-3 text-xs font-medium text-white/85 backdrop-blur-md sm:flex">
+          <MapPin className="h-4 w-4 text-brand" />
+          {t("visualLabel")}
+        </div>
+        <div className="absolute bottom-6 start-6 flex items-center gap-2 rounded-full border border-white/20 bg-black/25 p-2 backdrop-blur-md">
+          {heroBackgrounds.map((src, index) => (
+            <button
+              key={src}
+              type="button"
+              aria-label={t("slideLabel", { number: index + 1 })}
+              aria-pressed={activeBackground === index}
+              onClick={() => setActiveBackground(index)}
+              className={`h-2 rounded-full transition-all ${
+                activeBackground === index ? "w-7 bg-brand" : "w-2 bg-white/55 hover:bg-white"
+              }`}
+            />
+          ))}
+          {!reduceMotion && (
+            <button
+              type="button"
+              aria-label={isPlaying ? t("pauseSlideshow") : t("playSlideshow")}
+              onClick={() => setIsPlaying((playing) => !playing)}
+              className="ms-1 flex h-8 w-8 items-center justify-center rounded-full text-white transition-colors hover:bg-white/15"
+            >
+              {isPlaying ? <Pause className="h-3.5 w-3.5" /> : <Play className="h-3.5 w-3.5" />}
+            </button>
+          )}
+        </div>
+      </div>
+    </section>
   );
 }

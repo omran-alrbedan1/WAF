@@ -23,14 +23,14 @@ export function ContactHero() {
   const isArabic = locale === "ar";
 
   return (
-    <Section className="relative overflow-hidden bg-black py-0">
+    <Section className="relative overflow-hidden bg-ink py-0">
       <div className="absolute inset-0 z-0">
         <OptimizedImage
           src={images.contact.hero}
           alt={t("hero.imageAlt")}
           priority
           sizes="100vw"
-          className="h-full w-full rounded-none border-0 bg-black shadow-none"
+          className="h-full w-full rounded-none border-0 bg-ink shadow-none"
           imageClassName="h-full w-full object-cover object-right"
         />
 
@@ -39,8 +39,8 @@ export function ContactHero() {
           className="absolute inset-0" 
           style={{
             background: isArabic 
-              ? 'linear-gradient(90deg, #000000 0%, rgba(0,0,0,0.96) 30%, rgba(0,0,0,0.7) 55%, rgba(0,0,0,0.3) 75%, transparent 100%)'
-              : 'linear-gradient(270deg, #000000 0%, rgba(0,0,0,0.96) 30%, rgba(0,0,0,0.7) 55%, rgba(0,0,0,0.3) 75%, transparent 100%)'
+              ? 'linear-gradient(90deg, var(--page-deep) 0%, color-mix(in srgb, var(--page-deep) 96%, transparent) 30%, color-mix(in srgb, var(--page-deep) 70%, transparent) 55%, color-mix(in srgb, var(--page-deep) 30%, transparent) 75%, transparent 100%)'
+              : 'linear-gradient(270deg, var(--page-deep) 0%, color-mix(in srgb, var(--page-deep) 96%, transparent) 30%, color-mix(in srgb, var(--page-deep) 70%, transparent) 55%, color-mix(in srgb, var(--page-deep) 30%, transparent) 75%, transparent 100%)'
           }}
         />
 
@@ -49,8 +49,8 @@ export function ContactHero() {
           className="absolute inset-0" 
           style={{
             background: isArabic
-              ? 'radial-gradient(circle at 20% 50%, rgba(225,6,19,0.15), transparent 45%)'
-              : 'radial-gradient(circle at 80% 50%, rgba(225,6,19,0.15), transparent 45%)'
+              ? 'radial-gradient(circle at 20% 50%, rgba(34,197,94,0.15), transparent 45%)'
+              : 'radial-gradient(circle at 80% 50%, rgba(34,197,94,0.15), transparent 45%)'
           }}
         />
       </div>
@@ -69,16 +69,16 @@ export function ContactHero() {
     
           <div className="relative z-10 w-full max-w-xl space-y-10">
             <RevealPanel className={cn("space-y-4", isArabic ? "text-right" : "text-left")}>
-              <p className="text-xl font-medium text-red-500">{t("hero.eyebrow")}</p>
-              <h1 className="text-6xl font-semibold leading-[0.9] tracking-[-0.05em] text-white sm:text-7xl lg:text-[5.6rem]">
+              <p className="text-xl font-medium text-brand">{t("hero.eyebrow")}</p>
+              <h1 className="text-6xl font-semibold leading-[0.9] tracking-[-0.05em] text-heading sm:text-7xl lg:text-[5.6rem]">
                 {t("hero.title")}
               </h1>
-              <p className="max-w-lg text-lg leading-9 text-zinc-300/92">
+              <p className="max-w-lg text-lg leading-9 text-body-strong/92">
                 {t("hero.description")}
               </p>
             </RevealPanel>
 
-            <RevealPanel delay={120} className="grid gap-px  border-t border-white/10 justify-start pt-5 sm:grid-cols-3">
+            <RevealPanel delay={120} className="grid gap-px  border-t border-line justify-start pt-5 sm:grid-cols-3">
               {messages.contact.hero.highlights.map((label, index) => {
                 const Icon = heroIcons[index] ?? Zap;
 
@@ -86,15 +86,15 @@ export function ContactHero() {
                   <div
                     key={label}
                     className={cn(
-                      "flex items-center gap-3 text-white",
+                      "flex items-center gap-3 text-heading",
                       isArabic ? "justify-end sm:flex-row-reverse" : "",
-                      index > 0 && "sm:border-s sm:border-white/10 sm:ps-5"
+                      index > 0 && "sm:border-s sm:border-line sm:ps-5"
                     )}
                   >
-                    <span className="flex h-10 w-10 items-center justify-center text-red-500">
+                    <span className="flex h-10 w-10 items-center justify-center text-brand">
                       <Icon className="size-5" strokeWidth={1.8} />
                     </span>
-                    <span className="text-base font-medium text-zinc-100">{label}</span>
+                    <span className="text-base font-medium text-heading">{label}</span>
                   </div>
                 );
               })}
