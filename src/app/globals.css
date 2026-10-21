@@ -468,5 +468,5 @@ select {
 }
 
 .brand-cursor {
-  cursor: url("/cursors/pencil-green.svg") 3 22, pointer;
+  cursor: url("/cursors/arrow-green.svg") 4 3, auto;
 }
