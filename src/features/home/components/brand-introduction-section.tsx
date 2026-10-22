@@ -30,10 +30,10 @@ export function BrandIntroductionSection() {
   }>;
 
   const cardImages = [
-    images.home.serviceSculptures,
-    images.home.serviceSignage,
-    images.home.serviceEvents,
-    images.home.servicePrinting,
+    images.services.digital.webDevelopment,
+    images.services.digital.mobileDevelopment,
+    images.services.digital.digitalMarketing,
+    images.services.digital.customSoftware,
   ];
 
   const renderLucideIcon = (iconName: string) => {

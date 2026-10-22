@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "title": "Project & Exhibition Execution | WAF Business Services",
+    "description": "WAF's original execution services: creative sculptures, graffiti murals, visual identity & signage, event site preparation, large-format printing, fabrication & installation, and corporate giveaways."
+  },
+  "hero": {
+    "eyebrow": "WAF Execution & Fit-Out",
+    "sectionLabel": "01 / EXECUTION",
+    "title": "Project, exhibition & event execution",
+    "description": "Alongside our digital services, WAF continues to deliver its original execution expertise — fit-out for commercial projects, exhibitions, and events from fabrication to installation through a specialized team.",
+    "primaryCta": "Request an Execution Quote",
+    "secondaryCta": "About WAF",
+    "imageAlt": "WAF execution and fit-out work"
+  },
+  "catalog": {
+    "eyebrow": "From Manufacturing to Installation",
+    "title": "Integrated services that deliver your project from idea to handover",
+    "description": "Seven execution services covering everything your commercial project or event needs.",
+    "cta": "More about this service",
+    "groups": [
+      {
+        "label": "FABRICATE",
+        "heading": "High-quality fabrication and build",
+        "itemSlugs": ["creative-sculptures", "fabrication-installation"]
+      },
+      {
+        "label": "BRAND",
+        "heading": "Visual identity that leaves a mark",
+        "itemSlugs": ["signage-branding", "graffiti-murals", "large-format-printing"]
+      },
+      {
+        "label": "EVENTS",
+        "heading": "Complete fit-out for events and corporates",
+        "itemSlugs": ["event-sites", "packaging-giveaways"]
+      }
+    ],
+    "items": [
+      {
+        "slug": "creative-sculptures",
+        "title": "Creative Sculptures & Interior Fit-Out",
+        "body": "Design and execution of creative sculptures and interior fit-out reflecting your project's identity."
+      },
+      {
+        "slug": "graffiti-murals",
+        "title": "Graffiti & Artistic Murals",
+        "body": "Artistic graffiti and mural works that give your spaces a distinctive character."
+      },
+      {
+        "slug": "signage-branding",
+        "title": "Visual Identity & Signage",
+        "body": "Execution of visual identity, signage, and wayfinding boards with precision and quality."
+      },
+      {
+        "slug": "event-sites",
+        "title": "Event Site Preparation",
+        "body": "Complete preparation of event and exhibition sites from planning to handover."
+      },
+      {
+        "slug": "large-format-printing",
+        "title": "Large Format Printing",
+        "body": "Large-format printing and production with the latest technology and finest materials."
+      },
+      {
+        "slug": "fabrication-installation",
+        "title": "Fabrication, Installation & Handover",
+        "body": "Fabricating, installing, and handing over complete projects to professional standards."
+      },
+      {
+        "slug": "packaging-giveaways",
+        "title": "Packaging & Corporate Giveaways",
+        "body": "Packaging solutions and promotional giveaways that strengthen your brand presence."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Start Now",
+    "title": "Ready to execute your project?",
+    "description": "Contact us and get a custom execution quote for your commercial project or event.",
+    "primaryLabel": "Request an Execution Quote",
+    "secondaryLabel": "Contact Us",
+    "imageAlt": "An executed project by WAF"
+  }
+}

@@ -1,13 +1,13 @@
 {
   "shared": {
     "eyebrow": "WAF Business Services",
-    "processEyebrow": "From Manufacturing to Installation",
+    "processEyebrow": "From Idea to Launch & Growth",
     "processLinkLabel": "Request a Quote",
     "secondaryCtaLabel": "Explore Services",
     "secondaryCtaPath": "/services"
   },
   "cta": {
-    "primaryLabel": "Request an Execution Quote",
+    "primaryLabel": "Request a Quote",
     "secondaryLabel": "Explore Services"
   },
   "entries": {
@@ -379,6 +379,536 @@
           "description": "Packaging solutions and promotional giveaways designed to strengthen your brand presence and leave a lasting impression.",
           "imageAlt": "Packaging & Corporate Giveaways — Guaranteed quality",
           "imageSrc": "/images/waf/service-details/packaging.png"
+        }
+      ]
+    },
+    "web-development": {
+      "metadata": {
+        "title": "Website Design & Development",
+        "description": "Fast, professional websites designed to showcase your services and turn visitors into customers."
+      },
+      "hero": {
+        "title": "Website Design & Development",
+        "description": "We design and develop fast, professional websites that present your services clearly and turn visitors into customers.",
+        "imageAlt": "Website design & development by WAF"
+      },
+      "process": {
+        "title": "A clear delivery methodology.",
+        "description": "From understanding your goals to launch, every stage has a defined outcome.",
+        "items": [
+          {
+            "title": "Discovery",
+            "body": "We understand your goals, audience, and the content your site needs."
+          },
+          {
+            "title": "Design",
+            "body": "We design a professional experience aligned with your identity."
+          },
+          {
+            "title": "Development",
+            "body": "We build a fast, secure website with clean, maintainable code."
+          },
+          {
+            "title": "Launch",
+            "body": "We deploy, test, and hand over a website ready to grow."
+          }
+        ]
+      },
+      "featureItems": [
+        {
+          "title": "Conversion-focused design",
+          "description": "Layouts and content structured to turn visitors into real inquiries.",
+          "imageAlt": "Website Design & Development — Conversion-focused design",
+          "imageSrc": "/images/waf/service-details/digital/web-development.jpg"
+        },
+        {
+          "title": "Speed & performance",
+          "description": "Optimized performance, SEO-ready foundations, and responsive layouts.",
+          "imageAlt": "Website Design & Development — Speed & performance",
+          "imageSrc": "/images/waf/service-details/digital/web-development.jpg"
+        },
+        {
+          "title": "Built to scale",
+          "description": "A codebase ready to grow with new pages, languages, and features.",
+          "imageAlt": "Website Design & Development — Built to scale",
+          "imageSrc": "/images/waf/service-details/digital/web-development.jpg"
+        }
+      ]
+    },
+    "mobile-development": {
+      "metadata": {
+        "title": "Mobile App Development",
+        "description": "Android & iOS apps built around user experience and your project's goals."
+      },
+      "hero": {
+        "title": "Mobile App Development",
+        "description": "We build Android & iOS applications designed around user experience and your project's business goals.",
+        "imageAlt": "Mobile app development by WAF"
+      },
+      "process": {
+        "title": "A clear delivery methodology.",
+        "description": "From idea to the app stores, every stage has a defined outcome.",
+        "items": [
+          {
+            "title": "Scope",
+            "body": "We define features, user journeys, and release priorities."
+          },
+          {
+            "title": "Design",
+            "body": "We design interfaces and flows that feel natural on mobile."
+          },
+          {
+            "title": "Development",
+            "body": "We develop, integrate APIs, and test on real devices."
+          },
+          {
+            "title": "Release",
+            "body": "We publish to the stores and follow up after launch."
+          }
+        ]
+      },
+      "featureItems": [
+        {
+          "title": "iOS & Android",
+          "description": "One codebase serving both platforms without compromising experience.",
+          "imageAlt": "Mobile App Development — iOS & Android",
+          "imageSrc": "/images/waf/service-details/digital/mobile-development.jpg"
+        },
+        {
+          "title": "User-first experience",
+          "description": "Flows designed around how your customers actually use the app.",
+          "imageAlt": "Mobile App Development — User-first experience",
+          "imageSrc": "/images/waf/service-details/digital/mobile-development.jpg"
+        },
+        {
+          "title": "Store launch & follow-up",
+          "description": "Publishing, updates, and improvements after release.",
+          "imageAlt": "Mobile App Development — Store launch & follow-up",
+          "imageSrc": "/images/waf/service-details/digital/mobile-development.jpg"
+        }
+      ]
+    },
+    "custom-software": {
+      "metadata": {
+        "title": "Custom Software & Platforms",
+        "description": "Systems and software solutions built to fit the way your business actually operates."
+      },
+      "hero": {
+        "title": "Custom Software & Platforms",
+        "description": "We build custom systems and software platforms tailored to your real workflows instead of forcing you into off-the-shelf tools.",
+        "imageAlt": "Custom software & platforms by WAF"
+      },
+      "process": {
+        "title": "A clear delivery methodology.",
+        "description": "From workflow analysis to a platform your team relies on daily.",
+        "items": [
+          {
+            "title": "Analysis",
+            "body": "We map your workflows, roles, and integration needs."
+          },
+          {
+            "title": "Architecture",
+            "body": "We design a solution that fits your operations and scale."
+          },
+          {
+            "title": "Development",
+            "body": "We build iteratively so you see progress early."
+          },
+          {
+            "title": "Rollout",
+            "body": "We migrate, train, and support your team after launch."
+          }
+        ]
+      },
+      "featureItems": [
+        {
+          "title": "Built around your workflow",
+          "description": "Features designed for how your team works — not generic templates.",
+          "imageAlt": "Custom Software & Platforms — Built around your workflow",
+          "imageSrc": "/images/waf/service-details/digital/custom-software.jpg"
+        },
+        {
+          "title": "Integrations & APIs",
+          "description": "Connections to payment, shipping, ERP, and the tools you already use.",
+          "imageAlt": "Custom Software & Platforms — Integrations & APIs",
+          "imageSrc": "/images/waf/service-details/digital/custom-software.jpg"
+        },
+        {
+          "title": "Dashboards & reports",
+          "description": "Clear operational visibility with data your team can act on.",
+          "imageAlt": "Custom Software & Platforms — Dashboards & reports",
+          "imageSrc": "/images/waf/service-details/digital/custom-software.jpg"
+        }
+      ]
+    },
+    "ecommerce": {
+      "metadata": {
+        "title": "E-Commerce Stores",
+        "description": "Online stores that are ready to sell and built to scale."
+      },
+      "hero": {
+        "title": "E-Commerce Stores",
+        "description": "We build online stores that are ready to sell from day one — payments, shipping, and a shopping experience built to convert.",
+        "imageAlt": "E-commerce stores by WAF"
+      },
+      "process": {
+        "title": "A clear delivery methodology.",
+        "description": "From catalog structure to a store ready for orders.",
+        "items": [
+          {
+            "title": "Plan",
+            "body": "We define catalog, payment, shipping, and platform needs."
+          },
+          {
+            "title": "Design",
+            "body": "We design a storefront that builds trust and drives sales."
+          },
+          {
+            "title": "Build",
+            "body": "We set up products, payments, shipping, and integrations."
+          },
+          {
+            "title": "Sell",
+            "body": "We launch and help you optimize conversion after go-live."
+          }
+        ]
+      },
+      "featureItems": [
+        {
+          "title": "Payments & shipping",
+          "description": "Local payment gateways and shipping integrations ready on day one.",
+          "imageAlt": "E-Commerce Stores — Payments & shipping",
+          "imageSrc": "/images/waf/service-details/digital/ecommerce.jpg"
+        },
+        {
+          "title": "Conversion-ready storefront",
+          "description": "Product pages and checkout flows designed to reduce drop-off.",
+          "imageAlt": "E-Commerce Stores — Conversion-ready storefront",
+          "imageSrc": "/images/waf/service-details/digital/ecommerce.jpg"
+        },
+        {
+          "title": "Built to scale",
+          "description": "A store that grows with your catalog, campaigns, and markets.",
+          "imageAlt": "E-Commerce Stores — Built to scale",
+          "imageSrc": "/images/waf/service-details/digital/ecommerce.jpg"
+        }
+      ]
+    },
+    "ai-automation": {
+      "metadata": {
+        "title": "AI & Business Automation",
+        "description": "Automate repetitive operations and launch smart features inside your products."
+      },
+      "hero": {
+        "title": "AI & Business Automation",
+        "description": "We automate repetitive operations and launch intelligent features inside your products so your team focuses on growth.",
+        "imageAlt": "AI & business automation by WAF"
+      },
+      "process": {
+        "title": "A clear delivery methodology.",
+        "description": "From identifying automation opportunities to features running in production.",
+        "items": [
+          {
+            "title": "Audit",
+            "body": "We identify the repetitive work slowing your team down."
+          },
+          {
+            "title": "Design",
+            "body": "We design the automation or AI feature around your data."
+          },
+          {
+            "title": "Implementation",
+            "body": "We build, integrate, and test it in your real environment."
+          },
+          {
+            "title": "Improve",
+            "body": "We monitor outcomes and keep improving the automation."
+          }
+        ]
+      },
+      "featureItems": [
+        {
+          "title": "Workflow automation",
+          "description": "Automate approvals, notifications, data entry, and repetitive tasks.",
+          "imageAlt": "AI & Business Automation — Workflow automation",
+          "imageSrc": "/images/waf/service-details/digital/ai-automation.jpg"
+        },
+        {
+          "title": "Smart product features",
+          "description": "AI assistants, recommendations, and intelligent search inside your product.",
+          "imageAlt": "AI & Business Automation — Smart product features",
+          "imageSrc": "/images/waf/service-details/digital/ai-automation.jpg"
+        },
+        {
+          "title": "Measurable outcomes",
+          "description": "Automation scoped around time saved and errors reduced.",
+          "imageAlt": "AI & Business Automation — Measurable outcomes",
+          "imageSrc": "/images/waf/service-details/digital/ai-automation.jpg"
+        }
+      ]
+    },
+    "digital-marketing": {
+      "metadata": {
+        "title": "Digital Marketing",
+        "description": "Content, ads, and digital-presence strategies that deliver measurable growth."
+      },
+      "hero": {
+        "title": "Digital Marketing",
+        "description": "We plan and run content, advertising, and digital-presence strategies that deliver measurable growth — not just impressions.",
+        "imageAlt": "Digital marketing by WAF"
+      },
+      "process": {
+        "title": "A clear delivery methodology.",
+        "description": "From strategy to campaigns measured against real business goals.",
+        "items": [
+          {
+            "title": "Strategy",
+            "body": "We define audiences, channels, messages, and KPIs."
+          },
+          {
+            "title": "Content",
+            "body": "We produce the content and creatives the plan needs."
+          },
+          {
+            "title": "Campaigns",
+            "body": "We launch and manage ads across the right channels."
+          },
+          {
+            "title": "Optimize",
+            "body": "We measure, report, and improve every cycle."
+          }
+        ]
+      },
+      "featureItems": [
+        {
+          "title": "Performance campaigns",
+          "description": "Paid campaigns managed against conversion and revenue targets.",
+          "imageAlt": "Digital Marketing — Performance campaigns",
+          "imageSrc": "/images/waf/service-details/digital/digital-marketing.jpg"
+        },
+        {
+          "title": "Content & social",
+          "description": "Content calendars and social presence that build your brand.",
+          "imageAlt": "Digital Marketing — Content & social",
+          "imageSrc": "/images/waf/service-details/digital/digital-marketing.jpg"
+        },
+        {
+          "title": "Clear reporting",
+          "description": "Reports that show what was spent and what it produced.",
+          "imageAlt": "Digital Marketing — Clear reporting",
+          "imageSrc": "/images/waf/service-details/digital/digital-marketing.jpg"
+        }
+      ]
+    },
+    "seo": {
+      "metadata": {
+        "title": "Search Engine Optimization",
+        "description": "Organic visibility in search results backed by strong content and technical foundations."
+      },
+      "hero": {
+        "title": "Search Engine Optimization",
+        "description": "We improve your organic visibility in search results with strong technical foundations and content your customers actually search for.",
+        "imageAlt": "Search engine optimization by WAF"
+      },
+      "process": {
+        "title": "A clear delivery methodology.",
+        "description": "From technical audit to compounding organic growth.",
+        "items": [
+          {
+            "title": "Audit",
+            "body": "We review technical health, content, and current rankings."
+          },
+          {
+            "title": "Fix",
+            "body": "We resolve technical issues blocking your visibility."
+          },
+          {
+            "title": "Content",
+            "body": "We build pages and content targeting real search demand."
+          },
+          {
+            "title": "Grow",
+            "body": "We track rankings and compound results month over month."
+          }
+        ]
+      },
+      "featureItems": [
+        {
+          "title": "Technical SEO",
+          "description": "Speed, indexing, structure, and metadata done right.",
+          "imageAlt": "Search Engine Optimization — Technical SEO",
+          "imageSrc": "/images/waf/service-details/digital/seo.jpg"
+        },
+        {
+          "title": "Content that ranks",
+          "description": "Pages built around the keywords your customers search.",
+          "imageAlt": "Search Engine Optimization — Content that ranks",
+          "imageSrc": "/images/waf/service-details/digital/seo.jpg"
+        },
+        {
+          "title": "Measurable growth",
+          "description": "Ranking and traffic reporting tied to real inquiries.",
+          "imageAlt": "Search Engine Optimization — Measurable growth",
+          "imageSrc": "/images/waf/service-details/digital/seo.jpg"
+        }
+      ]
+    },
+    "ui-ux-design": {
+      "metadata": {
+        "title": "UI/UX Design",
+        "description": "Design that serves both the product experience and business goals."
+      },
+      "hero": {
+        "title": "UI/UX Design",
+        "description": "We design product experiences and interfaces that serve your users and your business goals at the same time.",
+        "imageAlt": "UI/UX design by WAF"
+      },
+      "process": {
+        "title": "A clear delivery methodology.",
+        "description": "From research to designs your developers can build directly.",
+        "items": [
+          {
+            "title": "Research",
+            "body": "We study your users, competitors, and product goals."
+          },
+          {
+            "title": "Flows",
+            "body": "We map user journeys and information architecture."
+          },
+          {
+            "title": "Design",
+            "body": "We design interfaces and interactive prototypes."
+          },
+          {
+            "title": "Handoff",
+            "body": "We deliver specs and support the build to pixel-level."
+          }
+        ]
+      },
+      "featureItems": [
+        {
+          "title": "User journeys",
+          "description": "Flows designed around real tasks, not decoration.",
+          "imageAlt": "UI/UX Design — User journeys",
+          "imageSrc": "/images/waf/service-details/digital/ui-ux-design.jpg"
+        },
+        {
+          "title": "Design systems",
+          "description": "Consistent components that keep future work fast and coherent.",
+          "imageAlt": "UI/UX Design — Design systems",
+          "imageSrc": "/images/waf/service-details/digital/ui-ux-design.jpg"
+        },
+        {
+          "title": "Prototypes & testing",
+          "description": "Interactive prototypes validated before development starts.",
+          "imageAlt": "UI/UX Design — Prototypes & testing",
+          "imageSrc": "/images/waf/service-details/digital/ui-ux-design.jpg"
+        }
+      ]
+    },
+    "branding": {
+      "metadata": {
+        "title": "Branding & Creative Design",
+        "description": "A visual identity that expresses your brand's values with clarity and professionalism."
+      },
+      "hero": {
+        "title": "Branding & Creative Design",
+        "description": "We build visual identities that express your brand's values clearly and work consistently across every touchpoint.",
+        "imageAlt": "Branding & creative design by WAF"
+      },
+      "process": {
+        "title": "A clear delivery methodology.",
+        "description": "From brand strategy to an identity ready for every channel.",
+        "items": [
+          {
+            "title": "Discover",
+            "body": "We understand your positioning, audience, and values."
+          },
+          {
+            "title": "Concept",
+            "body": "We develop identity directions grounded in strategy."
+          },
+          {
+            "title": "Design",
+            "body": "We design the logo, colors, typography, and system."
+          },
+          {
+            "title": "Deliver",
+            "body": "We hand over guidelines and files for every use case."
+          }
+        ]
+      },
+      "featureItems": [
+        {
+          "title": "Complete identity systems",
+          "description": "Logo, colors, typography, and usage rules in one system.",
+          "imageAlt": "Branding & Creative Design — Complete identity systems",
+          "imageSrc": "/images/waf/service-details/digital/branding.jpg"
+        },
+        {
+          "title": "Digital & print ready",
+          "description": "Assets prepared for web, social, signage, and print.",
+          "imageAlt": "Branding & Creative Design — Digital & print ready",
+          "imageSrc": "/images/waf/service-details/digital/branding.jpg"
+        },
+        {
+          "title": "Built to grow",
+          "description": "An identity flexible enough for new products and campaigns.",
+          "imageAlt": "Branding & Creative Design — Built to grow",
+          "imageSrc": "/images/waf/service-details/digital/branding.jpg"
+        }
+      ]
+    },
+    "print-signage": {
+      "metadata": {
+        "title": "Print, Signage & Promotional Materials",
+        "description": "Printed materials, signage, and promotional giveaways that support your corporate presence."
+      },
+      "hero": {
+        "title": "Print, Signage & Promotional Materials",
+        "description": "We produce printed materials, signage, and promotional giveaways that carry your identity into the physical world with the same quality as your digital presence.",
+        "imageAlt": "Print, signage & promotional materials by WAF"
+      },
+      "process": {
+        "title": "A clear delivery methodology.",
+        "description": "From materials list to delivered, installed output.",
+        "items": [
+          {
+            "title": "Scope",
+            "body": "We confirm materials, quantities, sizes, and deadlines."
+          },
+          {
+            "title": "Prepare",
+            "body": "We prepare or adapt your files for production."
+          },
+          {
+            "title": "Produce",
+            "body": "We print and fabricate with vetted suppliers."
+          },
+          {
+            "title": "Deliver",
+            "body": "We deliver or install on site per the agreed plan."
+          }
+        ]
+      },
+      "featureItems": [
+        {
+          "title": "Commercial printing",
+          "description": "Brochures, banners, roll-ups, and large-format production.",
+          "imageAlt": "Print & Signage — Commercial printing",
+          "imageSrc": "/images/waf/service-details/digital/print-signage.jpg"
+        },
+        {
+          "title": "Signage & wayfinding",
+          "description": "Indoor, outdoor, and 3D signage executed to spec.",
+          "imageAlt": "Print & Signage — Signage & wayfinding",
+          "imageSrc": "/images/waf/service-details/digital/print-signage.jpg"
+        },
+        {
+          "title": "Promotional giveaways",
+          "description": "Branded products and corporate gifts ready for events.",
+          "imageAlt": "Print & Signage — Promotional giveaways",
+          "imageSrc": "/images/waf/service-details/digital/print-signage.jpg"
         }
       ]
     }

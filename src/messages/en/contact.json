@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Contact WAF | Business Services",
-    "description": "Contact WAF to request an execution quote for your commercial project or event — a specialized team is ready to answer your questions."
+    "description": "Contact WAF to request a quote for your website, app, store, or marketing project — a specialized team is ready to answer your questions."
   },
   "hero": {
     "eyebrow": "Contact",
@@ -49,15 +49,15 @@
     "items": [
       {
         "title": "Real Expertise",
-        "description": "Years of experience executing and fitting out commercial projects, exhibitions, and events to high standards."
+        "description": "Years of experience delivering digital products and execution work to high standards."
       },
       {
         "title": "Guaranteed Quality",
-        "description": "We use the latest equipment and finest materials with full confidence in our execution."
+        "description": "Modern tools and proven practices with full confidence in our delivery."
       },
       {
         "title": "Specialized Team",
-        "description": "A professional team managing your project from manufacturing to installation and handover."
+        "description": "A professional team managing your project from planning to launch and growth."
       },
       {
         "title": "Commitment Beyond Expectations",
@@ -66,7 +66,7 @@
     ]
   },
   "cta": {
-    "title": "Ready to execute your next project?",
+    "title": "Ready to start your next project?",
     "description": "Contact WAF today and leave the rest to us.",
     "buttonLabel": "Contact Us"
   }

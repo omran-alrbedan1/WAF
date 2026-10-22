@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 
 import { JsonLd } from "@/components/seo/json-ld";
 import { type SiteLocale } from "@/config/site";
+import { images } from "@/constants/image";
 import {
   ServicesShowcaseCta,
   ServicesShowcaseGroups,
@@ -62,7 +63,12 @@ export default async function ServicesPage({ params }: ServicesPageProps) {
       />
 
       <div className="text-heading">
-        <ServicesShowcaseHero hero={hero} locale={typedLocale} servicesCount={catalog.items.length} />
+        <ServicesShowcaseHero
+          hero={hero}
+          locale={typedLocale}
+          servicesCount={catalog.items.length}
+          heroImageSrc={images.services.servicesHeroDigital}
+        />
         <ServicesShowcaseGroups catalog={catalog} locale={typedLocale} />
         <ServicesShowcaseCta />
       </div>

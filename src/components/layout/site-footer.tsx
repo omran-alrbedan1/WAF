@@ -19,6 +19,7 @@ export function SiteFooter() {
   const quickLinks = [
     { label: t("navigation.home"), href: `/${locale}` },
     { label: t("navigation.services"), href: `/${locale}/services` },
+    { label: t("navigation.execution"), href: `/${locale}/execution` },
     { label: t("navigation.about"), href: `/${locale}/about` },
     { label: t("navigation.contact"), href: `/${locale}/contact` },
   ];

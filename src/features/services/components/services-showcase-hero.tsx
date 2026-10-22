@@ -12,9 +12,10 @@ type ServicesShowcaseHeroProps = {
   hero: ServicesMessages["hero"];
   locale: SiteLocale;
   servicesCount: number;
+  heroImageSrc?: string;
 };
 
-export function ServicesShowcaseHero({ hero, locale, servicesCount }: ServicesShowcaseHeroProps) {
+export function ServicesShowcaseHero({ hero, locale, servicesCount, heroImageSrc }: ServicesShowcaseHeroProps) {
   const isArabic = locale === "ar";
   const DirectionArrow = isArabic ? ArrowLeft : ArrowRight;
 
@@ -57,7 +58,7 @@ export function ServicesShowcaseHero({ hero, locale, servicesCount }: ServicesSh
           <div className="relative">
             <div className="relative aspect-[4/3] overflow-hidden rounded-[1.75rem] border border-line shadow-2xl">
               <OptimizedImage
-                src={images.services.servicesHero}
+                src={heroImageSrc ?? images.services.servicesHero}
                 alt={hero.imageAlt}
                 priority
                 sizes="(min-width: 1024px) 45vw, 100vw"

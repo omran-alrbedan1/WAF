@@ -9,6 +9,7 @@
     "mobileAriaLabel": "Mobile navigation",
     "home": "Home",
     "services": "Our Services",
+    "execution": "Execution & Exhibitions",
     "works": "Our Work",
     "about": "About Us",
     "contact": "Contact Us"
@@ -30,37 +31,38 @@
     "skipToContent": "Skip to main content"
   },
   "seo": {
-    "classification": "Commercial project, exhibition, and event execution",
+    "classification": "Technology and marketing services for companies in Saudi Arabia",
     "ogImageAlt": "Share image for WAF Business Services",
     "keywords": {
       "default": [
         "WAF",
         "WAF Business Services",
-        "project execution",
-        "exhibition fit-out",
-        "event site preparation",
-        "signage and wayfinding",
-        "large format printing",
-        "creative sculptures",
-        "corporate giveaways"
+        "web development Saudi Arabia",
+        "mobile app development",
+        "digital marketing",
+        "e-commerce stores",
+        "custom software",
+        "SEO",
+        "branding",
+        "FutureX Digital Solutions"
       ],
       "routes": {
-        "home": ["execution company", "commercial projects", "manufacturing to installation"],
-        "about": ["about WAF", "WAF team", "project execution experts"],
-        "services": ["WAF services", "visual identity execution", "event site fit-out"],
-        "works": ["WAF works", "executed projects", "project portfolio"],
+        "home": ["technology partner", "digital products", "idea to launch and growth"],
+        "about": ["about WAF", "WAF team", "technology and marketing experts"],
+        "services": ["WAF services", "web development", "digital marketing"],
+        "works": ["WAF works", "delivered projects", "digital portfolio"],
         "contact": ["request a quote", "contact WAF", "project inquiry"]
       },
-      "serviceDetails": ["service details", "specialized execution", "professional fit-out"]
+      "serviceDetails": ["service details", "digital services", "technology solutions"]
     },
     "schema": {
-      "websiteDescription": "A project execution and fit-out company delivering manufacturing, execution, and installation for commercial projects, exhibitions, and events.",
-      "organizationDescription": "WAF for Business Services — executing and fitting out commercial projects, exhibitions, and events from manufacturing to installation.",
-      "automotiveBusinessDescription": "An integrated destination for executing commercial projects, exhibitions, and events with high quality and full commitment."
+      "websiteDescription": "A Saudi technology and marketing company delivering website & app development, e-commerce, custom software, and digital marketing from idea to launch and growth.",
+      "organizationDescription": "WAF for Business Services — a Saudi technology and marketing partner, backed by FutureX Digital Solutions, helping companies build and grow their digital presence.",
+      "automotiveBusinessDescription": "An integrated destination for digital product development and marketing services for companies across Saudi Arabia."
     }
   },
   "footer": {
-    "description": "Integrated execution solutions for commercial projects, exhibitions, and events — from manufacturing to installation.",
+    "description": "A Saudi technology and marketing partner — we build websites, apps, e-commerce stores, and digital marketing solutions from idea to launch and growth.",
     "quickLinksTitle": "Quick Links",
     "contactTitle": "Head Office",
     "social": {
@@ -95,11 +97,11 @@
       ]
     },
     "services": [
-      "Creative sculptures & interior fit-out",
-      "Visual identity & signage",
-      "Event site preparation"
+      "Website & app development",
+      "Digital marketing & SEO",
+      "E-commerce & custom software"
     ],
-    "companyLine": "Project execution & fit-out company",
+    "companyLine": "Technology & marketing services company",
     "copyright": "© WAF for Business Services. All rights reserved.",
     "poweredBy": "Powered by",
     "poweredByAlt": "FutureX Tech"

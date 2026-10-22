@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "title": "About WAF | Project Execution & Fit-Out Company",
-    "description": "Learn about WAF for Business Services — a company executing and fitting out commercial projects, exhibitions, and events from manufacturing to installation."
+    "title": "About WAF | Technology & Marketing Services in Saudi Arabia",
+    "description": "Learn about WAF for Business Services — a Saudi technology and marketing company building websites, apps, e-commerce stores, and digital growth solutions, backed by FutureX Digital Solutions."
   },
   "hero": {
     "eyebrow": "About WAF",
-    "title": "We turn ideas into practical reality",
-    "description": "A project execution and fit-out company delivering manufacturing, execution, and installation for commercial projects and events, through a specialized team focused on execution quality, commitment, and turning ideas into practical reality.",
+    "title": "We turn ideas into digital products that grow",
+    "description": "A Saudi technology and marketing services company helping businesses build their digital products and presence from idea to launch and growth — with our original project, exhibition, and event execution expertise still on board.",
     "primaryCta": "Request an Execution Quote",
     "secondaryCta": "Contact Us",
     "imageAlt": "The WAF team on a project site"
@@ -30,20 +30,20 @@
       },
       {
         "title": "Professionalism",
-        "body": "A specialized team managing every stage from manufacturing to installation with precision"
+        "body": "A specialized team managing every stage from planning to launch with precision"
       }
     ]
   },
   "stats": {
     "eyebrow": "Results we're proud of",
-    "title": "Trust built through execution",
+    "title": "Trust built through delivery",
     "items": [
       {
         "number": "40+",
         "label": "Brands that trusted us"
       },
       {
-        "number": "7",
+        "number": "10",
         "label": "Integrated services"
       },
       {
@@ -64,7 +64,7 @@
     "items": [
       {
         "title": "Specialized team",
-        "body": "Experts in manufacturing, execution, and installation for commercial projects and events"
+        "body": "Experts in development, design, and marketing for digital products — backed by FutureX Digital Solutions"
       },
       {
         "title": "Professional project management",
@@ -79,8 +79,8 @@
   "cta": {
     "eyebrow": "Start Your Project",
     "title": "Ready to execute your next project?",
-    "description": "Contact us today and get an execution quote tailored to your project's needs.",
-    "primaryLabel": "Request an Execution Quote",
+    "description": "Contact us today and get a quote tailored to your project's needs.",
+    "primaryLabel": "Request a Quote",
     "secondaryLabel": "Contact Us",
     "imageAlt": "An executed project by WAF"
   }

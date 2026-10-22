@@ -25,6 +25,14 @@ type HomeMessages = {
 };
 
 const imageMap: Record<string, string> = {
+  web: images.services.digital.webDevelopment,
+  app: images.services.digital.mobileDevelopment,
+  software: images.services.digital.customSoftware,
+  store: images.services.digital.ecommerce,
+  marketing: images.services.digital.digitalMarketing,
+  seo: images.services.digital.seoOptimization,
+  ux: images.services.digital.uiUxDesign,
+  brand: images.services.digital.brandingDesign,
   signage: images.services.signageInstall,
   packaging: images.services.packaging,
   printing: images.services.largeFormatPrint,

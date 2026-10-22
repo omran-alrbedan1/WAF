@@ -7,9 +7,13 @@ import { useLocale, useTranslations } from "next-intl";
 import { Container } from "@/components/layout/container";
 import { RevealPanel } from "@/components/ui/reveal-panel";
 
-export function ServicesShowcaseCta() {
+export function ServicesShowcaseCta({
+  namespace = "services.cta",
+}: {
+  namespace?: "services.cta" | "execution.cta";
+}) {
   const locale = useLocale();
-  const t = useTranslations("services.cta");
+  const t = useTranslations(namespace);
   const DirectionArrow = locale === "ar" ? ArrowLeft : ArrowRight;
 
   return (

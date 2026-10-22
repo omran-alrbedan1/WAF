@@ -32,9 +32,9 @@
     "error": "We could not send your message."
   },
   "serviceRequestForm": {
-    "eyebrow": "Execution quote request",
-    "title": "Request an execution quote",
-    "description": "Prepared for commercial projects, exhibitions, events, and custom work requests.",
+    "eyebrow": "Quote request",
+    "title": "Request a quote",
+    "description": "Prepared for websites, apps, stores, marketing, and custom project requests.",
     "fields": {
       "fullName": "Full name",
       "phone": "Phone",
@@ -49,7 +49,7 @@
       "fullName": "Your full name",
       "phone": "Your phone number",
       "email": "name@example.com",
-      "serviceType": "Sculptures, signage, events...",
+      "serviceType": "Website, app, store, marketing...",
       "projectType": "Project or event type",
       "description": "Tell us about your project and the service you need"
     },

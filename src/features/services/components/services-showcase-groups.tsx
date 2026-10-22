@@ -17,6 +17,16 @@ type ServicesShowcaseGroupsProps = {
 };
 
 const serviceImageMap: Record<string, string> = {
+  "web-development": images.services.digital.webDevelopment,
+  "mobile-development": images.services.digital.mobileDevelopment,
+  "custom-software": images.services.digital.customSoftware,
+  ecommerce: images.services.digital.ecommerce,
+  "ai-automation": images.services.digital.aiAutomation,
+  "digital-marketing": images.services.digital.digitalMarketing,
+  seo: images.services.digital.seoOptimization,
+  "ui-ux-design": images.services.digital.uiUxDesign,
+  branding: images.services.digital.brandingDesign,
+  "print-signage": images.services.digital.printSignage,
   "creative-sculptures": images.services.sculptureInstall,
   "graffiti-murals": images.services.muralArt,
   "signage-branding": images.services.signageInstall,

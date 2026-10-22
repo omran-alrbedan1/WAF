@@ -1,113 +1,133 @@
 {
   "metadata": {
-    "title": "WAF Services | Project, Exhibition & Event Execution",
-    "description": "Explore WAF services: creative sculptures, graffiti murals, visual identity & signage, event site preparation, large-format printing, fabrication & installation, and corporate giveaways."
+    "title": "WAF Services | Web & App Development and Digital Marketing in Saudi Arabia",
+    "description": "Explore WAF services: website design & development, mobile apps, custom software, e-commerce stores, AI & business automation, digital marketing, SEO, UI/UX design, branding, and print & signage."
   },
   "hero": {
     "eyebrow": "WAF Business Services",
     "sectionLabel": "01 / SERVICES",
-    "title": "Professional execution & fit-out services",
-    "description": "We deliver execution and fit-out for commercial projects, exhibitions, and events from manufacturing to installation through a specialized team.",
-    "primaryCta": "Request an Execution Quote",
+    "title": "Technology & marketing services from idea to launch and growth",
+    "description": "Technical and marketing services designed for companies in Saudi Arabia — digital product development, digital growth, and brand identity in one integrated system.",
+    "primaryCta": "Request a Quote",
     "secondaryCta": "About WAF",
-    "imageAlt": "WAF execution and fit-out work"
+    "imageAlt": "WAF digital services and solutions"
   },
   "catalog": {
-    "eyebrow": "From Manufacturing to Installation",
-    "title": "Integrated services that deliver your project from idea to handover",
-    "description": "Seven core services covering everything your commercial project or event needs.",
+    "eyebrow": "From Idea to Launch & Growth",
+    "title": "Integrated services covering your digital product and its growth",
+    "description": "Ten core services across digital product development, digital growth, and brand identity.",
     "cta": "More about this service",
     "groups": [
       {
-        "label": "FABRICATE",
-        "heading": "High-quality fabrication and build",
-        "itemSlugs": ["creative-sculptures", "fabrication-installation"]
+        "label": "DIGITAL PRODUCTS",
+        "heading": "Websites, apps, platforms, and stores built around your goals",
+        "itemSlugs": ["web-development", "mobile-development", "custom-software", "ecommerce", "ai-automation"]
       },
       {
-        "label": "BRAND",
-        "heading": "Visual identity that leaves a mark",
-        "itemSlugs": ["signage-branding", "graffiti-murals", "large-format-printing"]
+        "label": "DIGITAL GROWTH",
+        "heading": "Marketing and visibility that deliver measurable growth",
+        "itemSlugs": ["digital-marketing", "seo"]
       },
       {
-        "label": "EVENTS",
-        "heading": "Complete fit-out for events and corporates",
-        "itemSlugs": ["event-sites", "packaging-giveaways"]
+        "label": "BRAND & UX",
+        "heading": "Identity and experience design that build trust",
+        "itemSlugs": ["ui-ux-design", "branding"]
+      },
+      {
+        "label": "EXECUTION SUPPORT",
+        "heading": "Physical presence that supports your corporate identity",
+        "itemSlugs": ["print-signage"]
       }
     ],
     "items": [
       {
-        "slug": "creative-sculptures",
-        "title": "Creative Sculptures & Interior Fit-Out",
-        "body": "Design and execution of creative sculptures and interior fit-out reflecting your project's identity."
+        "slug": "web-development",
+        "title": "Website Design & Development",
+        "body": "Fast, professional websites designed to showcase your services and turn visitors into customers."
       },
       {
-        "slug": "graffiti-murals",
-        "title": "Graffiti & Artistic Murals",
-        "body": "Artistic graffiti and mural works that give your spaces a distinctive character."
+        "slug": "mobile-development",
+        "title": "Mobile App Development",
+        "body": "Android & iOS apps built around user experience and your project's goals."
       },
       {
-        "slug": "signage-branding",
-        "title": "Visual Identity & Signage",
-        "body": "Execution of visual identity, signage, and wayfinding boards with precision and quality."
+        "slug": "custom-software",
+        "title": "Custom Software & Platforms",
+        "body": "Systems and software solutions built to fit the way your business actually operates."
       },
       {
-        "slug": "event-sites",
-        "title": "Event Site Preparation",
-        "body": "Complete preparation of event and exhibition sites from planning to handover."
+        "slug": "ecommerce",
+        "title": "E-Commerce Stores",
+        "body": "Online stores that are ready to sell and built to scale."
       },
       {
-        "slug": "large-format-printing",
-        "title": "Large Format Printing",
-        "body": "Large-format printing and production with the latest technology and finest materials."
+        "slug": "ai-automation",
+        "title": "AI & Business Automation",
+        "body": "Automate repetitive operations and launch smart features inside your products."
       },
       {
-        "slug": "fabrication-installation",
-        "title": "Fabrication, Installation & Handover",
-        "body": "Fabricating, installing, and handing over complete projects to professional standards."
+        "slug": "digital-marketing",
+        "title": "Digital Marketing",
+        "body": "Content, ads, and digital-presence strategies that deliver measurable growth."
       },
       {
-        "slug": "packaging-giveaways",
-        "title": "Packaging & Corporate Giveaways",
-        "body": "Packaging solutions and promotional giveaways that strengthen your brand presence."
+        "slug": "seo",
+        "title": "Search Engine Optimization",
+        "body": "Organic visibility in search results backed by strong content and technical foundations."
+      },
+      {
+        "slug": "ui-ux-design",
+        "title": "UI/UX Design",
+        "body": "Design that serves both the product experience and business goals."
+      },
+      {
+        "slug": "branding",
+        "title": "Branding & Creative Design",
+        "body": "A visual identity that expresses your brand's values with clarity and professionalism."
+      },
+      {
+        "slug": "print-signage",
+        "title": "Print, Signage & Promotional Materials",
+        "body": "Printed materials, signage, and promotional giveaways that support your corporate presence."
       }
     ]
   },
   "features": {
     "eyebrow": "Why WAF?",
-    "cta": "Request an Execution Quote",
+    "cta": "Request a Quote",
     "items": [
       {
-        "slug": "creative-sculptures",
+        "slug": "web-development",
         "title": "Execution Quality",
-        "description": "Strict quality standards at every stage from manufacturing to installation.",
-        "imageAlt": "A creative sculpture executed by WAF"
+        "description": "Strict quality standards at every stage from planning to launch.",
+        "imageAlt": "A website developed by WAF"
       },
       {
-        "slug": "signage-branding",
+        "slug": "mobile-development",
         "title": "Deadline Commitment",
         "description": "A clear timeline and full commitment to delivery dates.",
-        "imageAlt": "Signage and wayfinding installation"
+        "imageAlt": "A mobile app developed by WAF"
       },
       {
-        "slug": "event-sites",
+        "slug": "digital-marketing",
         "title": "Specialized Team",
-        "description": "A professional team managing your project from idea to handover.",
-        "imageAlt": "Event site preparation"
+        "description": "One team for technology and marketing managing your project from idea to growth.",
+        "imageAlt": "Digital marketing campaigns by WAF"
       },
       {
-        "slug": "large-format-printing",
+        "slug": "ecommerce",
         "title": "Competitive Pricing",
-        "description": "R&D investment to deliver the best value for the price.",
-        "imageAlt": "Large format printing"
+        "description": "Pricing scoped by project requirements to deliver the best value for the price.",
+        "imageAlt": "An e-commerce store built by WAF"
       }
     ]
   },
   "cta": {
     "eyebrow": "Start Now",
-    "title": "Ready to execute your project?",
-    "description": "Contact us and get a custom execution quote for your project.",
-    "primaryLabel": "Request an Execution Quote",
+    "title": "Have a project idea? Let's turn it into a clear plan",
+    "description": "Share your website, app, or marketing needs and we'll reach out to understand the project and suggest the right next step.",
+    "primaryLabel": "Request a Quote",
     "secondaryLabel": "Contact Us",
-    "imageAlt": "An executed project by WAF"
+    "imageAlt": "A digital project delivered by WAF"
   }
 }

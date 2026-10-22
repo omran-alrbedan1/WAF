@@ -16,9 +16,9 @@ export const siteConfig = {
     "https://www.google.com/maps?q=Riyadh%2C%20Saudi%20Arabia&output=embed",
   companyProfilePdf: "/WAF-Company-Profile.pdf",
   description:
-    "WAF executes and fits out commercial projects, exhibitions, and events — from manufacturing to installation and handover.",
+    "WAF is a Saudi technology and marketing partner — we build websites, apps, e-commerce stores, and digital marketing solutions from idea to launch and growth.",
   arabicDescription:
-    "شركة تنفيذ وتجهيز مشاريع. ننفّذ ونجهّز المشاريع التجارية، المعارض، والفعاليات من التصنيع إلى التركيب.",
+    "واف شريك تقني وتسويقي سعودي — نطوّر المواقع والتطبيقات والمتاجر الإلكترونية وحلول التسويق الرقمي من الفكرة إلى الإطلاق والنمو.",
   localeCookie: "waf-locale",
   locales: ["ar", "en"] as const,
   defaultLocale: "ar" as const,

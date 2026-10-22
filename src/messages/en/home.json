@@ -1,99 +1,99 @@
 {
   "metadata": {
-    "title": "WAF Business Services | Project, Exhibition & Event Execution",
-    "description": "WAF executes and fits out commercial projects, exhibitions, and events — from manufacturing to installation and handover."
+    "title": "WAF Business Services | Web & App Development and Digital Marketing in Saudi Arabia",
+    "description": "WAF is your technology and marketing partner in Saudi Arabia — website & app development, digital marketing, e-commerce stores, and custom software from idea to launch and growth."
   },
   "hero": {
-    "eyebrow": "WAF Business Services",
-    "title": "From idea to a lasting impression.",
-    "description": "We execute and fit out commercial projects, exhibitions, and events — with integrated solutions from fabrication and preparation through installation and handover.",
-    "supporting": "Instead of juggling multiple vendors for design, printing, packaging, signage, and installation, WAF handles your project from a single source — with consistent quality, studied costs, and a clear execution timeline.",
-    "microcopy": "Send the service type, city, quantity or size, and required delivery date — we'll guide you to the best-fit solution for your project.",
-    "primaryCta": "Request a Quote via WhatsApp",
+    "eyebrow": "Your technology & marketing partner in Saudi Arabia",
+    "title": "We build your website or app... and turn it into a real sales channel.",
+    "description": "From planning and design to development and digital marketing, WAF helps you launch a professional digital experience that serves your goals and supports your business growth in Saudi Arabia.",
+    "supporting": "Instead of juggling separate vendors for development, design, and marketing, WAF handles your digital project from a single source — one team for technology and marketing from idea to launch and growth.",
+    "microcopy": "Tell us about your website, app, or marketing needs — we'll guide you to the best-fit solution for your project.",
+    "primaryCta": "Start Your Project",
     "secondaryCta": "Explore WAF Services",
-    "highlightOne": "From fabrication to installation",
-    "highlightTwo": "Quality and care in every detail",
-    "highlightThree": "One partner for every solution",
+    "highlightOne": "Websites, apps & e-commerce stores",
+    "highlightTwo": "Digital marketing & SEO",
+    "highlightThree": "One team for tech & marketing",
     "visualLabel": "JEDDAH · SAUDI ARABIA",
     "slideLabel": "Show background image {number}",
     "pauseSlideshow": "Pause background slideshow",
     "playSlideshow": "Play background slideshow",
     "highlights": [
-      "A specialized team from manufacturing to installation",
-      "Execution quality that exceeds expectations",
-      "Full commitment to timelines and details"
+      "One team for technology and marketing",
+      "From idea to launch and continuous growth",
+      "Solutions designed for the Saudi market"
     ],
-    "imageAlt": "A WAF execution and fit-out project"
+    "imageAlt": "A digital project delivered by WAF"
   },
   "brandIntroduction": {
     "eyebrow": "Our Services",
-    "title": "Integrated execution solutions from idea to handover",
-    "description": "We deliver manufacturing, execution, and installation for commercial projects and events through a specialized team.",
+    "title": "Three pillars: building, marketing, and continuously improving your digital product",
+    "description": "We combine digital product development with marketing and optimization so you get an integrated solution — not just code files.",
     "sectionCta": "Explore All Services",
     "cards": [
       {
         "number": "01",
         "icon": "pulse",
-        "title": "Creative Sculptures & Interior Fit-Out",
-        "body": "Design and execution of creative sculptures and interior fit-out that reflect your project's identity.",
+        "title": "Website Design & Development",
+        "body": "Fast, professional websites designed to showcase your services and turn visitors into customers.",
         "cta": "Learn More"
       },
       {
         "number": "02",
         "icon": "tool",
-        "title": "Visual Identity & Signage",
-        "body": "Execution of visual identity, signage, and wayfinding boards with precision and high quality.",
+        "title": "Mobile App Development",
+        "body": "Android & iOS apps built around user experience and your project's goals.",
         "cta": "Learn More"
       },
       {
         "number": "03",
         "icon": "gauge",
-        "title": "Event Site Preparation",
-        "body": "Preparing and executing event and exhibition sites from planning to handover.",
+        "title": "Digital Marketing",
+        "body": "Content, ads, and digital-presence strategies that deliver measurable growth.",
         "cta": "Learn More"
       },
       {
         "number": "04",
         "icon": "mopar",
-        "title": "Large Format Printing",
-        "body": "Large-format printing and production using the latest technology and finest materials.",
+        "title": "Custom Software & E-Commerce",
+        "body": "Systems, platforms, and online stores built to fit how your business actually operates.",
         "cta": "Learn More"
       }
     ]
   },
   "performance": {
     "eyebrow": "About WAF",
-    "primaryCta": "Company Profile",
+    "primaryCta": "About Us",
     "points": [
       {
-        "title": "Fair pricing",
-        "description": "Competitive pricing shaped by investment in research and development."
+        "title": "One team for tech & marketing",
+        "description": "Development and marketing under one roof — no vendor fragmentation."
       },
       {
-        "title": "Commitment",
-        "description": "Client trust is the foundation of our work, with clear communication at every stage."
+        "title": "Saudi market understanding",
+        "description": "Solutions designed around the needs of companies across the Kingdom."
       },
       {
-        "title": "Quality",
-        "description": "Careful attention to detail helps us exceed expectations on every project."
+        "title": "Clear scope & stages",
+        "description": "Transparent scope of work and milestones for every project."
       },
       {
-        "title": "Ideas into reality",
-        "description": "A specialized team turns concepts into practical results, through handover."
+        "title": "Post-launch follow-up",
+        "description": "The digital project doesn't end at writing code — we keep improving after launch."
       }
     ],
     "heading": {
-      "title": "We deliver manufacturing, execution, and installation for commercial projects and events",
-      "description": "Through a specialized team focused on execution quality, commitment, and turning ideas into practical reality."
+      "title": "The digital project doesn't end at writing code",
+      "description": "Many companies build a website or app, then discover they have no launch, marketing, or improvement plan. At WAF we combine building, marketing, and optimizing your digital product."
     },
-    "imageAlt": "WAF execution and fit-out work",
-    "imageCaption": "We turn ideas into spaces people experience",
+    "imageAlt": "WAF digital product work",
+    "imageCaption": "From idea to launch and growth",
     "serviceCountLabel": "integrated services"
   },
   "advantages": {
     "eyebrow": "Why WAF?",
-    "title": "Trust built through execution, sustained through commitment",
-    "description": "WAF clients testify to execution quality and commitment on every project.",
+    "title": "A partner that builds and grows your digital presence",
+    "description": "WAF clients rely on one team for technology and marketing on every project.",
     "stats": [
       {
         "value": "40+",
@@ -101,9 +101,9 @@
         "label": "trusted us with their projects"
       },
       {
-        "value": "7",
+        "value": "10",
         "title": "Integrated services",
-        "label": "from manufacturing to installation"
+        "label": "from development to marketing"
       },
       {
         "value": "100%",
@@ -119,15 +119,15 @@
   },
   "trustBar": {
     "items": [
-      { "icon": "wrench", "label": "End-to-end execution from design to installation" },
-      { "icon": "pin", "label": "WAF Jeddah serving companies, stores & events" },
-      { "icon": "layers", "label": "Printing, packaging, signage & giveaway solutions" },
-      { "icon": "receipt", "label": "Pricing scoped by materials, size & timeline" }
+      { "icon": "wrench", "label": "Development, marketing & growth in one team" },
+      { "icon": "pin", "label": "WAF Jeddah serving companies across Saudi Arabia" },
+      { "icon": "layers", "label": "Websites, apps, stores & custom software" },
+      { "icon": "receipt", "label": "Clear scope, pricing & milestones" }
     ]
   },
   "servicesGrid": {
-    "title": "Integrated services to build your brand presence and execute your projects",
-    "intro": "WAF for Business Services combines design, printing, packaging, signage, exhibition booths, event fit-out, and promotional giveaways in one integrated system serving companies, stores, and commercial projects across Jeddah and Saudi Arabia.",
+    "title": "Integrated services to build and grow your digital presence",
+    "intro": "WAF for Business Services combines website & app development, custom software, e-commerce, digital marketing, SEO, UI/UX design, and branding in one integrated system serving companies across Saudi Arabia.",
     "forWhom": "Who is it for?",
     "weReceive": "What do we need from you?",
     "weDeliver": "What do we deliver?",
@@ -135,211 +135,230 @@
     "viewAllNote": "Need more than one service in the same project? Contact us and we'll suggest the best-fit package.",
     "cards": [
       {
-        "title": "Visual Identity & Branding",
-        "forWhom": "Startups, stores, restaurants, cafés, new ventures, or brands wanting a professional, consistent rebuild of their image.",
-        "weReceive": "Project name, business nature, target audience, services or products, references, preferred/disliked colors, and any existing logo or files.",
-        "weDeliver": "Logo, colors, typography, visual elements, identity applications, usage templates, and print-ready files for packaging, social media, signage, and marketing materials.",
-        "cta": "Start building your identity",
-        "image": "signage"
+        "title": "Website Design & Development",
+        "forWhom": "Companies needing a professional site that presents services and converts visitors into customers.",
+        "weReceive": "Business nature, goals, content or references, and required features.",
+        "weDeliver": "A fast, responsive, SEO-ready website built to convert.",
+        "cta": "Start your website",
+        "image": "web"
       },
       {
-        "title": "Packaging Design & Production",
-        "forWhom": "Stores, restaurants, coffee, perfume, food and gift products — projects that need packaging reflecting product quality.",
-        "weReceive": "Product type, dimensions, required quantity, usage, approximate budget, visual identity or logo, and examples of similar packaging.",
-        "weDeliver": "Packaging design, print-ready files, suitable material suggestions, production per quantity and budget, and commercially usable outputs.",
-        "cta": "Design your product packaging",
-        "image": "packaging"
+        "title": "Mobile App Development",
+        "forWhom": "Businesses wanting Android & iOS apps around a real user need.",
+        "weReceive": "App idea, target users, core features, and references.",
+        "weDeliver": "A store-ready app with follow-up after launch.",
+        "cta": "Build your app",
+        "image": "app"
       },
       {
-        "title": "Printing Services",
-        "forWhom": "Companies and events needing professional prints — banners, brochures, roll-ups, signs, promotional materials, or large-format printing.",
-        "weReceive": "Design file if available, material type, size, quantity, delivery date, usage location, and required material.",
-        "weDeliver": "Digital printing, commercial prints, promotional materials, signs, roll-ups, brochures, banners, and ready-to-use outputs for campaigns, exhibitions, stores, or events.",
-        "cta": "Order printing now",
-        "image": "printing"
+        "title": "Custom Software & Platforms",
+        "forWhom": "Teams whose workflows don't fit off-the-shelf tools.",
+        "weReceive": "Current processes, roles, and integration needs.",
+        "weDeliver": "A tailored system with dashboards and integrations.",
+        "cta": "Scope your system",
+        "image": "software"
       },
       {
-        "title": "Exhibition Booths & Stands",
-        "badge": "Design + Execution + Installation",
-        "forWhom": "Companies participating in exhibitions, conferences, product launches, or commercial events needing organized, clear presence.",
-        "weReceive": "Booth area, site dimensions, event type, visual identity, participation goal, required elements, installation date, and organizer requirements.",
-        "weDeliver": "Booth design & execution, printing, signage, visual elements, stands, final fit-out, and installation per site and project scope.",
-        "cta": "Prepare your next booth",
-        "image": "booth"
+        "title": "E-Commerce Stores",
+        "forWhom": "Brands ready to sell online with payments and shipping.",
+        "weReceive": "Products, markets, and preferred integrations.",
+        "weDeliver": "A conversion-ready store ready to scale.",
+        "cta": "Launch your store",
+        "image": "store"
       },
       {
-        "title": "Event Branding & Organization",
-        "forWhom": "Companies organizing events, campaigns, openings, exhibitions, or field experiences needing an integrated visual presence.",
-        "weReceive": "Event type, date, location, expected attendance, visual identity, required materials list, and any theme or concept.",
-        "weDeliver": "Visual materials, signs, stands, décor, prints, branded elements, event-site fit-out, and branded products supporting your presence.",
-        "cta": "Equip your company event",
-        "image": "events"
+        "title": "Digital Marketing",
+        "forWhom": "Companies wanting measurable growth from digital channels.",
+        "weReceive": "Goals, audience, budget range, and current channels.",
+        "weDeliver": "Strategy, campaigns, content, and clear reporting.",
+        "cta": "Grow your presence",
+        "image": "marketing"
       },
       {
-        "title": "Interior Design & Commercial Fit-Out",
-        "forWhom": "Shops, offices, cafés, restaurants, showrooms — spaces that need consistency with the brand identity.",
-        "weReceive": "Space type, photos or site plan, dimensions, business nature, visual identity, fit-out goal, budget, and opening date.",
-        "weDeliver": "Interior fit-out, signage, branding elements, commercial décor, in-space identity application, and visual details improving visitor experience.",
-        "cta": "Upgrade your commercial space",
-        "image": "interior"
+        "title": "Search Engine Optimization",
+        "forWhom": "Businesses wanting organic visibility that compounds.",
+        "weReceive": "Website, market, and priority services or products.",
+        "weDeliver": "Technical fixes, content, and ranking growth.",
+        "cta": "Improve your rankings",
+        "image": "seo"
       },
       {
-        "title": "3D Signs & Signage",
-        "forWhom": "Offices, stores, restaurants, exhibitions, and commercial entities needing clear, professional presence inside or outside the site.",
-        "weReceive": "Logo or identity, required size, installation location, sign type, site photos, preferred material, and execution date.",
-        "weDeliver": "3D signs, indoor & outdoor signage, wayfinding signs, façades, raised lettering, and multi-material execution suited to the site.",
-        "cta": "Request a professional sign",
-        "image": "signage"
+        "title": "UI/UX Design",
+        "forWhom": "Products needing interfaces users love and developers can build.",
+        "weReceive": "Product goals, user tasks, and existing screens if any.",
+        "weDeliver": "Flows, interfaces, prototypes, and design systems.",
+        "cta": "Design your experience",
+        "image": "ux"
       },
       {
-        "title": "Promotional Giveaways & Uniforms",
-        "forWhom": "Companies wanting promotional gifts, uniforms, branded products, event marketing materials, or brand-carrying tools.",
-        "weReceive": "Logo or identity, product type, quantity, intended use, target audience, uniform sizes, and approximate budget.",
-        "weDeliver": "Promotional gifts, product printing, uniforms, bags, boxes, marketing tools, and branded products ready for use.",
-        "cta": "Prepare your promotional products",
-        "image": "gifts"
+        "title": "Branding & Creative Design",
+        "forWhom": "Brands needing an identity that works across every channel.",
+        "weReceive": "Values, audience, positioning, and references.",
+        "weDeliver": "Complete identity systems and usage guidelines.",
+        "cta": "Build your identity",
+        "image": "brand"
       }
     ]
   },
   "whyWaf": {
     "eyebrow": "The WAF difference",
-    "title": "Why choose WAF for Business Services?",
-    "intro": "WAF's strength isn't in offering a single service — it's in combining interconnected services into one clear execution experience, helping you save time, control budget, and get consistent outputs from first idea to final handover.",
+    "title": "Why choose WAF for your project?",
+    "intro": "WAF's strength isn't offering a single service — it's combining technology and marketing into one clear experience, helping you save time, control budget, and get consistent output from first idea to continuous growth.",
     "points": [
       {
-        "title": "One source instead of many vendors",
-        "body": "WAF combines identity, printing, packaging, signage, exhibitions, events, and giveaways — reducing fragmentation and keeping the project consistent."
+        "title": "One team for technology & marketing",
+        "body": "WAF combines development, design, and marketing — reducing fragmentation and keeping your product consistent."
       },
       {
-        "title": "Practical execution, not just ideas",
-        "body": "WAF doesn't stop at concepts or designs — we focus on turning ideas into usable outputs: printing, installation, and handover."
+        "title": "Saudi market understanding",
+        "body": "Solutions designed around the needs of companies in the Kingdom — payments, language, and user behavior."
       },
       {
-        "title": "Fair value for money",
-        "body": "Projects are priced by service type, materials, quantity, and execution time — helping you choose the right solution without unjustified costs."
+        "title": "Solutions designed per project",
+        "body": "No generic packages — scope is shaped around your real goals and budget."
       },
       {
-        "title": "Field experience & supplier network",
-        "body": "WAF relies on hands-on experience and a supplier network that provides better options in materials, pricing, and execution."
+        "title": "Clear scope & stages",
+        "body": "You know what's needed, what you'll get, and how the project moves from request to launch."
       },
       {
-        "title": "Visual consistency across all outputs",
-        "body": "When identity, printing, packaging, and signage come from different parties, results fragment. WAF unifies the look from design to execution."
+        "title": "Professional design & UX",
+        "body": "Interfaces and experiences designed to serve users and business goals together."
+      },
+      {
+        "title": "Scalable technical foundation",
+        "body": "Products built to grow with new features, languages, and markets."
+      },
+      {
+        "title": "Post-launch follow-up",
+        "body": "We keep improving and optimizing after launch — not just deliver files."
+      },
+      {
+        "title": "Technology partnership with FutureX",
+        "body": "Our delivery is backed by a technology partnership with FutureX Digital Solutions."
       }
     ]
   },
   "process": {
     "eyebrow": "HOW WE WORK",
     "stepLabel": "STEP {number}",
-    "title": "How does your project start with WAF?",
-    "intro": "We designed the WAF workflow to be clear from the first message — so you know what's needed, what you'll get, and how the project moves from request to execution and handover.",
+    "title": "From idea to launch and growth",
+    "intro": "A clear methodology for every stage of your project — so you know what's needed, what you'll get, and how the work moves forward.",
     "cta": "Start now by sending your project details",
     "ctaNote": "Replies during official working hours",
     "steps": [
       {
-        "title": "Send your request details",
-        "body": "Specify the service type, city, quantity or size, delivery date, and whether you have a ready design or need design + execution."
+        "title": "Understand the project",
+        "body": "Sessions to understand your goals, audience, and what success looks like."
       },
       {
-        "title": "We review the need & suggest the best fit",
-        "body": "The WAF team understands the project nature and determines whether you need printing only, packaging, identity, signage, event fit-out, a booth, or an integrated solution."
+        "title": "Analyze requirements",
+        "body": "We turn goals into clear, prioritized requirements."
       },
       {
-        "title": "You get a clear quote",
-        "body": "The offer is prepared by scope of work, materials, quantity, and execution time — not a generic price that doesn't fit your project."
+        "title": "Solution & scope",
+        "body": "We define the solution, deliverables, and project stages."
       },
       {
-        "title": "We start design or production",
-        "body": "After approval, the team begins preparing files, fabrication, printing, or preparing project elements per the agreed plan."
+        "title": "User experience",
+        "body": "We design journeys and product components around your users."
       },
       {
-        "title": "Delivery or installation when needed",
-        "body": "Outputs are delivered or installation & fit-out is executed on-site per the service nature and prior agreement."
+        "title": "Development & testing",
+        "body": "High-quality implementation with testing on real environments."
+      },
+      {
+        "title": "Launch",
+        "body": "Safe deployment to production with a verified handover."
+      },
+      {
+        "title": "Marketing & improvement",
+        "body": "Ongoing marketing, follow-up, and continuous optimization."
       }
     ]
   },
   "works": {
-    "title": "WAF Works: execution that proves quality before words",
-    "intro": "In printing, packaging, signage, exhibitions, and events, images alone aren't enough. We present WAF's work in a way that shows the project type, the executed service, and the challenge we actually handled.",
+    "title": "WAF works: projects that went from idea to product",
+    "intro": "Samples of projects our team delivered for clients across different sectors — digital products and execution work that show the project type, the service, and the challenge we handled.",
     "serviceLabel": "Service",
     "viewAll": "Browse more of WAF's work",
-    "similarCta": "Request a similar project execution",
-    "filters": ["All", "Identity & Signage", "Printing & Large Format", "Packaging", "Exhibitions & Stands", "Events", "Promotional Giveaways", "Commercial Fit-Out"],
+    "similarCta": "Request a similar project",
+    "filters": ["All", "Digital Products", "E-Commerce", "Branding", "Marketing", "Exhibitions & Execution"],
     "items": [
       {
-        "title": "Launch materials for a brand in Jeddah",
-        "service": "Visual identity, packaging & prints",
-        "category": "Identity & Signage",
-        "image": "signage"
+        "title": "Fintech platform launch",
+        "service": "Mobile app design & development",
+        "category": "Digital Products",
+        "image": "app"
+      },
+      {
+        "title": "Retail e-commerce store",
+        "service": "Store build & conversion optimization",
+        "category": "E-Commerce",
+        "image": "store"
+      },
+      {
+        "title": "Consulting company website",
+        "service": "Website design & development",
+        "category": "Digital Products",
+        "image": "web"
+      },
+      {
+        "title": "Restaurant ordering app",
+        "service": "Mobile app with loyalty program",
+        "category": "Digital Products",
+        "image": "app"
+      },
+      {
+        "title": "Startup brand identity",
+        "service": "Branding & creative design",
+        "category": "Branding",
+        "image": "brand"
+      },
+      {
+        "title": "Product launch campaign",
+        "service": "Digital marketing & paid ads",
+        "category": "Marketing",
+        "image": "marketing"
       },
       {
         "title": "Exhibition booth for a commercial brand",
         "service": "Booth design & execution",
-        "category": "Exhibitions & Stands",
+        "category": "Exhibitions & Execution",
         "image": "booth"
-      },
-      {
-        "title": "Product packaging for a specialty coffee store",
-        "service": "Packaging design & production",
-        "category": "Packaging",
-        "image": "packaging"
-      },
-      {
-        "title": "Banners & roll-ups for a commercial event",
-        "service": "Large-format printing",
-        "category": "Printing & Large Format",
-        "image": "printing"
       },
       {
         "title": "Corporate event site fit-out",
         "service": "Event branding & fit-out",
-        "category": "Events",
+        "category": "Exhibitions & Execution",
         "image": "events"
-      },
-      {
-        "title": "3D sign for a store façade",
-        "service": "3D signs & signage",
-        "category": "Identity & Signage",
-        "image": "signage"
-      },
-      {
-        "title": "Branded corporate giveaways",
-        "service": "Promotional giveaways printing & production",
-        "category": "Promotional Giveaways",
-        "image": "gifts"
-      },
-      {
-        "title": "Commercial office interior fit-out",
-        "service": "Fabrication & interior fit-out for commercial spaces",
-        "category": "Commercial Fit-Out",
-        "image": "interior"
       }
     ]
   },
   "clientsSection": {
-    "title": "Companies and entities that trusted WAF to execute their projects",
-    "intro": "We're proud of clients across different sectors trusting WAF's business-service solutions — from printing and large-format production to exhibitions, signage, events, packaging, and giveaways.",
+    "title": "Companies and entities that trusted WAF with their projects",
+    "intro": "We're proud of clients across different sectors trusting WAF's solutions — from websites and apps to marketing, branding, and execution work.",
     "groups": ["Major companies & entities", "Restaurants & cafés", "Stores & commercial projects", "Events & exhibitions", "Educational & sports entities"],
     "trustIndicators": [
       "Over 4 years in the Saudi market",
-      "Specialized team in design & execution",
-      "Services from concept to installation",
+      "Specialized team in technology & marketing",
+      "Services from idea to launch and growth",
       "Head office in Jeddah, serving multiple Saudi cities"
     ]
   },
   "cities": {
-    "title": "WAF Jeddah — execution, printing & branding services across Saudi Arabia",
-    "intro": "WAF for Business Services operates from its head office in Jeddah — Al Hamra district, Qurtoba Business Center, First Floor, Office No. 3 — and serves companies, stores, and events in several cities across the Kingdom.",
+    "title": "WAF Jeddah — development & marketing services across Saudi Arabia",
+    "intro": "WAF for Business Services operates from its head office in Jeddah — Al Hamra district, Qurtoba Business Center, First Floor, Office No. 3 — and serves companies in several cities across the Kingdom.",
     "mapsCta": "Open WAF's location on Google Maps",
     "jeddah": {
       "badge": "Head Office",
       "title": "Jeddah — WAF's Head Office",
-      "body": "Jeddah is the base of WAF for Business Services, where the head office is located in Al Hamra district, Qurtoba Business Center, First Floor, Office No. 3. In Jeddah, WAF offers commercial project execution & fit-out, large-format printing, visual identity & signage, packaging design & production, signs, exhibition & stand fit-out, events, and promotional giveaways."
+      "body": "Jeddah is the base of WAF for Business Services, where the head office is located in Al Hamra district, Qurtoba Business Center, First Floor, Office No. 3. In Jeddah, WAF offers website & app development, custom software, e-commerce, digital marketing, SEO, branding, and execution support services."
     },
     "riyadh": {
       "badge": "Expansion City",
       "title": "Riyadh — an expansion city for WAF services",
-      "body": "Riyadh is an important expansion city where WAF serves exhibition, event, giveaway, printing, branding, and commercial fit-out projects for companies needing integrated solutions from a single source."
+      "body": "Riyadh is an important expansion city where WAF serves digital product development, marketing, branding, and execution projects for companies needing integrated solutions from a single source."
     },
     "othersLabel": "We also serve projects in:",
     "mapNames": {
@@ -358,8 +377,8 @@
     "others": ["Makkah", "Madinah", "Taif", "Yanbu", "Jazan", "Abha", "Khamis Mushait", "Tabuk"]
   },
   "whatsappCta": {
-    "title": "Ready to start your project with WAF?",
-    "body": "Whether you need urgent printing, packaging design, visual identity, signage, exhibition fit-out, a 3D sign, or promotional products — send your project details via WhatsApp and the WAF team will help identify the best fit in materials, quantity, timeline, and expected cost.",
+    "title": "Ready to start your digital project with WAF?",
+    "body": "Whether you need a website, app, e-commerce store, custom system, or marketing plan — send your project details via WhatsApp and the WAF team will help identify the best-fit solution, timeline, and expected cost.",
     "cta": "Request a quote via WhatsApp",
     "hours": "Replies during working hours: Saturday to Thursday, 10:00 AM – 8:00 PM.",
     "messageTitle": "Ready-made WhatsApp message",
@@ -367,9 +386,8 @@
       "Hello WAF, I'd like a quote for a new project.",
       "Service type:",
       "City:",
-      "Quantity or size:",
-      "Required delivery date:",
-      "Do you have a ready design? Yes / No",
+      "Project description:",
+      "Target launch date:",
       "Additional notes:"
     ]
   },
@@ -378,36 +396,36 @@
     "cta": "Request a quote now",
     "items": [
       {
-        "question": "Is WAF only a printing company?",
-        "answer": "No — WAF is not just a printing company. WAF for Business Services offers integrated solutions including printing & large-format production, visual identity & signage, packaging, exhibition booths, events, interior design, and promotional giveaways."
+        "question": "What services does WAF provide?",
+        "answer": "WAF provides technology and marketing services: website & app development, custom software, e-commerce stores, AI & business automation, digital marketing, SEO, UI/UX design, branding, and supporting print & signage."
       },
       {
         "question": "Does WAF only serve Jeddah?",
-        "answer": "WAF is based in Jeddah and serves several cities across Saudi Arabia, with particular focus on Jeddah, Riyadh, and areas where projects can be executed per the request's nature."
+        "answer": "WAF is based in Jeddah and serves companies in Riyadh, Jeddah, and across Saudi Arabia — most of our work can be delivered and managed remotely."
       },
       {
-        "question": "What does 'WAF for project execution & fit-out' mean?",
-        "answer": "It means WAF helps you execute multiple aspects within one project — design, printing, packaging, signage, fit-out, and installation — instead of dealing with separate vendors."
+        "question": "Does WAF only build products, or also market them?",
+        "answer": "Both — WAF combines building your digital product with marketing and continuous optimization, so you get an integrated solution rather than just code files."
       },
       {
         "question": "Can I request just a single service?",
-        "answer": "Yes — you can request a single service like printing, packaging, a sign, giveaways, or stand fit-out, or an integrated package per your project's needs."
+        "answer": "Yes — you can request a single service like a website, an app, SEO, or a marketing campaign, or an integrated package per your project's needs."
       },
       {
         "question": "How is pricing determined?",
-        "answer": "Pricing is based on service type, quantity, dimensions, materials, delivery date, and whether the project needs design or production only. Send your project details to get a quote."
+        "answer": "Pricing is based on scope, required features, integrations, timeline, and the level of design and marketing involved. Send your project details to get a quote."
       },
       {
         "question": "Is WAF suitable for startups?",
-        "answer": "Yes — WAF suits startups and new stores needing identity, packaging, prints, signage, or launch fit-out from one source at a studied cost."
+        "answer": "Yes — WAF suits startups needing an MVP, a first website, an identity, or a launch plan from one source at a studied cost."
       },
       {
-        "question": "Does WAF execute exhibition booths & events?",
-        "answer": "Yes — WAF provides solutions for commercial projects and exhibitions including design, printing, signage, visual elements, fit-out, and installation per project scope."
+        "question": "What is the FutureX partnership?",
+        "answer": "WAF's delivery is backed by a technology partnership with FutureX Digital Solutions, combining local Saudi presence with specialized technical expertise."
       },
       {
-        "question": "Do I need a ready design?",
-        "answer": "Not necessarily. Contact us with an idea or initial need and we'll guide you on whether you need design, file preparation, production, or full execution."
+        "question": "Does WAF still do execution work like exhibitions?",
+        "answer": "Yes — WAF's original execution services (exhibitions, signage, events, and fit-out) remain available on a dedicated page, alongside our digital services."
       },
       {
         "question": "Can I request a quote via WhatsApp?",
@@ -417,8 +435,8 @@
   },
   "clients": {
     "eyebrow": "WAF Clients",
-    "title": "Trust built through execution, sustained through commitment",
-    "description": "We executed and fit out projects for leading brands and organizations across the Kingdom.",
+    "title": "Trust built through delivery, sustained through commitment",
+    "description": "We delivered projects for leading brands and organizations across the Kingdom.",
     "items": [
       "Bin Laden Group",
       "NEOM",
@@ -461,15 +479,15 @@
   },
   "contactCta": {
     "eyebrow": "Request a Quote",
-    "title": "Ready to execute your next project?",
-    "description": "Contact us today and get an execution quote tailored to your commercial project or event.",
-    "primaryLabel": "Request an Execution Quote",
+    "title": "Have a project idea? Let's turn it into a clear plan",
+    "description": "Share your website, app, or marketing needs and we'll reach out to understand the project and suggest the right next step.",
+    "primaryLabel": "Request a Quote",
     "secondaryLabel": "Contact Us",
     "features": [
       "Fast response to your request",
-      "A competitive price offer",
-      "A specialized team for your project"
+      "A clear scope and price offer",
+      "One team for tech & marketing"
     ],
-    "imageAlt": "The WAF team executing a project"
+    "imageAlt": "The WAF team working on a project"
   }
 }
