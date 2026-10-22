@@ -21,6 +21,11 @@
     "closeLabel": "إغلاق القائمة",
     "menuLabel": "القائمة"
   },
+  "languageSwitcher": {
+    "label": "تغيير اللغة",
+    "ar": "العربية",
+    "en": "English"
+  },
   "a11y": {
     "skipToContent": "الانتقال إلى المحتوى الرئيسي"
   },

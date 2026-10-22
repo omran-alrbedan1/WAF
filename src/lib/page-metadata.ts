@@ -63,8 +63,8 @@ export function buildPageMetadata({
       images: [
         {
           url: getSiteUrl(SOCIAL_IMAGE_PATH),
-          width: 1200,
-          height: 630,
+          width: 1600,
+          height: 900,
           alt: openGraphAlt,
         },
       ],

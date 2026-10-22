@@ -33,8 +33,9 @@ public/
 
 ## Environment
 
-Set `NEXT_PUBLIC_SITE_URL` (defaults to `https://waf-sa.com`) and
-`SERVICE_REQUEST_WEBHOOK_URL` for lead delivery.
+Set `NEXT_PUBLIC_SITE_URL` to override the canonical site URL (on Vercel it
+defaults to `https://$VERCEL_PROJECT_PRODUCTION_URL`, otherwise
+`https://waf-sa.com`) and `SERVICE_REQUEST_WEBHOOK_URL` for lead delivery.
 
 ## Commands
 
