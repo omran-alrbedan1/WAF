@@ -23,7 +23,8 @@
       "From idea to launch and continuous growth",
       "Solutions designed for the Saudi market"
     ],
-    "imageAlt": "A digital project delivered by WAF"
+    "imageAlt": "A digital project delivered by WAF",
+    "partnerBadge": "In technical partnership with"
   },
   "brandIntroduction": {
     "eyebrow": "Our Services",
@@ -122,7 +123,8 @@
       { "icon": "wrench", "label": "Development, marketing & growth in one team" },
       { "icon": "pin", "label": "WAF Jeddah serving companies across Saudi Arabia" },
       { "icon": "layers", "label": "Websites, apps, stores & custom software" },
-      { "icon": "receipt", "label": "Clear scope, pricing & milestones" }
+      { "icon": "receipt", "label": "Clear scope, pricing & milestones" },
+      { "icon": "handshake", "label": "Technical partnership with FutureX" }
     ]
   },
   "servicesGrid": {
@@ -238,6 +240,28 @@
         "body": "Our delivery is backed by a technology partnership with FutureX Digital Solutions."
       }
     ]
+  },
+  "partnership": {
+    "eyebrow": "Our Partnership",
+    "title": "WAF × FutureX — one partnership, two strengths",
+    "description": "WAF is the Saudi face of the business — local presence, licensing, and client relationships. FutureX Digital Solutions is the technical partner — the engineering team building your digital products. Together, you get local trust and specialized expertise in one project.",
+    "wafAlt": "WAF Business Services logo",
+    "futurexAlt": "FutureX Digital Solutions logo",
+    "waf": {
+      "role": "The Saudi front",
+      "description": "Local presence in Saudi Arabia — contracts, licensing, client communication, and on-ground execution expertise."
+    },
+    "futurex": {
+      "role": "The technical partner",
+      "description": "The engineering force behind delivery — development, design, and digital marketing expertise powering every WAF project."
+    },
+    "points": [
+      "One team for tech & marketing",
+      "Local Saudi presence + specialized expertise",
+      "Every project backed by FutureX engineering"
+    ],
+    "ctaLabel": "Visit FutureX",
+    "ctaUrl": "https://futxtech.com/en/home"
   },
   "process": {
     "eyebrow": "HOW WE WORK",

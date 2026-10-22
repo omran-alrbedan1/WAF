@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { useLocale, useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
@@ -148,6 +149,22 @@ export function HeroSection() {
             >
               {t("microcopy")}
             </motion.p>
+
+            <motion.div
+              variants={clipRevealUp(0.48)}
+              className="mt-6 inline-flex items-center gap-3 rounded-full border border-white/20 bg-black/25 px-4 py-2.5 backdrop-blur-md"
+            >
+              <span className="text-xs font-semibold text-white/75">{t("partnerBadge")}</span>
+              <span className="h-4 w-px bg-white/25" />
+              <Image
+                src={images.brand.futurexLogoDark}
+                alt="FutureX Digital Solutions"
+                width={158}
+                height={51}
+                unoptimized
+                className="h-5 w-auto"
+              />
+            </motion.div>
           </motion.div>
         </div>
         <div className="absolute bottom-6 end-6 hidden items-center gap-3 rounded-full border border-white/20 bg-black/25 px-4 py-3 text-xs font-medium text-white/85 backdrop-blur-md sm:flex">

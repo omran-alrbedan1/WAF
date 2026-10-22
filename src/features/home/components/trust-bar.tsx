@@ -1,7 +1,7 @@
 "use client";
 
 import { useMessages, useTranslations } from "next-intl";
-import { MapPin, Layers, Receipt, Wrench, type LucideIcon } from "lucide-react";
+import { Handshake, MapPin, Layers, Receipt, Wrench, type LucideIcon } from "lucide-react";
 
 import { Container } from "@/components/layout/container";
 
@@ -10,6 +10,7 @@ const icons: Record<string, LucideIcon> = {
   pin: MapPin,
   layers: Layers,
   receipt: Receipt,
+  handshake: Handshake,
 };
 
 type HomeMessages = {
@@ -23,7 +24,7 @@ export function TrustBar() {
 
   return (
     <div className="border-b border-line bg-page-surface">
-      <Container className="grid grid-cols-1 gap-4 py-6 sm:grid-cols-2 lg:grid-cols-4">
+      <Container className="grid grid-cols-1 gap-4 py-6 sm:grid-cols-2 lg:grid-cols-5">
         {items.map((item) => {
           const Icon = icons[item.icon] ?? Layers;
           return (

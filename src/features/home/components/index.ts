@@ -2,6 +2,7 @@ export { BrandIntroductionSection } from "./brand-introduction-section";
 export { ClientsSection } from "./clients-section";
 export { CitiesSection } from "./cities-section";
 export { FaqSection } from "./faq-section";
+export { PartnershipSection } from "./partnership-section";
 export { PerformanceSection } from "./performance-section";
 export { ProcessSection } from "./process-section";
 export { ServicesOverviewSection } from "./services-overview-section";

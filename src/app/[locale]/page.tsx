@@ -7,6 +7,7 @@ import {
   CitiesSection,
   ClientsSection,
   FaqSection,
+  PartnershipSection,
   PerformanceSection,
   ProcessSection,
   ServicesOverviewSection,
@@ -66,6 +67,7 @@ export default async function LocaleHomePage({ params }: LocalePageProps) {
       <BrandIntroductionSection />
       <ServicesOverviewSection />
       <WhyWafSection />
+      <PartnershipSection />
       <ProcessSection />
       <WorksSection />
       <ClientsSection />
